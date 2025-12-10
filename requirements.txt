@@ -1,0 +1,22 @@
+# Sungrow Modbus Analysis Toolkit Requirements
+# Python 3.12+
+
+# Core dependencies (minimal - most functionality is standard library)
+# No external packages required for basic analysis
+
+# Optional: For enhanced functionality
+# pandas>=1.5.0  # For advanced data analysis
+# matplotlib>=3.5.0  # For visualization
+# influxdb-client>=1.18.0  # For InfluxDB export
+# paho-mqtt>=1.6.0  # For MQTT publishing
+
+# Development dependencies
+pytest>=7.0.0  # Testing framework
+pytest-cov>=4.0.0  # Coverage reporting
+black>=22.0.0  # Code formatting
+flake8>=4.0.0  # Linting
+
+# Note: Wireshark (tshark) must be installed separately
+# Windows: Download from https://www.wireshark.org/download
+# macOS: brew install wireshark
+# Linux: sudo apt-get install wireshark

@@ -1,0 +1,698 @@
+================================================================================
+SUNGROW MODBUS REGISTER CROSS-REFERENCE WITH OFFICIAL DOCUMENTATION
+================================================================================
+
+MAPPING COVERAGE
+--------------------------------------------------------------------------------
+Total Registers Captured: 582
+Registers Documented: 21 (3.6%)
+Registers Not in Documentation: 561 (96.4%)
+
+DOCUMENTED REGISTERS (Official Sungrow Specification)
+================================================================================
+
+Unit_1
+--------------------------------------------------------------------------------
+Addr | Name                          | Type    | Unit  | Scale | Accesses | Value
+--------------------------------------------------------------------------------
+ 5002| Fault Code 3                   | UINT16  | Code  | 1      | 117      | 745
+ 5003| Status Word 1                  | UINT16  | Bitfi | 1      | 117      | 3721
+ 5004| Status Word 2                  | UINT16  | Bitfi | 1      | 117      | 7
+ 5005| Alarm Code Active              | UINT16  | Code  | 1      | 228      | 4646
+
+Unit_2
+--------------------------------------------------------------------------------
+Addr | Name                          | Type    | Unit  | Scale | Accesses | Value
+--------------------------------------------------------------------------------
+ 5002| Fault Code 3                   | UINT16  | Code  | 1      | 118      | 785
+ 5003| Status Word 1                  | UINT16  | Bitfi | 1      | 118      | 3114
+ 5004| Status Word 2                  | UINT16  | Bitfi | 1      | 118      | 7
+ 5005| Alarm Code Active              | UINT16  | Code  | 1      | 229      | 4650
+
+Unit_3
+--------------------------------------------------------------------------------
+Addr | Name                          | Type    | Unit  | Scale | Accesses | Value
+--------------------------------------------------------------------------------
+ 5002| Fault Code 3                   | UINT16  | Code  | 1      | 118      | 741
+ 5003| Status Word 1                  | UINT16  | Bitfi | 1      | 118      | 54538
+ 5004| Status Word 2                  | UINT16  | Bitfi | 1      | 118      | 6
+ 5005| Alarm Code Active              | UINT16  | Code  | 1      | 219      | 207
+
+Unit_4
+--------------------------------------------------------------------------------
+Addr | Name                          | Type    | Unit  | Scale | Accesses | Value
+--------------------------------------------------------------------------------
+    1| Serial Number High Word        | UINT16  | N/A   | 1      | 1        | 170
+ 5002| Fault Code 3                   | UINT16  | Code  | 1      | 117      | 752
+ 5003| Status Word 1                  | UINT16  | Bitfi | 1      | 117      | 1414
+ 5004| Status Word 2                  | UINT16  | Bitfi | 1      | 117      | 7
+ 5005| Alarm Code Active              | UINT16  | Code  | 1      | 224      | 207
+
+Unit_5
+--------------------------------------------------------------------------------
+Addr | Name                          | Type    | Unit  | Scale | Accesses | Value
+--------------------------------------------------------------------------------
+ 5002| Fault Code 3                   | UINT16  | Code  | 1      | 235      | 760
+ 5003| Status Word 1                  | UINT16  | Bitfi | 1      | 235      | 7113
+ 5004| Status Word 2                  | UINT16  | Bitfi | 1      | 235      | 7
+ 5005| Alarm Code Active              | UINT16  | Code  | 1      | 436      | 4687
+
+
+================================================================================
+UNDOCUMENTED REGISTERS (Not in Official Sungrow Specification)
+================================================================================
+These addresses are captured but not documented in official Sungrow specs.
+They may be OEM-specific, manufacturer extensions, or private registers.
+
+Unit_1
+--------------------------------------------------------------------------------
+Addr | Category          | Est Type   | Accesses | Most Common Value
+--------------------------------------------------------------------------------
+ 5006| Faults_Alarms     | UNKNOWN    | 228      | 0
+ 5007| Faults_Alarms     | UNKNOWN    | 117      | 359
+ 5008| Faults_Alarms     | UNKNOWN    | 117      | 6728
+ 5009| Faults_Alarms     | UNKNOWN    | 117      | 2
+ 5010| Faults_Alarms     | UNKNOWN    | 117      | 11401
+ 5011| Faults_Alarms     | UNKNOWN    | 117      | 78
+ 5012| Faults_Alarms     | UNKNOWN    | 117      | 11431
+ 5013| Faults_Alarms     | UNKNOWN    | 117      | 79
+ 5014| Faults_Alarms     | UNKNOWN    | 117      | 11402
+ 5015| Faults_Alarms     | UNKNOWN    | 117      | 158
+ 5016| Faults_Alarms     | UNKNOWN    | 117      | 8889
+ 5017| Faults_Alarms     | UNKNOWN    | 117      | 2
+ 5018| Faults_Alarms     | UNKNOWN    | 117      | 7576
+ 5019| Faults_Alarms     | UNKNOWN    | 117      | 7784
+ 5020| Faults_Alarms     | UNKNOWN    | 117      | 7672
+ 5021| Faults_Alarms     | UNKNOWN    | 117      | 1041
+ 5022| Faults_Alarms     | UNKNOWN    | 117      | 1046
+ 5023| Faults_Alarms     | UNKNOWN    | 117      | 1048
+ 5024| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5025| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5026| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5027| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5028| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5029| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5030| Faults_Alarms     | UNKNOWN    | 117      | 7417
+ 5031| Faults_Alarms     | UNKNOWN    | 117      | 2
+ 5032| Faults_Alarms     | UNKNOWN    | 117      | 62508
+ 5033| Faults_Alarms     | UNKNOWN    | 117      | 65535
+ 5034| Faults_Alarms     | UNKNOWN    | 117      | 999
+ 5035| Faults_Alarms     | UNKNOWN    | 117      | 502
+ 5036| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5037| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5038| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5039| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5040| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5041| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5042| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5043| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5044| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5045| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5046| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5047| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5048| Faults_Alarms     | UNKNOWN    | 117      | 1500
+ 5049| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5050| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5051| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5052| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5053| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5054| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5055| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5056| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5057| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5058| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5059| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5060| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5061| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5062| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5063| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5064| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5065| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5066| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5067| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5068| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5069| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5070| Faults_Alarms     | UNKNOWN    | 117      | 9760
+ 5071| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5072| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5073| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5074| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5075| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5076| Faults_Alarms     | UNKNOWN    | 117      | 53142
+ 5077| Faults_Alarms     | UNKNOWN    | 117      | 3
+ 5078| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5079| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5080| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5081| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5112| Other             | UNKNOWN    | 105      | 98
+ 5113| Other             | UNKNOWN    | 105      | 16
+ 5114| Other             | UNKNOWN    | 105      | 1091
+ 5115| Other             | UNKNOWN    | 105      | 0
+ 5116| Other             | UNKNOWN    | 105      | 11179
+ 5117| Other             | UNKNOWN    | 105      | 151
+ 5118| Other             | UNKNOWN    | 105      | 11334
+ 5119| Other             | UNKNOWN    | 105      | 148
+ 5120| Other             | UNKNOWN    | 105      | 11445
+ 5121| Other             | UNKNOWN    | 105      | 154
+ 5122| Other             | UNKNOWN    | 105      | 11661
+ 5123| Other             | UNKNOWN    | 105      | 151
+ 5124| Other             | UNKNOWN    | 105      | 1000
+ 5125| Other             | UNKNOWN    | 105      | 0
+ 5126| Other             | UNKNOWN    | 105      | 0
+ 5127| Other             | UNKNOWN    | 105      | 61731
+ 5128| Other             | UNKNOWN    | 105      | 0
+ 5129| Other             | UNKNOWN    | 105      | 1079
+ 5130| Other             | UNKNOWN    | 105      | 0
+ 5131| Other             | UNKNOWN    | 105      | 11433
+ 5132| Other             | UNKNOWN    | 105      | 155
+ 5133| Other             | UNKNOWN    | 105      | 11376
+ 5134| Other             | UNKNOWN    | 105      | 73
+ 5135| Other             | UNKNOWN    | 105      | 11399
+ 5136| Other             | UNKNOWN    | 105      | 80
+
+Unit_2
+--------------------------------------------------------------------------------
+Addr | Category          | Est Type   | Accesses | Most Common Value
+--------------------------------------------------------------------------------
+ 5006| Faults_Alarms     | UNKNOWN    | 229      | 0
+ 5007| Faults_Alarms     | UNKNOWN    | 118      | 364
+ 5008| Faults_Alarms     | UNKNOWN    | 118      | 12639
+ 5009| Faults_Alarms     | UNKNOWN    | 118      | 2
+ 5010| Faults_Alarms     | UNKNOWN    | 118      | 11396
+ 5011| Faults_Alarms     | UNKNOWN    | 118      | 160
+ 5012| Faults_Alarms     | UNKNOWN    | 118      | 11447
+ 5013| Faults_Alarms     | UNKNOWN    | 118      | 79
+ 5014| Faults_Alarms     | UNKNOWN    | 118      | 11109
+ 5015| Faults_Alarms     | UNKNOWN    | 118      | 163
+ 5016| Faults_Alarms     | UNKNOWN    | 118      | 14173
+ 5017| Faults_Alarms     | UNKNOWN    | 118      | 2
+ 5018| Faults_Alarms     | UNKNOWN    | 118      | 7592
+ 5019| Faults_Alarms     | UNKNOWN    | 118      | 7800
+ 5020| Faults_Alarms     | UNKNOWN    | 118      | 7704
+ 5021| Faults_Alarms     | UNKNOWN    | 118      | 1080
+ 5022| Faults_Alarms     | UNKNOWN    | 118      | 1079
+ 5023| Faults_Alarms     | UNKNOWN    | 118      | 1077
+ 5024| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5025| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5026| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5027| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5028| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5029| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5030| Faults_Alarms     | UNKNOWN    | 118      | 12604
+ 5031| Faults_Alarms     | UNKNOWN    | 118      | 2
+ 5032| Faults_Alarms     | UNKNOWN    | 118      | 62358
+ 5033| Faults_Alarms     | UNKNOWN    | 118      | 65535
+ 5034| Faults_Alarms     | UNKNOWN    | 118      | 999
+ 5035| Faults_Alarms     | UNKNOWN    | 118      | 502
+ 5036| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5037| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5038| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5039| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5040| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5041| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5042| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5043| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5044| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5045| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5046| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5047| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5048| Faults_Alarms     | UNKNOWN    | 118      | 1500
+ 5049| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5050| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5051| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5052| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5053| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5054| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5055| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5056| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5057| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5058| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5059| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5060| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5061| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5062| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5063| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5064| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5065| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5066| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5067| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5068| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5069| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5070| Faults_Alarms     | UNKNOWN    | 118      | 9414
+ 5071| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5072| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5073| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5074| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5075| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5076| Faults_Alarms     | UNKNOWN    | 118      | 53142
+ 5077| Faults_Alarms     | UNKNOWN    | 118      | 3
+ 5078| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5079| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5080| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5081| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5112| Other             | UNKNOWN    | 107      | 98
+ 5113| Other             | UNKNOWN    | 107      | 16
+ 5114| Other             | UNKNOWN    | 107      | 10977
+ 5115| Other             | UNKNOWN    | 107      | 81
+ 5116| Other             | UNKNOWN    | 107      | 11502
+ 5117| Other             | UNKNOWN    | 107      | 159
+ 5118| Other             | UNKNOWN    | 107      | 11522
+ 5119| Other             | UNKNOWN    | 107      | 80
+ 5120| Other             | UNKNOWN    | 107      | 11456
+ 5121| Other             | UNKNOWN    | 107      | 155
+ 5122| Other             | UNKNOWN    | 107      | 11357
+ 5123| Other             | UNKNOWN    | 107      | 79
+ 5124| Other             | UNKNOWN    | 107      | 1000
+ 5125| Other             | UNKNOWN    | 107      | 0
+ 5126| Other             | UNKNOWN    | 107      | 0
+ 5127| Other             | UNKNOWN    | 107      | 61458
+ 5128| Other             | UNKNOWN    | 107      | 0
+ 5129| Other             | UNKNOWN    | 107      | 1075
+ 5130| Other             | UNKNOWN    | 107      | 0
+ 5131| Other             | UNKNOWN    | 107      | 11355
+ 5132| Other             | UNKNOWN    | 107      | 158
+ 5133| Other             | UNKNOWN    | 107      | 11350
+ 5134| Other             | UNKNOWN    | 107      | 160
+ 5135| Other             | UNKNOWN    | 107      | 1223
+ 5136| Other             | UNKNOWN    | 107      | 0
+
+Unit_247
+--------------------------------------------------------------------------------
+Addr | Category          | Est Type   | Accesses | Most Common Value
+--------------------------------------------------------------------------------
+ 8061| Other             | UNKNOWN    | 174      | 46644
+ 8062| Other             | UNKNOWN    | 174      | 12
+ 8063| Other             | UNKNOWN    | 174      | 47140
+ 8064| Other             | UNKNOWN    | 174      | 65535
+ 8065| Other             | UNKNOWN    | 174      | 0
+ 8066| Other             | UNKNOWN    | 174      | 0
+ 8067| Other             | UNKNOWN    | 174      | 1
+ 8068| Other             | UNKNOWN    | 174      | 1
+ 8069| Other             | UNKNOWN    | 174      | 0
+ 8070| Other             | UNKNOWN    | 174      | 0
+ 8071| Other             | UNKNOWN    | 174      | 12
+ 8072| Other             | UNKNOWN    | 174      | 46644
+ 8073| Other             | UNKNOWN    | 174      | 4490
+ 8074| Other             | UNKNOWN    | 174      | 0
+ 8075| Other             | UNKNOWN    | 174      | 65535
+ 8076| Other             | UNKNOWN    | 174      | 65535
+ 8077| Other             | UNKNOWN    | 174      | 65535
+ 8078| Other             | UNKNOWN    | 174      | 47140
+ 8079| Other             | UNKNOWN    | 174      | 0
+ 8080| Other             | UNKNOWN    | 174      | 0
+ 8081| Other             | UNKNOWN    | 174      | 415
+ 8082| Other             | UNKNOWN    | 174      | 12025
+ 8083| Other             | UNKNOWN    | 174      | 0
+ 8084| Other             | UNKNOWN    | 174      | 0
+ 8085| Other             | UNKNOWN    | 174      | 13500
+
+Unit_3
+--------------------------------------------------------------------------------
+Addr | Category          | Est Type   | Accesses | Most Common Value
+--------------------------------------------------------------------------------
+ 5006| Faults_Alarms     | UNKNOWN    | 219      | 0
+ 5007| Faults_Alarms     | UNKNOWN    | 118      | 361
+ 5008| Faults_Alarms     | UNKNOWN    | 118      | 2959
+ 5009| Faults_Alarms     | UNKNOWN    | 118      | 2
+ 5010| Faults_Alarms     | UNKNOWN    | 118      | 10744
+ 5011| Faults_Alarms     | UNKNOWN    | 118      | 158
+ 5012| Faults_Alarms     | UNKNOWN    | 118      | 11265
+ 5013| Faults_Alarms     | UNKNOWN    | 118      | 66
+ 5014| Faults_Alarms     | UNKNOWN    | 118      | 11340
+ 5015| Faults_Alarms     | UNKNOWN    | 118      | 161
+ 5016| Faults_Alarms     | UNKNOWN    | 118      | 4598
+ 5017| Faults_Alarms     | UNKNOWN    | 118      | 2
+ 5018| Faults_Alarms     | UNKNOWN    | 118      | 7560
+ 5019| Faults_Alarms     | UNKNOWN    | 118      | 7760
+ 5020| Faults_Alarms     | UNKNOWN    | 118      | 7680
+ 5021| Faults_Alarms     | UNKNOWN    | 118      | 1014
+ 5022| Faults_Alarms     | UNKNOWN    | 118      | 1011
+ 5023| Faults_Alarms     | UNKNOWN    | 118      | 1013
+ 5024| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5025| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5026| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5027| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5028| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5029| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5030| Faults_Alarms     | UNKNOWN    | 118      | 2989
+ 5031| Faults_Alarms     | UNKNOWN    | 118      | 2
+ 5032| Faults_Alarms     | UNKNOWN    | 118      | 62635
+ 5033| Faults_Alarms     | UNKNOWN    | 118      | 65535
+ 5034| Faults_Alarms     | UNKNOWN    | 118      | 999
+ 5035| Faults_Alarms     | UNKNOWN    | 118      | 502
+ 5036| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5037| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5038| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5039| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5040| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5041| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5042| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5043| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5044| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5045| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5046| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5047| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5048| Faults_Alarms     | UNKNOWN    | 118      | 1500
+ 5049| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5050| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5051| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5052| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5053| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5054| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5055| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5056| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5057| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5058| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5059| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5060| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5061| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5062| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5063| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5064| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5065| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5066| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5067| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5068| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5069| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5070| Faults_Alarms     | UNKNOWN    | 118      | 7846
+ 5071| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5072| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5073| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5074| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5075| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5076| Faults_Alarms     | UNKNOWN    | 118      | 53142
+ 5077| Faults_Alarms     | UNKNOWN    | 118      | 3
+ 5078| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5079| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5080| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5081| Faults_Alarms     | UNKNOWN    | 118      | 0
+ 5112| Other             | UNKNOWN    | 96       | 98
+ 5113| Other             | UNKNOWN    | 96       | 16
+ 5114| Other             | UNKNOWN    | 96       | 11380
+ 5115| Other             | UNKNOWN    | 96       | 79
+ 5116| Other             | UNKNOWN    | 96       | 10956
+ 5117| Other             | UNKNOWN    | 96       | 157
+ 5118| Other             | UNKNOWN    | 96       | 11348
+ 5119| Other             | UNKNOWN    | 96       | 77
+ 5120| Other             | UNKNOWN    | 96       | 10480
+ 5121| Other             | UNKNOWN    | 96       | 159
+ 5122| Other             | UNKNOWN    | 96       | 12128
+ 5123| Other             | UNKNOWN    | 96       | 60
+ 5124| Other             | UNKNOWN    | 96       | 1000
+ 5125| Other             | UNKNOWN    | 96       | 0
+ 5126| Other             | UNKNOWN    | 96       | 0
+ 5127| Other             | UNKNOWN    | 96       | 58625
+ 5128| Other             | UNKNOWN    | 96       | 0
+ 5129| Other             | UNKNOWN    | 96       | 11859
+ 5130| Other             | UNKNOWN    | 96       | 71
+ 5131| Other             | UNKNOWN    | 96       | 11935
+ 5132| Other             | UNKNOWN    | 96       | 66
+ 5133| Other             | UNKNOWN    | 96       | 10645
+ 5134| Other             | UNKNOWN    | 96       | 158
+ 5135| Other             | UNKNOWN    | 96       | 1328
+ 5136| Other             | UNKNOWN    | 96       | 0
+
+Unit_4
+--------------------------------------------------------------------------------
+Addr | Category          | Est Type   | Accesses | Most Common Value
+--------------------------------------------------------------------------------
+    0| Inverter_Info     | UNKNOWN    | 1        | 207
+ 5006| Faults_Alarms     | UNKNOWN    | 224      | 0
+ 5007| Faults_Alarms     | UNKNOWN    | 117      | 365
+ 5008| Faults_Alarms     | UNKNOWN    | 117      | 9627
+ 5009| Faults_Alarms     | UNKNOWN    | 117      | 2
+ 5010| Faults_Alarms     | UNKNOWN    | 117      | 11312
+ 5011| Faults_Alarms     | UNKNOWN    | 117      | 156
+ 5012| Faults_Alarms     | UNKNOWN    | 117      | 1049
+ 5013| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5014| Faults_Alarms     | UNKNOWN    | 117      | 11460
+ 5015| Faults_Alarms     | UNKNOWN    | 117      | 161
+ 5016| Faults_Alarms     | UNKNOWN    | 117      | 11128
+ 5017| Faults_Alarms     | UNKNOWN    | 117      | 2
+ 5018| Faults_Alarms     | UNKNOWN    | 117      | 7592
+ 5019| Faults_Alarms     | UNKNOWN    | 117      | 7792
+ 5020| Faults_Alarms     | UNKNOWN    | 117      | 7690
+ 5021| Faults_Alarms     | UNKNOWN    | 117      | 1063
+ 5022| Faults_Alarms     | UNKNOWN    | 117      | 1061
+ 5023| Faults_Alarms     | UNKNOWN    | 117      | 1060
+ 5024| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5025| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5026| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5027| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5028| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5029| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5030| Faults_Alarms     | UNKNOWN    | 117      | 9592
+ 5031| Faults_Alarms     | UNKNOWN    | 117      | 2
+ 5032| Faults_Alarms     | UNKNOWN    | 117      | 62393
+ 5033| Faults_Alarms     | UNKNOWN    | 117      | 65535
+ 5034| Faults_Alarms     | UNKNOWN    | 117      | 999
+ 5035| Faults_Alarms     | UNKNOWN    | 117      | 502
+ 5036| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5037| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5038| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5039| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5040| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5041| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5042| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5043| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5044| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5045| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5046| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5047| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5048| Faults_Alarms     | UNKNOWN    | 117      | 1500
+ 5049| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5050| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5051| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5052| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5053| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5054| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5055| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5056| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5057| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5058| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5059| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5060| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5061| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5062| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5063| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5064| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5065| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5066| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5067| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5068| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5069| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5070| Faults_Alarms     | UNKNOWN    | 117      | 9535
+ 5071| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5072| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5073| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5074| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5075| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5076| Faults_Alarms     | UNKNOWN    | 117      | 53142
+ 5077| Faults_Alarms     | UNKNOWN    | 117      | 3
+ 5078| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5079| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5080| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5081| Faults_Alarms     | UNKNOWN    | 117      | 0
+ 5112| Other             | UNKNOWN    | 105      | 98
+ 5113| Other             | UNKNOWN    | 105      | 16
+ 5114| Other             | UNKNOWN    | 105      | 984
+ 5115| Other             | UNKNOWN    | 105      | 0
+ 5116| Other             | UNKNOWN    | 105      | 11241
+ 5117| Other             | UNKNOWN    | 105      | 156
+ 5118| Other             | UNKNOWN    | 105      | 11316
+ 5119| Other             | UNKNOWN    | 105      | 157
+ 5120| Other             | UNKNOWN    | 105      | 11365
+ 5121| Other             | UNKNOWN    | 105      | 157
+ 5122| Other             | UNKNOWN    | 105      | 11345
+ 5123| Other             | UNKNOWN    | 105      | 155
+ 5124| Other             | UNKNOWN    | 105      | 1000
+ 5125| Other             | UNKNOWN    | 105      | 0
+ 5126| Other             | UNKNOWN    | 105      | 0
+ 5127| Other             | UNKNOWN    | 105      | 61741
+ 5128| Other             | UNKNOWN    | 105      | 0
+ 5129| Other             | UNKNOWN    | 105      | 1070
+ 5130| Other             | UNKNOWN    | 105      | 0
+ 5131| Other             | UNKNOWN    | 105      | 11373
+ 5132| Other             | UNKNOWN    | 105      | 157
+ 5133| Other             | UNKNOWN    | 105      | 11495
+ 5134| Other             | UNKNOWN    | 105      | 151
+ 5135| Other             | UNKNOWN    | 105      | 1256
+ 5136| Other             | UNKNOWN    | 105      | 0
+
+Unit_5
+--------------------------------------------------------------------------------
+Addr | Category          | Est Type   | Accesses | Most Common Value
+--------------------------------------------------------------------------------
+ 5006| Faults_Alarms     | UNKNOWN    | 436      | 0
+ 5007| Faults_Alarms     | UNKNOWN    | 235      | 366
+ 5008| Faults_Alarms     | UNKNOWN    | 235      | 8750
+ 5009| Faults_Alarms     | UNKNOWN    | 235      | 2
+ 5010| Faults_Alarms     | UNKNOWN    | 235      | 11420
+ 5011| Faults_Alarms     | UNKNOWN    | 235      | 160
+ 5012| Faults_Alarms     | UNKNOWN    | 235      | 11408
+ 5013| Faults_Alarms     | UNKNOWN    | 235      | 79
+ 5014| Faults_Alarms     | UNKNOWN    | 235      | 11406
+ 5015| Faults_Alarms     | UNKNOWN    | 235      | 81
+ 5016| Faults_Alarms     | UNKNOWN    | 235      | 11175
+ 5017| Faults_Alarms     | UNKNOWN    | 235      | 2
+ 5018| Faults_Alarms     | UNKNOWN    | 235      | 7560
+ 5019| Faults_Alarms     | UNKNOWN    | 235      | 7768
+ 5020| Faults_Alarms     | UNKNOWN    | 235      | 7680
+ 5021| Faults_Alarms     | UNKNOWN    | 235      | 1059
+ 5022| Faults_Alarms     | UNKNOWN    | 235      | 1056
+ 5023| Faults_Alarms     | UNKNOWN    | 235      | 1059
+ 5024| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5025| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5026| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5027| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5028| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5029| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5030| Faults_Alarms     | UNKNOWN    | 235      | 8693
+ 5031| Faults_Alarms     | UNKNOWN    | 235      | 2
+ 5032| Faults_Alarms     | UNKNOWN    | 235      | 62420
+ 5033| Faults_Alarms     | UNKNOWN    | 235      | 65535
+ 5034| Faults_Alarms     | UNKNOWN    | 235      | 999
+ 5035| Faults_Alarms     | UNKNOWN    | 235      | 502
+ 5036| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5037| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5038| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5039| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5040| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5041| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5042| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5043| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5044| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5045| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5046| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5047| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5048| Faults_Alarms     | UNKNOWN    | 235      | 1500
+ 5049| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5050| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5051| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5052| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5053| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5054| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5055| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5056| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5057| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5058| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5059| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5060| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5061| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5062| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5063| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5064| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5065| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5066| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5067| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5068| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5069| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5070| Faults_Alarms     | UNKNOWN    | 235      | 9406
+ 5071| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5072| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5073| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5074| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5075| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5076| Faults_Alarms     | UNKNOWN    | 235      | 53142
+ 5077| Faults_Alarms     | UNKNOWN    | 235      | 3
+ 5078| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5079| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5080| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5081| Faults_Alarms     | UNKNOWN    | 235      | 0
+ 5112| Other             | UNKNOWN    | 186      | 98
+ 5113| Other             | UNKNOWN    | 186      | 16
+ 5114| Other             | UNKNOWN    | 186      | 11588
+ 5115| Other             | UNKNOWN    | 186      | 77
+ 5116| Other             | UNKNOWN    | 186      | 11508
+ 5117| Other             | UNKNOWN    | 186      | 155
+ 5118| Other             | UNKNOWN    | 186      | 11974
+ 5119| Other             | UNKNOWN    | 186      | 72
+ 5120| Other             | UNKNOWN    | 186      | 11170
+ 5121| Other             | UNKNOWN    | 186      | 158
+ 5122| Other             | UNKNOWN    | 186      | 11387
+ 5123| Other             | UNKNOWN    | 186      | 159
+ 5124| Other             | UNKNOWN    | 186      | 1000
+ 5125| Other             | UNKNOWN    | 186      | 0
+ 5126| Other             | UNKNOWN    | 186      | 0
+ 5127| Other             | UNKNOWN    | 186      | 61603
+ 5128| Other             | UNKNOWN    | 186      | 0
+ 5129| Other             | UNKNOWN    | 186      | 930
+ 5130| Other             | UNKNOWN    | 186      | 0
+ 5131| Other             | UNKNOWN    | 186      | 11166
+ 5132| Other             | UNKNOWN    | 186      | 158
+ 5133| Other             | UNKNOWN    | 186      | 11404
+ 5134| Other             | UNKNOWN    | 186      | 155
+ 5135| Other             | UNKNOWN    | 186      | 1118
+ 5136| Other             | UNKNOWN    | 186      | 0
+
+Unit_6
+--------------------------------------------------------------------------------
+Addr | Category          | Est Type   | Accesses | Most Common Value
+--------------------------------------------------------------------------------
+ 8189| Other             | UNKNOWN    | 59       | 0
+ 8190| Other             | UNKNOWN    | 59       | 0
+ 8191| Other             | UNKNOWN    | 59       | 0
+ 8192| Other             | UNKNOWN    | 59       | 26215
+ 8193| Other             | UNKNOWN    | 59       | 16812
+ 8194| Other             | UNKNOWN    | 59       | 0
+ 8195| Other             | UNKNOWN    | 59       | 16920
+ 8196| Other             | UNKNOWN    | 59       | 0
+ 8197| Other             | UNKNOWN    | 59       | 0
+ 8198| Other             | UNKNOWN    | 59       | 0
+ 8199| Other             | UNKNOWN    | 59       | 0
+ 8200| Other             | UNKNOWN    | 59       | 0
+ 8201| Other             | UNKNOWN    | 59       | 0
+ 8202| Other             | UNKNOWN    | 59       | 16384
+ 8203| Other             | UNKNOWN    | 59       | 17410
+ 8204| Other             | UNKNOWN    | 59       | 0
+ 8205| Other             | UNKNOWN    | 59       | 0
+ 8206| Other             | UNKNOWN    | 59       | 23593
+ 8207| Other             | UNKNOWN    | 59       | 15887
+ 8208| Other             | UNKNOWN    | 59       | 0
+ 8209| Other             | UNKNOWN    | 59       | 0
+ 8210| Other             | UNKNOWN    | 59       | 0
+ 8211| Other             | UNKNOWN    | 59       | 0
+ 8212| Other             | UNKNOWN    | 59       | 0
+ 8213| Other             | UNKNOWN    | 59       | 0
+ 8214| Other             | UNKNOWN    | 59       | 50071
+ 8215| Other             | UNKNOWN    | 59       | 17495
+ 8216| Other             | UNKNOWN    | 59       | 0
+ 8217| Other             | UNKNOWN    | 59       | 0
+ 8218| Other             | UNKNOWN    | 59       | 0
+
+
+================================================================================
+FAULT CODE REFERENCE (Register 5000-5005)
+================================================================================
+    0: No Fault
+    1: Fan Fault
+    2: String A Fault
+    3: String B Fault
+    4: String C Fault
+    5: DC Link Overvoltage
+    6: DC Bus Low Voltage
+    7: Grid Disconnect
+    8: PLL Fault
+    9: Grid Voltage Too High
+   10: Grid Voltage Too Low
+   11: Grid Frequency Too High
+   12: Grid Frequency Too Low
+   13: Inverter Overheating
+   14: EEPROM Error
+   15: Relay Fault
+   16: ISO Fault
+   17: GFCI Fault
+   18: Phase Sequence Error
+   20: Firmware Mismatch
+   21: Firmware CRC Error
+
+STATUS WORD BIT DEFINITIONS
+--------------------------------------------------------------------------------
+  bit_0: PV Available
+  bit_1: Grid Available
+  bit_2: Running
+  bit_3: Standby
+  bit_4: Faulted
+  bit_5: Alarm
+  bit_6: Feed-in Enabled
+  bit_7: DSP Ready

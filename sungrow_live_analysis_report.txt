@@ -1,0 +1,665 @@
+======================================================================
+MODBUS REGISTER MAPPING ANALYSIS
+From: modbus_test_2min.pcapng (Live 2-minute capture)
+======================================================================
+
+CAPTURE SUMMARY
+----------------------------------------------------------------------
+Total Frames: 4337
+Units Found: [1, 2, 3, 4, 5, 6, 247]
+Total Register Accesses: 78759
+Unique Registers Accessed: 582
+
+REGISTER MAPPING BY UNIT
+----------------------------------------------------------------------
+
+UNIT 1
+  Function Codes: [3, 4]
+  Registers Accessed: 105
+  Register Accesses: 12207
+
+  Address  | Category        | Accesses | Data Type | Most Common Value
+  -----------------------------------------------------------------
+   5002   | Faults_Alarms   |      117 | UINT16    | 745
+   5003   | Faults_Alarms   |      117 | UINT16    | 3721
+   5004   | Faults_Alarms   |      117 | UINT16    | 7
+   5005   | Faults_Alarms   |      228 | UINT16    | 4646
+   5006   | Faults_Alarms   |      228 | UINT16    | 0
+   5007   | Faults_Alarms   |      117 | UINT16    | 359
+   5008   | Faults_Alarms   |      117 | UINT16    | 6728
+   5009   | Faults_Alarms   |      117 | UINT16    | 2
+   5010   | Faults_Alarms   |      117 | UINT16    | 11401
+   5011   | Faults_Alarms   |      117 | UINT16    | 78
+   5012   | Faults_Alarms   |      117 | UINT16    | 11431
+   5013   | Faults_Alarms   |      117 | UINT16    | 79
+   5014   | Faults_Alarms   |      117 | UINT16    | 11402
+   5015   | Faults_Alarms   |      117 | UINT16    | 158
+   5016   | Faults_Alarms   |      117 | UINT16    | 8889
+   5017   | Faults_Alarms   |      117 | UINT16    | 2
+   5018   | Faults_Alarms   |      117 | UINT16    | 7576
+   5019   | Faults_Alarms   |      117 | UINT16    | 7784
+   5020   | Faults_Alarms   |      117 | UINT16    | 7672
+   5021   | Faults_Alarms   |      117 | UINT16    | 1041
+   5022   | Faults_Alarms   |      117 | UINT16    | 1046
+   5023   | Faults_Alarms   |      117 | UINT16    | 1048
+   5024   | Faults_Alarms   |      117 | UINT16    | 0
+   5025   | Faults_Alarms   |      117 | UINT16    | 0
+   5026   | Faults_Alarms   |      117 | UINT16    | 0
+   5027   | Faults_Alarms   |      117 | UINT16    | 0
+   5028   | Faults_Alarms   |      117 | UINT16    | 0
+   5029   | Faults_Alarms   |      117 | UINT16    | 0
+   5030   | Faults_Alarms   |      117 | UINT16    | 7417
+   5031   | Faults_Alarms   |      117 | UINT16    | 2
+   5032   | Faults_Alarms   |      117 | UINT16    | 62508
+   5033   | Faults_Alarms   |      117 | UINT16    | 65535
+   5034   | Faults_Alarms   |      117 | UINT16    | 999
+   5035   | Faults_Alarms   |      117 | UINT16    | 502
+   5036   | Faults_Alarms   |      117 | UINT16    | 0
+   5037   | Faults_Alarms   |      117 | UINT16    | 0
+   5038   | Faults_Alarms   |      117 | UINT16    | 0
+   5039   | Faults_Alarms   |      117 | UINT16    | 0
+   5040   | Faults_Alarms   |      117 | UINT16    | 0
+   5041   | Faults_Alarms   |      117 | UINT16    | 0
+   5042   | Faults_Alarms   |      117 | UINT16    | 0
+   5043   | Faults_Alarms   |      117 | UINT16    | 0
+   5044   | Faults_Alarms   |      117 | UINT16    | 0
+   5045   | Faults_Alarms   |      117 | UINT16    | 0
+   5046   | Faults_Alarms   |      117 | UINT16    | 0
+   5047   | Faults_Alarms   |      117 | UINT16    | 0
+   5048   | Faults_Alarms   |      117 | UINT16    | 1500
+   5049   | Faults_Alarms   |      117 | UINT16    | 0
+   5050   | Faults_Alarms   |      117 | UINT16    | 0
+   5051   | Faults_Alarms   |      117 | UINT16    | 0
+   5052   | Faults_Alarms   |      117 | UINT16    | 0
+   5053   | Faults_Alarms   |      117 | UINT16    | 0
+   5054   | Faults_Alarms   |      117 | UINT16    | 0
+   5055   | Faults_Alarms   |      117 | UINT16    | 0
+   5056   | Faults_Alarms   |      117 | UINT16    | 0
+   5057   | Faults_Alarms   |      117 | UINT16    | 0
+   5058   | Faults_Alarms   |      117 | UINT16    | 0
+   5059   | Faults_Alarms   |      117 | UINT16    | 0
+   5060   | Faults_Alarms   |      117 | UINT16    | 0
+   5061   | Faults_Alarms   |      117 | UINT16    | 0
+   5062   | Faults_Alarms   |      117 | UINT16    | 0
+   5063   | Faults_Alarms   |      117 | UINT16    | 0
+   5064   | Faults_Alarms   |      117 | UINT16    | 0
+   5065   | Faults_Alarms   |      117 | UINT16    | 0
+   5066   | Faults_Alarms   |      117 | UINT16    | 0
+   5067   | Faults_Alarms   |      117 | UINT16    | 0
+   5068   | Faults_Alarms   |      117 | UINT16    | 0
+   5069   | Faults_Alarms   |      117 | UINT16    | 0
+   5070   | Faults_Alarms   |      117 | UINT16    | 9760
+   5071   | Faults_Alarms   |      117 | UINT16    | 0
+   5072   | Faults_Alarms   |      117 | UINT16    | 0
+   5073   | Faults_Alarms   |      117 | UINT16    | 0
+   5074   | Faults_Alarms   |      117 | UINT16    | 0
+   5075   | Faults_Alarms   |      117 | UINT16    | 0
+   5076   | Faults_Alarms   |      117 | UINT16    | 53142
+   5077   | Faults_Alarms   |      117 | UINT16    | 3
+   5078   | Faults_Alarms   |      117 | UINT16    | 0
+   5079   | Faults_Alarms   |      117 | UINT16    | 0
+   5080   | Faults_Alarms   |      117 | UINT16    | 0
+   5081   | Faults_Alarms   |      117 | UINT16    | 0
+   5112   | Faults_Alarms   |      105 | UINT16    | 98
+   5113   | Faults_Alarms   |      105 | UINT16    | 16
+   5114   | Faults_Alarms   |      105 | UINT16    | 1091
+   5115   | Faults_Alarms   |      105 | UINT16    | 0
+   5116   | Faults_Alarms   |      105 | UINT16    | 11179
+   5117   | Faults_Alarms   |      105 | UINT16    | 151
+   5118   | Faults_Alarms   |      105 | UINT16    | 11334
+   5119   | Faults_Alarms   |      105 | UINT16    | 148
+   5120   | Faults_Alarms   |      105 | UINT16    | 11445
+   5121   | Faults_Alarms   |      105 | UINT16    | 154
+   5122   | Faults_Alarms   |      105 | UINT16    | 11661
+   5123   | Faults_Alarms   |      105 | UINT16    | 151
+   5124   | Faults_Alarms   |      105 | UINT16    | 1000
+   5125   | Faults_Alarms   |      105 | UINT16    | 0
+   5126   | Faults_Alarms   |      105 | UINT16    | 0
+   5127   | Faults_Alarms   |      105 | UINT16    | 61731
+   5128   | Faults_Alarms   |      105 | UINT16    | 0
+   5129   | Faults_Alarms   |      105 | UINT16    | 1079
+   5130   | Faults_Alarms   |      105 | UINT16    | 0
+   5131   | Faults_Alarms   |      105 | UINT16    | 11433
+   5132   | Faults_Alarms   |      105 | UINT16    | 155
+   5133   | Faults_Alarms   |      105 | UINT16    | 11376
+   5134   | Faults_Alarms   |      105 | UINT16    | 73
+   5135   | Faults_Alarms   |      105 | UINT16    | 11399
+   5136   | Faults_Alarms   |      105 | UINT16    | 80
+
+UNIT 2
+  Function Codes: [3, 4]
+  Registers Accessed: 105
+  Register Accesses: 12337
+
+  Address  | Category        | Accesses | Data Type | Most Common Value
+  -----------------------------------------------------------------
+   5002   | Faults_Alarms   |      118 | UINT16    | 785
+   5003   | Faults_Alarms   |      118 | UINT16    | 3114
+   5004   | Faults_Alarms   |      118 | UINT16    | 7
+   5005   | Faults_Alarms   |      229 | UINT16    | 4650
+   5006   | Faults_Alarms   |      229 | UINT16    | 0
+   5007   | Faults_Alarms   |      118 | UINT16    | 364
+   5008   | Faults_Alarms   |      118 | UINT16    | 12639
+   5009   | Faults_Alarms   |      118 | UINT16    | 2
+   5010   | Faults_Alarms   |      118 | UINT16    | 11396
+   5011   | Faults_Alarms   |      118 | UINT16    | 160
+   5012   | Faults_Alarms   |      118 | UINT16    | 11447
+   5013   | Faults_Alarms   |      118 | UINT16    | 79
+   5014   | Faults_Alarms   |      118 | UINT16    | 11109
+   5015   | Faults_Alarms   |      118 | UINT16    | 163
+   5016   | Faults_Alarms   |      118 | UINT16    | 14173
+   5017   | Faults_Alarms   |      118 | UINT16    | 2
+   5018   | Faults_Alarms   |      118 | UINT16    | 7592
+   5019   | Faults_Alarms   |      118 | UINT16    | 7800
+   5020   | Faults_Alarms   |      118 | UINT16    | 7704
+   5021   | Faults_Alarms   |      118 | UINT16    | 1080
+   5022   | Faults_Alarms   |      118 | UINT16    | 1079
+   5023   | Faults_Alarms   |      118 | UINT16    | 1077
+   5024   | Faults_Alarms   |      118 | UINT16    | 0
+   5025   | Faults_Alarms   |      118 | UINT16    | 0
+   5026   | Faults_Alarms   |      118 | UINT16    | 0
+   5027   | Faults_Alarms   |      118 | UINT16    | 0
+   5028   | Faults_Alarms   |      118 | UINT16    | 0
+   5029   | Faults_Alarms   |      118 | UINT16    | 0
+   5030   | Faults_Alarms   |      118 | UINT16    | 12604
+   5031   | Faults_Alarms   |      118 | UINT16    | 2
+   5032   | Faults_Alarms   |      118 | UINT16    | 62358
+   5033   | Faults_Alarms   |      118 | UINT16    | 65535
+   5034   | Faults_Alarms   |      118 | UINT16    | 999
+   5035   | Faults_Alarms   |      118 | UINT16    | 502
+   5036   | Faults_Alarms   |      118 | UINT16    | 0
+   5037   | Faults_Alarms   |      118 | UINT16    | 0
+   5038   | Faults_Alarms   |      118 | UINT16    | 0
+   5039   | Faults_Alarms   |      118 | UINT16    | 0
+   5040   | Faults_Alarms   |      118 | UINT16    | 0
+   5041   | Faults_Alarms   |      118 | UINT16    | 0
+   5042   | Faults_Alarms   |      118 | UINT16    | 0
+   5043   | Faults_Alarms   |      118 | UINT16    | 0
+   5044   | Faults_Alarms   |      118 | UINT16    | 0
+   5045   | Faults_Alarms   |      118 | UINT16    | 0
+   5046   | Faults_Alarms   |      118 | UINT16    | 0
+   5047   | Faults_Alarms   |      118 | UINT16    | 0
+   5048   | Faults_Alarms   |      118 | UINT16    | 1500
+   5049   | Faults_Alarms   |      118 | UINT16    | 0
+   5050   | Faults_Alarms   |      118 | UINT16    | 0
+   5051   | Faults_Alarms   |      118 | UINT16    | 0
+   5052   | Faults_Alarms   |      118 | UINT16    | 0
+   5053   | Faults_Alarms   |      118 | UINT16    | 0
+   5054   | Faults_Alarms   |      118 | UINT16    | 0
+   5055   | Faults_Alarms   |      118 | UINT16    | 0
+   5056   | Faults_Alarms   |      118 | UINT16    | 0
+   5057   | Faults_Alarms   |      118 | UINT16    | 0
+   5058   | Faults_Alarms   |      118 | UINT16    | 0
+   5059   | Faults_Alarms   |      118 | UINT16    | 0
+   5060   | Faults_Alarms   |      118 | UINT16    | 0
+   5061   | Faults_Alarms   |      118 | UINT16    | 0
+   5062   | Faults_Alarms   |      118 | UINT16    | 0
+   5063   | Faults_Alarms   |      118 | UINT16    | 0
+   5064   | Faults_Alarms   |      118 | UINT16    | 0
+   5065   | Faults_Alarms   |      118 | UINT16    | 0
+   5066   | Faults_Alarms   |      118 | UINT16    | 0
+   5067   | Faults_Alarms   |      118 | UINT16    | 0
+   5068   | Faults_Alarms   |      118 | UINT16    | 0
+   5069   | Faults_Alarms   |      118 | UINT16    | 0
+   5070   | Faults_Alarms   |      118 | UINT16    | 9414
+   5071   | Faults_Alarms   |      118 | UINT16    | 0
+   5072   | Faults_Alarms   |      118 | UINT16    | 0
+   5073   | Faults_Alarms   |      118 | UINT16    | 0
+   5074   | Faults_Alarms   |      118 | UINT16    | 0
+   5075   | Faults_Alarms   |      118 | UINT16    | 0
+   5076   | Faults_Alarms   |      118 | UINT16    | 53142
+   5077   | Faults_Alarms   |      118 | UINT16    | 3
+   5078   | Faults_Alarms   |      118 | UINT16    | 0
+   5079   | Faults_Alarms   |      118 | UINT16    | 0
+   5080   | Faults_Alarms   |      118 | UINT16    | 0
+   5081   | Faults_Alarms   |      118 | UINT16    | 0
+   5112   | Faults_Alarms   |      107 | UINT16    | 98
+   5113   | Faults_Alarms   |      107 | UINT16    | 16
+   5114   | Faults_Alarms   |      107 | UINT16    | 10977
+   5115   | Faults_Alarms   |      107 | UINT16    | 81
+   5116   | Faults_Alarms   |      107 | UINT16    | 11502
+   5117   | Faults_Alarms   |      107 | UINT16    | 159
+   5118   | Faults_Alarms   |      107 | UINT16    | 11522
+   5119   | Faults_Alarms   |      107 | UINT16    | 80
+   5120   | Faults_Alarms   |      107 | UINT16    | 11456
+   5121   | Faults_Alarms   |      107 | UINT16    | 155
+   5122   | Faults_Alarms   |      107 | UINT16    | 11357
+   5123   | Faults_Alarms   |      107 | UINT16    | 79
+   5124   | Faults_Alarms   |      107 | UINT16    | 1000
+   5125   | Faults_Alarms   |      107 | UINT16    | 0
+   5126   | Faults_Alarms   |      107 | UINT16    | 0
+   5127   | Faults_Alarms   |      107 | UINT16    | 61458
+   5128   | Faults_Alarms   |      107 | UINT16    | 0
+   5129   | Faults_Alarms   |      107 | UINT16    | 1075
+   5130   | Faults_Alarms   |      107 | UINT16    | 0
+   5131   | Faults_Alarms   |      107 | UINT16    | 11355
+   5132   | Faults_Alarms   |      107 | UINT16    | 158
+   5133   | Faults_Alarms   |      107 | UINT16    | 11350
+   5134   | Faults_Alarms   |      107 | UINT16    | 160
+   5135   | Faults_Alarms   |      107 | UINT16    | 1223
+   5136   | Faults_Alarms   |      107 | UINT16    | 0
+
+UNIT 3
+  Function Codes: [3, 4]
+  Registers Accessed: 105
+  Register Accesses: 12042
+
+  Address  | Category        | Accesses | Data Type | Most Common Value
+  -----------------------------------------------------------------
+   5002   | Faults_Alarms   |      118 | UINT16    | 741
+   5003   | Faults_Alarms   |      118 | UINT16    | 54538
+   5004   | Faults_Alarms   |      118 | UINT16    | 6
+   5005   | Faults_Alarms   |      219 | UINT16    | 207
+   5006   | Faults_Alarms   |      219 | UINT16    | 0
+   5007   | Faults_Alarms   |      118 | UINT16    | 361
+   5008   | Faults_Alarms   |      118 | UINT16    | 2959
+   5009   | Faults_Alarms   |      118 | UINT16    | 2
+   5010   | Faults_Alarms   |      118 | UINT16    | 10744
+   5011   | Faults_Alarms   |      118 | UINT16    | 158
+   5012   | Faults_Alarms   |      118 | UINT16    | 11265
+   5013   | Faults_Alarms   |      118 | UINT16    | 66
+   5014   | Faults_Alarms   |      118 | UINT16    | 11340
+   5015   | Faults_Alarms   |      118 | UINT16    | 161
+   5016   | Faults_Alarms   |      118 | UINT16    | 4598
+   5017   | Faults_Alarms   |      118 | UINT16    | 2
+   5018   | Faults_Alarms   |      118 | UINT16    | 7560
+   5019   | Faults_Alarms   |      118 | UINT16    | 7760
+   5020   | Faults_Alarms   |      118 | UINT16    | 7680
+   5021   | Faults_Alarms   |      118 | UINT16    | 1014
+   5022   | Faults_Alarms   |      118 | UINT16    | 1011
+   5023   | Faults_Alarms   |      118 | UINT16    | 1013
+   5024   | Faults_Alarms   |      118 | UINT16    | 0
+   5025   | Faults_Alarms   |      118 | UINT16    | 0
+   5026   | Faults_Alarms   |      118 | UINT16    | 0
+   5027   | Faults_Alarms   |      118 | UINT16    | 0
+   5028   | Faults_Alarms   |      118 | UINT16    | 0
+   5029   | Faults_Alarms   |      118 | UINT16    | 0
+   5030   | Faults_Alarms   |      118 | UINT16    | 2989
+   5031   | Faults_Alarms   |      118 | UINT16    | 2
+   5032   | Faults_Alarms   |      118 | UINT16    | 62635
+   5033   | Faults_Alarms   |      118 | UINT16    | 65535
+   5034   | Faults_Alarms   |      118 | UINT16    | 999
+   5035   | Faults_Alarms   |      118 | UINT16    | 502
+   5036   | Faults_Alarms   |      118 | UINT16    | 0
+   5037   | Faults_Alarms   |      118 | UINT16    | 0
+   5038   | Faults_Alarms   |      118 | UINT16    | 0
+   5039   | Faults_Alarms   |      118 | UINT16    | 0
+   5040   | Faults_Alarms   |      118 | UINT16    | 0
+   5041   | Faults_Alarms   |      118 | UINT16    | 0
+   5042   | Faults_Alarms   |      118 | UINT16    | 0
+   5043   | Faults_Alarms   |      118 | UINT16    | 0
+   5044   | Faults_Alarms   |      118 | UINT16    | 0
+   5045   | Faults_Alarms   |      118 | UINT16    | 0
+   5046   | Faults_Alarms   |      118 | UINT16    | 0
+   5047   | Faults_Alarms   |      118 | UINT16    | 0
+   5048   | Faults_Alarms   |      118 | UINT16    | 1500
+   5049   | Faults_Alarms   |      118 | UINT16    | 0
+   5050   | Faults_Alarms   |      118 | UINT16    | 0
+   5051   | Faults_Alarms   |      118 | UINT16    | 0
+   5052   | Faults_Alarms   |      118 | UINT16    | 0
+   5053   | Faults_Alarms   |      118 | UINT16    | 0
+   5054   | Faults_Alarms   |      118 | UINT16    | 0
+   5055   | Faults_Alarms   |      118 | UINT16    | 0
+   5056   | Faults_Alarms   |      118 | UINT16    | 0
+   5057   | Faults_Alarms   |      118 | UINT16    | 0
+   5058   | Faults_Alarms   |      118 | UINT16    | 0
+   5059   | Faults_Alarms   |      118 | UINT16    | 0
+   5060   | Faults_Alarms   |      118 | UINT16    | 0
+   5061   | Faults_Alarms   |      118 | UINT16    | 0
+   5062   | Faults_Alarms   |      118 | UINT16    | 0
+   5063   | Faults_Alarms   |      118 | UINT16    | 0
+   5064   | Faults_Alarms   |      118 | UINT16    | 0
+   5065   | Faults_Alarms   |      118 | UINT16    | 0
+   5066   | Faults_Alarms   |      118 | UINT16    | 0
+   5067   | Faults_Alarms   |      118 | UINT16    | 0
+   5068   | Faults_Alarms   |      118 | UINT16    | 0
+   5069   | Faults_Alarms   |      118 | UINT16    | 0
+   5070   | Faults_Alarms   |      118 | UINT16    | 7846
+   5071   | Faults_Alarms   |      118 | UINT16    | 0
+   5072   | Faults_Alarms   |      118 | UINT16    | 0
+   5073   | Faults_Alarms   |      118 | UINT16    | 0
+   5074   | Faults_Alarms   |      118 | UINT16    | 0
+   5075   | Faults_Alarms   |      118 | UINT16    | 0
+   5076   | Faults_Alarms   |      118 | UINT16    | 53142
+   5077   | Faults_Alarms   |      118 | UINT16    | 3
+   5078   | Faults_Alarms   |      118 | UINT16    | 0
+   5079   | Faults_Alarms   |      118 | UINT16    | 0
+   5080   | Faults_Alarms   |      118 | UINT16    | 0
+   5081   | Faults_Alarms   |      118 | UINT16    | 0
+   5112   | Faults_Alarms   |       96 | UINT16    | 98
+   5113   | Faults_Alarms   |       96 | UINT16    | 16
+   5114   | Faults_Alarms   |       96 | UINT16    | 11380
+   5115   | Faults_Alarms   |       96 | UINT16    | 79
+   5116   | Faults_Alarms   |       96 | UINT16    | 10956
+   5117   | Faults_Alarms   |       96 | UINT16    | 157
+   5118   | Faults_Alarms   |       96 | UINT16    | 11348
+   5119   | Faults_Alarms   |       96 | UINT16    | 77
+   5120   | Faults_Alarms   |       96 | UINT16    | 10480
+   5121   | Faults_Alarms   |       96 | UINT16    | 159
+   5122   | Faults_Alarms   |       96 | UINT16    | 12128
+   5123   | Faults_Alarms   |       96 | UINT16    | 60
+   5124   | Faults_Alarms   |       96 | UINT16    | 1000
+   5125   | Faults_Alarms   |       96 | UINT16    | 0
+   5126   | Faults_Alarms   |       96 | UINT16    | 0
+   5127   | Faults_Alarms   |       96 | UINT16    | 58625
+   5128   | Faults_Alarms   |       96 | UINT16    | 0
+   5129   | Faults_Alarms   |       96 | UINT16    | 11859
+   5130   | Faults_Alarms   |       96 | UINT16    | 71
+   5131   | Faults_Alarms   |       96 | UINT16    | 11935
+   5132   | Faults_Alarms   |       96 | UINT16    | 66
+   5133   | Faults_Alarms   |       96 | UINT16    | 10645
+   5134   | Faults_Alarms   |       96 | UINT16    | 158
+   5135   | Faults_Alarms   |       96 | UINT16    | 1328
+   5136   | Faults_Alarms   |       96 | UINT16    | 0
+
+UNIT 4
+  Function Codes: [3, 4]
+  Registers Accessed: 107
+  Register Accesses: 12201
+
+  Address  | Category        | Accesses | Data Type | Most Common Value
+  -----------------------------------------------------------------
+      0   | Inverter_Info   |        1 | UINT16    | 207
+      1   | Inverter_Info   |        1 | UINT16    | 170
+   5002   | Faults_Alarms   |      117 | UINT16    | 752
+   5003   | Faults_Alarms   |      117 | UINT16    | 1414
+   5004   | Faults_Alarms   |      117 | UINT16    | 7
+   5005   | Faults_Alarms   |      224 | UINT16    | 207
+   5006   | Faults_Alarms   |      224 | UINT16    | 0
+   5007   | Faults_Alarms   |      117 | UINT16    | 365
+   5008   | Faults_Alarms   |      117 | UINT16    | 9627
+   5009   | Faults_Alarms   |      117 | UINT16    | 2
+   5010   | Faults_Alarms   |      117 | UINT16    | 11312
+   5011   | Faults_Alarms   |      117 | UINT16    | 156
+   5012   | Faults_Alarms   |      117 | UINT16    | 1049
+   5013   | Faults_Alarms   |      117 | UINT16    | 0
+   5014   | Faults_Alarms   |      117 | UINT16    | 11460
+   5015   | Faults_Alarms   |      117 | UINT16    | 161
+   5016   | Faults_Alarms   |      117 | UINT16    | 11128
+   5017   | Faults_Alarms   |      117 | UINT16    | 2
+   5018   | Faults_Alarms   |      117 | UINT16    | 7592
+   5019   | Faults_Alarms   |      117 | UINT16    | 7792
+   5020   | Faults_Alarms   |      117 | UINT16    | 7690
+   5021   | Faults_Alarms   |      117 | UINT16    | 1063
+   5022   | Faults_Alarms   |      117 | UINT16    | 1061
+   5023   | Faults_Alarms   |      117 | UINT16    | 1060
+   5024   | Faults_Alarms   |      117 | UINT16    | 0
+   5025   | Faults_Alarms   |      117 | UINT16    | 0
+   5026   | Faults_Alarms   |      117 | UINT16    | 0
+   5027   | Faults_Alarms   |      117 | UINT16    | 0
+   5028   | Faults_Alarms   |      117 | UINT16    | 0
+   5029   | Faults_Alarms   |      117 | UINT16    | 0
+   5030   | Faults_Alarms   |      117 | UINT16    | 9592
+   5031   | Faults_Alarms   |      117 | UINT16    | 2
+   5032   | Faults_Alarms   |      117 | UINT16    | 62393
+   5033   | Faults_Alarms   |      117 | UINT16    | 65535
+   5034   | Faults_Alarms   |      117 | UINT16    | 999
+   5035   | Faults_Alarms   |      117 | UINT16    | 502
+   5036   | Faults_Alarms   |      117 | UINT16    | 0
+   5037   | Faults_Alarms   |      117 | UINT16    | 0
+   5038   | Faults_Alarms   |      117 | UINT16    | 0
+   5039   | Faults_Alarms   |      117 | UINT16    | 0
+   5040   | Faults_Alarms   |      117 | UINT16    | 0
+   5041   | Faults_Alarms   |      117 | UINT16    | 0
+   5042   | Faults_Alarms   |      117 | UINT16    | 0
+   5043   | Faults_Alarms   |      117 | UINT16    | 0
+   5044   | Faults_Alarms   |      117 | UINT16    | 0
+   5045   | Faults_Alarms   |      117 | UINT16    | 0
+   5046   | Faults_Alarms   |      117 | UINT16    | 0
+   5047   | Faults_Alarms   |      117 | UINT16    | 0
+   5048   | Faults_Alarms   |      117 | UINT16    | 1500
+   5049   | Faults_Alarms   |      117 | UINT16    | 0
+   5050   | Faults_Alarms   |      117 | UINT16    | 0
+   5051   | Faults_Alarms   |      117 | UINT16    | 0
+   5052   | Faults_Alarms   |      117 | UINT16    | 0
+   5053   | Faults_Alarms   |      117 | UINT16    | 0
+   5054   | Faults_Alarms   |      117 | UINT16    | 0
+   5055   | Faults_Alarms   |      117 | UINT16    | 0
+   5056   | Faults_Alarms   |      117 | UINT16    | 0
+   5057   | Faults_Alarms   |      117 | UINT16    | 0
+   5058   | Faults_Alarms   |      117 | UINT16    | 0
+   5059   | Faults_Alarms   |      117 | UINT16    | 0
+   5060   | Faults_Alarms   |      117 | UINT16    | 0
+   5061   | Faults_Alarms   |      117 | UINT16    | 0
+   5062   | Faults_Alarms   |      117 | UINT16    | 0
+   5063   | Faults_Alarms   |      117 | UINT16    | 0
+   5064   | Faults_Alarms   |      117 | UINT16    | 0
+   5065   | Faults_Alarms   |      117 | UINT16    | 0
+   5066   | Faults_Alarms   |      117 | UINT16    | 0
+   5067   | Faults_Alarms   |      117 | UINT16    | 0
+   5068   | Faults_Alarms   |      117 | UINT16    | 0
+   5069   | Faults_Alarms   |      117 | UINT16    | 0
+   5070   | Faults_Alarms   |      117 | UINT16    | 9535
+   5071   | Faults_Alarms   |      117 | UINT16    | 0
+   5072   | Faults_Alarms   |      117 | UINT16    | 0
+   5073   | Faults_Alarms   |      117 | UINT16    | 0
+   5074   | Faults_Alarms   |      117 | UINT16    | 0
+   5075   | Faults_Alarms   |      117 | UINT16    | 0
+   5076   | Faults_Alarms   |      117 | UINT16    | 53142
+   5077   | Faults_Alarms   |      117 | UINT16    | 3
+   5078   | Faults_Alarms   |      117 | UINT16    | 0
+   5079   | Faults_Alarms   |      117 | UINT16    | 0
+   5080   | Faults_Alarms   |      117 | UINT16    | 0
+   5081   | Faults_Alarms   |      117 | UINT16    | 0
+   5112   | Faults_Alarms   |      105 | UINT16    | 98
+   5113   | Faults_Alarms   |      105 | UINT16    | 16
+   5114   | Faults_Alarms   |      105 | UINT16    | 984
+   5115   | Faults_Alarms   |      105 | UINT16    | 0
+   5116   | Faults_Alarms   |      105 | UINT16    | 11241
+   5117   | Faults_Alarms   |      105 | UINT16    | 156
+   5118   | Faults_Alarms   |      105 | UINT16    | 11316
+   5119   | Faults_Alarms   |      105 | UINT16    | 157
+   5120   | Faults_Alarms   |      105 | UINT16    | 11365
+   5121   | Faults_Alarms   |      105 | UINT16    | 157
+   5122   | Faults_Alarms   |      105 | UINT16    | 11345
+   5123   | Faults_Alarms   |      105 | UINT16    | 155
+   5124   | Faults_Alarms   |      105 | UINT16    | 1000
+   5125   | Faults_Alarms   |      105 | UINT16    | 0
+   5126   | Faults_Alarms   |      105 | UINT16    | 0
+   5127   | Faults_Alarms   |      105 | UINT16    | 61741
+   5128   | Faults_Alarms   |      105 | UINT16    | 0
+   5129   | Faults_Alarms   |      105 | UINT16    | 1070
+   5130   | Faults_Alarms   |      105 | UINT16    | 0
+   5131   | Faults_Alarms   |      105 | UINT16    | 11373
+   5132   | Faults_Alarms   |      105 | UINT16    | 157
+   5133   | Faults_Alarms   |      105 | UINT16    | 11495
+   5134   | Faults_Alarms   |      105 | UINT16    | 151
+   5135   | Faults_Alarms   |      105 | UINT16    | 1256
+   5136   | Faults_Alarms   |      105 | UINT16    | 0
+
+UNIT 5
+  Function Codes: [3, 4]
+  Registers Accessed: 105
+  Register Accesses: 23852
+
+  Address  | Category        | Accesses | Data Type | Most Common Value
+  -----------------------------------------------------------------
+   5002   | Faults_Alarms   |      235 | UINT16    | 760
+   5003   | Faults_Alarms   |      235 | UINT16    | 7113
+   5004   | Faults_Alarms   |      235 | UINT16    | 7
+   5005   | Faults_Alarms   |      436 | UINT16    | 4687
+   5006   | Faults_Alarms   |      436 | UINT16    | 0
+   5007   | Faults_Alarms   |      235 | UINT16    | 366
+   5008   | Faults_Alarms   |      235 | UINT16    | 8750
+   5009   | Faults_Alarms   |      235 | UINT16    | 2
+   5010   | Faults_Alarms   |      235 | UINT16    | 11420
+   5011   | Faults_Alarms   |      235 | UINT16    | 160
+   5012   | Faults_Alarms   |      235 | UINT16    | 11408
+   5013   | Faults_Alarms   |      235 | UINT16    | 79
+   5014   | Faults_Alarms   |      235 | UINT16    | 11406
+   5015   | Faults_Alarms   |      235 | UINT16    | 81
+   5016   | Faults_Alarms   |      235 | UINT16    | 11175
+   5017   | Faults_Alarms   |      235 | UINT16    | 2
+   5018   | Faults_Alarms   |      235 | UINT16    | 7560
+   5019   | Faults_Alarms   |      235 | UINT16    | 7768
+   5020   | Faults_Alarms   |      235 | UINT16    | 7680
+   5021   | Faults_Alarms   |      235 | UINT16    | 1059
+   5022   | Faults_Alarms   |      235 | UINT16    | 1056
+   5023   | Faults_Alarms   |      235 | UINT16    | 1059
+   5024   | Faults_Alarms   |      235 | UINT16    | 0
+   5025   | Faults_Alarms   |      235 | UINT16    | 0
+   5026   | Faults_Alarms   |      235 | UINT16    | 0
+   5027   | Faults_Alarms   |      235 | UINT16    | 0
+   5028   | Faults_Alarms   |      235 | UINT16    | 0
+   5029   | Faults_Alarms   |      235 | UINT16    | 0
+   5030   | Faults_Alarms   |      235 | UINT16    | 8693
+   5031   | Faults_Alarms   |      235 | UINT16    | 2
+   5032   | Faults_Alarms   |      235 | UINT16    | 62420
+   5033   | Faults_Alarms   |      235 | UINT16    | 65535
+   5034   | Faults_Alarms   |      235 | UINT16    | 999
+   5035   | Faults_Alarms   |      235 | UINT16    | 502
+   5036   | Faults_Alarms   |      235 | UINT16    | 0
+   5037   | Faults_Alarms   |      235 | UINT16    | 0
+   5038   | Faults_Alarms   |      235 | UINT16    | 0
+   5039   | Faults_Alarms   |      235 | UINT16    | 0
+   5040   | Faults_Alarms   |      235 | UINT16    | 0
+   5041   | Faults_Alarms   |      235 | UINT16    | 0
+   5042   | Faults_Alarms   |      235 | UINT16    | 0
+   5043   | Faults_Alarms   |      235 | UINT16    | 0
+   5044   | Faults_Alarms   |      235 | UINT16    | 0
+   5045   | Faults_Alarms   |      235 | UINT16    | 0
+   5046   | Faults_Alarms   |      235 | UINT16    | 0
+   5047   | Faults_Alarms   |      235 | UINT16    | 0
+   5048   | Faults_Alarms   |      235 | UINT16    | 1500
+   5049   | Faults_Alarms   |      235 | UINT16    | 0
+   5050   | Faults_Alarms   |      235 | UINT16    | 0
+   5051   | Faults_Alarms   |      235 | UINT16    | 0
+   5052   | Faults_Alarms   |      235 | UINT16    | 0
+   5053   | Faults_Alarms   |      235 | UINT16    | 0
+   5054   | Faults_Alarms   |      235 | UINT16    | 0
+   5055   | Faults_Alarms   |      235 | UINT16    | 0
+   5056   | Faults_Alarms   |      235 | UINT16    | 0
+   5057   | Faults_Alarms   |      235 | UINT16    | 0
+   5058   | Faults_Alarms   |      235 | UINT16    | 0
+   5059   | Faults_Alarms   |      235 | UINT16    | 0
+   5060   | Faults_Alarms   |      235 | UINT16    | 0
+   5061   | Faults_Alarms   |      235 | UINT16    | 0
+   5062   | Faults_Alarms   |      235 | UINT16    | 0
+   5063   | Faults_Alarms   |      235 | UINT16    | 0
+   5064   | Faults_Alarms   |      235 | UINT16    | 0
+   5065   | Faults_Alarms   |      235 | UINT16    | 0
+   5066   | Faults_Alarms   |      235 | UINT16    | 0
+   5067   | Faults_Alarms   |      235 | UINT16    | 0
+   5068   | Faults_Alarms   |      235 | UINT16    | 0
+   5069   | Faults_Alarms   |      235 | UINT16    | 0
+   5070   | Faults_Alarms   |      235 | UINT16    | 9406
+   5071   | Faults_Alarms   |      235 | UINT16    | 0
+   5072   | Faults_Alarms   |      235 | UINT16    | 0
+   5073   | Faults_Alarms   |      235 | UINT16    | 0
+   5074   | Faults_Alarms   |      235 | UINT16    | 0
+   5075   | Faults_Alarms   |      235 | UINT16    | 0
+   5076   | Faults_Alarms   |      235 | UINT16    | 53142
+   5077   | Faults_Alarms   |      235 | UINT16    | 3
+   5078   | Faults_Alarms   |      235 | UINT16    | 0
+   5079   | Faults_Alarms   |      235 | UINT16    | 0
+   5080   | Faults_Alarms   |      235 | UINT16    | 0
+   5081   | Faults_Alarms   |      235 | UINT16    | 0
+   5112   | Faults_Alarms   |      186 | UINT16    | 98
+   5113   | Faults_Alarms   |      186 | UINT16    | 16
+   5114   | Faults_Alarms   |      186 | UINT16    | 11588
+   5115   | Faults_Alarms   |      186 | UINT16    | 77
+   5116   | Faults_Alarms   |      186 | UINT16    | 11508
+   5117   | Faults_Alarms   |      186 | UINT16    | 155
+   5118   | Faults_Alarms   |      186 | UINT16    | 11974
+   5119   | Faults_Alarms   |      186 | UINT16    | 72
+   5120   | Faults_Alarms   |      186 | UINT16    | 11170
+   5121   | Faults_Alarms   |      186 | UINT16    | 158
+   5122   | Faults_Alarms   |      186 | UINT16    | 11387
+   5123   | Faults_Alarms   |      186 | UINT16    | 159
+   5124   | Faults_Alarms   |      186 | UINT16    | 1000
+   5125   | Faults_Alarms   |      186 | UINT16    | 0
+   5126   | Faults_Alarms   |      186 | UINT16    | 0
+   5127   | Faults_Alarms   |      186 | UINT16    | 61603
+   5128   | Faults_Alarms   |      186 | UINT16    | 0
+   5129   | Faults_Alarms   |      186 | UINT16    | 930
+   5130   | Faults_Alarms   |      186 | UINT16    | 0
+   5131   | Faults_Alarms   |      186 | UINT16    | 11166
+   5132   | Faults_Alarms   |      186 | UINT16    | 158
+   5133   | Faults_Alarms   |      186 | UINT16    | 11404
+   5134   | Faults_Alarms   |      186 | UINT16    | 155
+   5135   | Faults_Alarms   |      186 | UINT16    | 1118
+   5136   | Faults_Alarms   |      186 | UINT16    | 0
+
+UNIT 6
+  Function Codes: [4]
+  Registers Accessed: 30
+  Register Accesses: 1770
+
+  Address  | Category        | Accesses | Data Type | Most Common Value
+  -----------------------------------------------------------------
+   8189   | Faults_Alarms   |       59 | UINT16    | 0
+   8190   | Faults_Alarms   |       59 | UINT16    | 0
+   8191   | Faults_Alarms   |       59 | UINT16    | 0
+   8192   | Faults_Alarms   |       59 | UINT16    | 26215
+   8193   | Faults_Alarms   |       59 | UINT16    | 16812
+   8194   | Faults_Alarms   |       59 | UINT16    | 0
+   8195   | Faults_Alarms   |       59 | UINT16    | 16920
+   8196   | Faults_Alarms   |       59 | UINT16    | 0
+   8197   | Faults_Alarms   |       59 | UINT16    | 0
+   8198   | Faults_Alarms   |       59 | UINT16    | 0
+   8199   | Faults_Alarms   |       59 | UINT16    | 0
+   8200   | Faults_Alarms   |       59 | UINT16    | 0
+   8201   | Faults_Alarms   |       59 | UINT16    | 0
+   8202   | Faults_Alarms   |       59 | UINT16    | 16384
+   8203   | Faults_Alarms   |       59 | UINT16    | 17410
+   8204   | Faults_Alarms   |       59 | UINT16    | 0
+   8205   | Faults_Alarms   |       59 | UINT16    | 0
+   8206   | Faults_Alarms   |       59 | UINT16    | 23593
+   8207   | Faults_Alarms   |       59 | UINT16    | 15887
+   8208   | Faults_Alarms   |       59 | UINT16    | 0
+   8209   | Faults_Alarms   |       59 | UINT16    | 0
+   8210   | Faults_Alarms   |       59 | UINT16    | 0
+   8211   | Faults_Alarms   |       59 | UINT16    | 0
+   8212   | Faults_Alarms   |       59 | UINT16    | 0
+   8213   | Faults_Alarms   |       59 | UINT16    | 0
+   8214   | Faults_Alarms   |       59 | UINT16    | 50071
+   8215   | Faults_Alarms   |       59 | UINT16    | 17495
+   8216   | Faults_Alarms   |       59 | UINT16    | 0
+   8217   | Faults_Alarms   |       59 | UINT16    | 0
+   8218   | Faults_Alarms   |       59 | UINT16    | 0
+
+UNIT 247
+  Function Codes: [4]
+  Registers Accessed: 25
+  Register Accesses: 4350
+
+  Address  | Category        | Accesses | Data Type | Most Common Value
+  -----------------------------------------------------------------
+   8061   | Faults_Alarms   |      174 | UINT16    | 46644
+   8062   | Faults_Alarms   |      174 | UINT16    | 12
+   8063   | Faults_Alarms   |      174 | UINT16    | 47140
+   8064   | Faults_Alarms   |      174 | UINT16    | 65535
+   8065   | Faults_Alarms   |      174 | UINT16    | 0
+   8066   | Faults_Alarms   |      174 | UINT16    | 0
+   8067   | Faults_Alarms   |      174 | UINT16    | 1
+   8068   | Faults_Alarms   |      174 | UINT16    | 1
+   8069   | Faults_Alarms   |      174 | UINT16    | 0
+   8070   | Faults_Alarms   |      174 | UINT16    | 0
+   8071   | Faults_Alarms   |      174 | UINT16    | 12
+   8072   | Faults_Alarms   |      174 | UINT16    | 46644
+   8073   | Faults_Alarms   |      174 | UINT16    | 4490
+   8074   | Faults_Alarms   |      174 | UINT16    | 0
+   8075   | Faults_Alarms   |      174 | UINT16    | 65535
+   8076   | Faults_Alarms   |      174 | UINT16    | 65535
+   8077   | Faults_Alarms   |      174 | UINT16    | 65535
+   8078   | Faults_Alarms   |      174 | UINT16    | 47140
+   8079   | Faults_Alarms   |      174 | UINT16    | 0
+   8080   | Faults_Alarms   |      174 | UINT16    | 0
+   8081   | Faults_Alarms   |      174 | UINT16    | 415
+   8082   | Faults_Alarms   |      174 | UINT16    | 12025
+   8083   | Faults_Alarms   |      174 | UINT16    | 0
+   8084   | Faults_Alarms   |      174 | UINT16    | 0
+   8085   | Faults_Alarms   |      174 | UINT16    | 13500
+
+
+REGISTER CATEGORY SUMMARY
+----------------------------------------------------------------------
+
+Inverter_Info (0-50)
+  Addresses: [0, 1]
+  Total Accesses: 2
+
+Faults_Alarms (1000-9999)
+  Addresses: [5002, 5003, 5004, 5005, 5006, 5007, 5008, 5009, 5010, 5011, 5012, 5013, 5014, 5015, 5016, 5017, 5018, 5019, 5020, 5021, 5022, 5023, 5024, 5025, 5026, 5027, 5028, 5029, 5030, 5031, 5032, 5033, 5034, 5035, 5036, 5037, 5038, 5039, 5040, 5041, 5042, 5043, 5044, 5045, 5046, 5047, 5048, 5049, 5050, 5051, 5052, 5053, 5054, 5055, 5056, 5057, 5058, 5059, 5060, 5061, 5062, 5063, 5064, 5065, 5066, 5067, 5068, 5069, 5070, 5071, 5072, 5073, 5074, 5075, 5076, 5077, 5078, 5079, 5080, 5081, 5112, 5113, 5114, 5115, 5116, 5117, 5118, 5119, 5120, 5121, 5122, 5123, 5124, 5125, 5126, 5127, 5128, 5129, 5130, 5131, 5132, 5133, 5134, 5135, 5136, 8061, 8062, 8063, 8064, 8065, 8066, 8067, 8068, 8069, 8070, 8071, 8072, 8073, 8074, 8075, 8076, 8077, 8078, 8079, 8080, 8081, 8082, 8083, 8084, 8085, 8189, 8190, 8191, 8192, 8193, 8194, 8195, 8196, 8197, 8198, 8199, 8200, 8201, 8202, 8203, 8204, 8205, 8206, 8207, 8208, 8209, 8210, 8211, 8212, 8213, 8214, 8215, 8216, 8217, 8218]
+  Total Accesses: 78757
+

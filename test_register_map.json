@@ -1,0 +1,58 @@
+{
+  "decoder_version": "1.0",
+  "device": "Sungrow_Logger",
+  "device_ip": "192.168.1.5",
+  "total_frames_captured": 47,
+  "groups": {
+    "Inverter_Info": [
+      {
+        "address": 0,
+        "name": "inverter_info_reg_0000",
+        "type": "uint16",
+        "count": 1,
+        "scale": 1.0,
+        "offset": 0.0,
+        "unit": "",
+        "description": "Accessed 44 times via READ_HOLDING_REGISTERS",
+        "access": "read"
+      },
+      {
+        "address": 1,
+        "name": "inverter_info_reg_0001",
+        "type": "uint32",
+        "count": 2,
+        "scale": 1.0,
+        "offset": 0.0,
+        "unit": "",
+        "description": "Accessed 1 times via READ_HOLDING_REGISTERS",
+        "access": "read"
+      }
+    ],
+    "Energy_Counters": [
+      {
+        "address": 500,
+        "name": "energy_counters_reg_0500",
+        "type": "uint16",
+        "count": 1,
+        "scale": 1.0,
+        "offset": 0.0,
+        "unit": "",
+        "description": "Accessed 1 times via READ_HOLDING_REGISTERS",
+        "access": "read"
+      }
+    ],
+    "Faults_Alarms": [
+      {
+        "address": 1000,
+        "name": "faults_alarms_reg_1000",
+        "type": "uint16",
+        "count": 1,
+        "scale": 1.0,
+        "offset": 0.0,
+        "unit": "",
+        "description": "Accessed 1 times via READ_HOLDING_REGISTERS",
+        "access": "read"
+      }
+    ]
+  }
+}

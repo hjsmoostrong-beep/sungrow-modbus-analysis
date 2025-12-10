@@ -1,0 +1,5 @@
+Address,Name,Type,Count,Group,Access,Description
+500,energy_counters_reg_0500,uint16,1,Energy_Counters,read,"Accessed 1 times via READ_HOLDING_REGISTERS"
+1000,faults_alarms_reg_1000,uint16,1,Faults_Alarms,read,"Accessed 1 times via READ_HOLDING_REGISTERS"
+0,inverter_info_reg_0000,uint16,1,Inverter_Info,read,"Accessed 44 times via READ_HOLDING_REGISTERS"
+1,inverter_info_reg_0001,uint32,2,Inverter_Info,read,"Accessed 1 times via READ_HOLDING_REGISTERS"

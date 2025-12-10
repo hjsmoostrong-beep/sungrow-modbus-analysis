@@ -1,0 +1,25 @@
+SUNGROW MODBUS REGISTER QUICK REFERENCE
+==================================================
+
+CRITICAL REGISTERS (Most Frequently Used)
+--------------------------------------------------
+
+Reg   100: Grid Voltage Phase A           [V       ] x 0.1
+Reg   103: Grid Current Phase A           [A       ] x 0.01
+Reg   107: Active Power Output            [W       ] x 1
+Reg   200: PV1 Voltage                    [V       ] x 0.1
+Reg   201: PV1 Current                    [A       ] x 0.01
+Reg   202: PV1 Power                      [W       ] x 1
+Reg   500: Total Energy Today             [kWh     ] x 0.01
+Reg   506: Total Energy Lifetime          [kWh     ] x 0.01
+Reg  5002: Fault Code 3                   [Code    ] x 1
+Reg  5003: Status Word 1                  [Bitfield] x 1
+
+TYPICAL SCALING FACTORS
+--------------------------------------------------
+Voltage readings: multiply by 0.1 -> Volts
+Current readings: multiply by 0.01 -> Amps
+Power readings: multiply by 1 -> Watts
+Energy readings: multiply by 0.01 -> kWh
+Temperature: multiply by 0.1 -> Celsius
+Frequency: multiply by 0.01 -> Hz
