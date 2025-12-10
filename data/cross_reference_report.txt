@@ -1,0 +1,126 @@
+====================================================================================================
+MODBUS ADDRESS CROSS-REFERENCE REPORT
+Generated: 2025-12-10T11:01:28.663469
+====================================================================================================
+
+SUMMARY
+----------------------------------------------------------------------------------------------------
+Total Addresses: 10
+Officially Documented: 2 (20.0%)
+Undocumented (OEM Extensions): 8 (80.0%)
+
+====================================================================================================
+DOCUMENTED REGISTERS (From Official Sungrow Specification)
+====================================================================================================
+
+0x0000 - Status Code
+  Type: uint16, Unit: , Scale: 1
+  Access: R, Register Size: 1
+  Captured: 156 accesses, Quantities: [10]
+  Accessed by units: [1, 2, 3]
+
+0x000A - Grid Voltage
+  Type: uint16, Unit: V, Scale: 0.1
+  Access: R, Register Size: 1
+  Captured: 149 accesses, Quantities: [8]
+  Accessed by units: [1, 2, 3]
+
+====================================================================================================
+UNDOCUMENTED ADDRESSES (OEM EXTENSIONS)
+====================================================================================================
+
+0x0012
+  Accesses: 151, Quantities: [6]
+  Units: [1, 2, 3]
+
+0x0018
+  Accesses: 95, Quantities: [2]
+  Units: [1, 2, 3]
+
+0x001A
+  Accesses: 89, Quantities: [4]
+  Units: [1, 2, 3]
+
+0x001E
+  Accesses: 12, Quantities: [1]
+  Units: [1, 2, 3]
+
+0x001F
+  Accesses: 12, Quantities: [1]
+  Units: [1, 2, 3]
+
+0x0020
+  Accesses: 147, Quantities: [8]
+  Units: [1, 2, 3]
+
+0x0028
+  Accesses: 150, Quantities: [6]
+  Units: [1, 2, 3]
+
+0x002E
+  Accesses: 12, Quantities: [1]
+  Units: [1, 2, 3]
+
+====================================================================================================
+DATA TYPE VALIDATION
+====================================================================================================
+
+0x0000
+  Access Count: 156
+  Inferred Type: unknown
+  Access Mode: R
+  Quantities: [10]
+
+0x000A
+  Access Count: 149
+  Inferred Type: unknown
+  Access Mode: R
+  Quantities: [8]
+
+0x0012
+  Access Count: 151
+  Inferred Type: unknown
+  Access Mode: R
+  Quantities: [6]
+
+0x0018
+  Access Count: 95
+  Inferred Type: uint32
+  Access Mode: R
+  Quantities: [2]
+
+0x001A
+  Access Count: 89
+  Inferred Type: unknown
+  Access Mode: R
+  Quantities: [4]
+
+0x001E
+  Access Count: 12
+  Inferred Type: uint16
+  Access Mode: R
+  Quantities: [1]
+
+0x001F
+  Access Count: 12
+  Inferred Type: uint16
+  Access Mode: R
+  Quantities: [1]
+
+0x0020
+  Access Count: 147
+  Inferred Type: unknown
+  Access Mode: R
+  Quantities: [8]
+
+0x0028
+  Access Count: 150
+  Inferred Type: unknown
+  Access Mode: R
+  Quantities: [6]
+
+0x002E
+  Access Count: 12
+  Inferred Type: uint16
+  Access Mode: R
+  Quantities: [1]

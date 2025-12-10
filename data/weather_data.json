@@ -1,0 +1,4944 @@
+{
+  "current": {
+    "timestamp": "2025-12-10T11:31:55.034976",
+    "datetime": "2025-12-10 11:31:55",
+    "sensors": {
+      "bme280": {
+        "temperature": 18.26023133463006,
+        "humidity": 40.78476362649392,
+        "pressure": 1011.3387121568335
+      },
+      "dht22": {
+        "temperature": 20.52276545907883,
+        "humidity": 47.72841235964481
+      },
+      "wind": {
+        "wind_speed": 5.286394718984262,
+        "wind_gust": 7.722665119551646
+      },
+      "rain": {
+        "rain_rate": 0
+      },
+      "uv": {
+        "uv_index": 8.137451306034523
+      },
+      "light": {
+        "light_level": 9750.702706773198
+      },
+      "sungrow": {
+        "dc_voltage": 307.83,
+        "dc_current": 2.11,
+        "dc_power": 651.16,
+        "ac_voltage_phase1": 233.16,
+        "ac_voltage_phase2": 234.52,
+        "ac_voltage_phase3": 231.49,
+        "ac_current_phase1": 2.79,
+        "ac_current_phase2": 2.78,
+        "ac_current_phase3": 2.81,
+        "ac_power": 618.6,
+        "efficiency": 94.85,
+        "today_energy": 16.0,
+        "total_energy": 45280.62,
+        "inverter_status": 1,
+        "inverter_temp": 34.21,
+        "solar_radiation": 729.98,
+        "unit_id": 1
+      }
+    },
+    "statistics": {
+      "temperature": {
+        "current": 18.3,
+        "min": 17.6,
+        "max": 21.6,
+        "avg": 19.6
+      },
+      "humidity": {
+        "current": 40.8,
+        "min": 40.0,
+        "max": 50.0,
+        "avg": 45.2
+      },
+      "wind_speed": {
+        "current": 5.29,
+        "avg": 5.0,
+        "max": 5.95
+      }
+    },
+    "alerts": []
+  },
+  "history": [
+    {
+      "timestamp": "2025-12-10T11:19:54.967860",
+      "datetime": "2025-12-10 11:19:54",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.389049269234555,
+          "humidity": 41.576191440114954,
+          "pressure": 1010.1495896374456
+        },
+        "dht22": {
+          "temperature": 20.441291461439228,
+          "humidity": 46.0955496832135
+        },
+        "wind": {
+          "wind_speed": 4.508467852685864,
+          "wind_gust": 7.777750286508146
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.922975868465663
+        },
+        "light": {
+          "light_level": 9410.487895852828
+        },
+        "sungrow": {
+          "dc_voltage": 308.79,
+          "dc_current": 2.14,
+          "dc_power": 661.62,
+          "ac_voltage_phase1": 234.67,
+          "ac_voltage_phase2": 228.84,
+          "ac_voltage_phase3": 226.82,
+          "ac_current_phase1": 2.82,
+          "ac_current_phase2": 2.89,
+          "ac_current_phase3": 2.92,
+          "ac_power": 628.54,
+          "efficiency": 94.86,
+          "today_energy": 16.26,
+          "total_energy": 45280.77,
+          "inverter_status": 1,
+          "inverter_temp": 34.12,
+          "solar_radiation": 791.22,
+          "unit_id": 1
+        }
+      },
+      "statistics": {},
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:20:04.968868",
+      "datetime": "2025-12-10 11:20:04",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.344715361470758,
+          "humidity": 41.35350579861217,
+          "pressure": 1012.1793610746666
+        },
+        "dht22": {
+          "temperature": 22.42944140258338,
+          "humidity": 51.055855907382664
+        },
+        "wind": {
+          "wind_speed": 4.283579157566914,
+          "wind_gust": 6.741973116927498
+        },
+        "rain": {
+          "rain_rate": 9.98310766155798
+        },
+        "uv": {
+          "uv_index": 7.857371973364202
+        },
+        "light": {
+          "light_level": 9791.48698962633
+        },
+        "sungrow": {
+          "dc_voltage": 308.22,
+          "dc_current": 2.35,
+          "dc_power": 725.75,
+          "ac_voltage_phase1": 227.79,
+          "ac_voltage_phase2": 225.9,
+          "ac_voltage_phase3": 229.6,
+          "ac_current_phase1": 3.18,
+          "ac_current_phase2": 3.21,
+          "ac_current_phase3": 3.16,
+          "ac_power": 689.47,
+          "efficiency": 94.87,
+          "today_energy": 16.87,
+          "total_energy": 45280.55,
+          "inverter_status": 1,
+          "inverter_temp": 36.96,
+          "solar_radiation": 782.78,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.3,
+          "min": 19.3,
+          "max": 21.4,
+          "avg": 20.4
+        },
+        "humidity": {
+          "current": 41.4,
+          "min": 41.4,
+          "max": 41.6,
+          "avg": 41.5
+        },
+        "wind_speed": {
+          "current": 4.28,
+          "avg": 4.4,
+          "max": 4.51
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:20:14.969528",
+      "datetime": "2025-12-10 11:20:14",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.67870602763343,
+          "humidity": 41.17045165854114,
+          "pressure": 1011.8106309318299
+        },
+        "dht22": {
+          "temperature": 22.813457321128627,
+          "humidity": 50.59424091719785
+        },
+        "wind": {
+          "wind_speed": 4.182334203665324,
+          "wind_gust": 6.762395720245959
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.372568129597818
+        },
+        "light": {
+          "light_level": 10558.593078339516
+        },
+        "sungrow": {
+          "dc_voltage": 304.92,
+          "dc_current": 2.12,
+          "dc_power": 645.96,
+          "ac_voltage_phase1": 226.27,
+          "ac_voltage_phase2": 228.54,
+          "ac_voltage_phase3": 227.19,
+          "ac_current_phase1": 2.85,
+          "ac_current_phase2": 2.83,
+          "ac_current_phase3": 2.84,
+          "ac_power": 613.66,
+          "efficiency": 94.85,
+          "today_energy": 15.62,
+          "total_energy": 45280.78,
+          "inverter_status": 1,
+          "inverter_temp": 36.37,
+          "solar_radiation": 758.55,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.7,
+          "min": 19.3,
+          "max": 21.4,
+          "avg": 20.1
+        },
+        "humidity": {
+          "current": 41.2,
+          "min": 41.2,
+          "max": 41.6,
+          "avg": 41.4
+        },
+        "wind_speed": {
+          "current": 4.18,
+          "avg": 4.32,
+          "max": 4.51
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:20:24.970285",
+      "datetime": "2025-12-10 11:20:24",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.70325283457426,
+          "humidity": 45.092932516648474,
+          "pressure": 1012.2328656322878
+        },
+        "dht22": {
+          "temperature": 20.683653837894575,
+          "humidity": 47.396796783832315
+        },
+        "wind": {
+          "wind_speed": 4.498644574053002,
+          "wind_gust": 6.183531397167635
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.612900942378365
+        },
+        "light": {
+          "light_level": 10336.55389110778
+        },
+        "sungrow": {
+          "dc_voltage": 293.72,
+          "dc_current": 2.22,
+          "dc_power": 652.36,
+          "ac_voltage_phase1": 228.6,
+          "ac_voltage_phase2": 227.04,
+          "ac_voltage_phase3": 231.73,
+          "ac_current_phase1": 2.85,
+          "ac_current_phase2": 2.87,
+          "ac_current_phase3": 2.81,
+          "ac_power": 619.74,
+          "efficiency": 94.85,
+          "today_energy": 17.4,
+          "total_energy": 45280.31,
+          "inverter_status": 1,
+          "inverter_temp": 37.06,
+          "solar_radiation": 807.2,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.7,
+          "min": 17.7,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 45.1,
+          "min": 41.2,
+          "max": 45.1,
+          "avg": 42.3
+        },
+        "wind_speed": {
+          "current": 4.5,
+          "avg": 4.37,
+          "max": 4.51
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:20:34.970833",
+      "datetime": "2025-12-10 11:20:34",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.617882355597246,
+          "humidity": 44.649746635593125,
+          "pressure": 1011.5730109902296
+        },
+        "dht22": {
+          "temperature": 21.69842083194376,
+          "humidity": 43.81448760875996
+        },
+        "wind": {
+          "wind_speed": 4.7109248049452574,
+          "wind_gust": 7.088202360464083
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.244627747156345
+        },
+        "light": {
+          "light_level": 9854.223288227555
+        },
+        "sungrow": {
+          "dc_voltage": 291.77,
+          "dc_current": 2.32,
+          "dc_power": 676.45,
+          "ac_voltage_phase1": 226.25,
+          "ac_voltage_phase2": 229.76,
+          "ac_voltage_phase3": 234.11,
+          "ac_current_phase1": 2.99,
+          "ac_current_phase2": 2.94,
+          "ac_current_phase3": 2.89,
+          "ac_power": 642.63,
+          "efficiency": 94.86,
+          "today_energy": 16.2,
+          "total_energy": 45280.36,
+          "inverter_status": 1,
+          "inverter_temp": 33.7,
+          "solar_radiation": 808.47,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.1
+        },
+        "humidity": {
+          "current": 44.6,
+          "min": 41.2,
+          "max": 45.1,
+          "avg": 42.8
+        },
+        "wind_speed": {
+          "current": 4.71,
+          "avg": 4.44,
+          "max": 4.71
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:20:44.971570",
+      "datetime": "2025-12-10 11:20:44",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.189190336001715,
+          "humidity": 42.48981246871706,
+          "pressure": 1014.4644522042696
+        },
+        "dht22": {
+          "temperature": 20.68715756326756,
+          "humidity": 48.62997727356366
+        },
+        "wind": {
+          "wind_speed": 5.502452587151806,
+          "wind_gust": 7.301929771954125
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.237617097732468
+        },
+        "light": {
+          "light_level": 10299.660331547399
+        },
+        "sungrow": {
+          "dc_voltage": 290.29,
+          "dc_current": 2.47,
+          "dc_power": 716.93,
+          "ac_voltage_phase1": 226.7,
+          "ac_voltage_phase2": 227.34,
+          "ac_voltage_phase3": 229.82,
+          "ac_current_phase1": 3.16,
+          "ac_current_phase2": 3.15,
+          "ac_current_phase3": 3.12,
+          "ac_power": 681.08,
+          "efficiency": 94.87,
+          "today_energy": 15.54,
+          "total_energy": 45280.71,
+          "inverter_status": 1,
+          "inverter_temp": 35.47,
+          "solar_radiation": 796.23,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.2,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.3
+        },
+        "humidity": {
+          "current": 42.5,
+          "min": 41.2,
+          "max": 45.1,
+          "avg": 42.7
+        },
+        "wind_speed": {
+          "current": 5.5,
+          "avg": 4.61,
+          "max": 5.5
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:20:54.971907",
+      "datetime": "2025-12-10 11:20:54",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.64331688194495,
+          "humidity": 44.89186207429161,
+          "pressure": 1015.0705256242481
+        },
+        "dht22": {
+          "temperature": 21.80951474945887,
+          "humidity": 57.54675457938971
+        },
+        "wind": {
+          "wind_speed": 4.398375463397439,
+          "wind_gust": 6.6364111794589284
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.95102155599833
+        },
+        "light": {
+          "light_level": 8952.616302371962
+        },
+        "sungrow": {
+          "dc_voltage": 297.47,
+          "dc_current": 2.53,
+          "dc_power": 753.32,
+          "ac_voltage_phase1": 226.38,
+          "ac_voltage_phase2": 229.03,
+          "ac_voltage_phase3": 225.53,
+          "ac_current_phase1": 3.33,
+          "ac_current_phase2": 3.29,
+          "ac_current_phase3": 3.34,
+          "ac_power": 715.65,
+          "efficiency": 94.87,
+          "today_energy": 15.67,
+          "total_energy": 45280.37,
+          "inverter_status": 1,
+          "inverter_temp": 35.38,
+          "solar_radiation": 818.88,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 44.9,
+          "min": 41.2,
+          "max": 45.1,
+          "avg": 43.0
+        },
+        "wind_speed": {
+          "current": 4.4,
+          "avg": 4.58,
+          "max": 5.5
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:21:04.977586",
+      "datetime": "2025-12-10 11:21:04",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.90823938022814,
+          "humidity": 40.83398810803549,
+          "pressure": 1010.9853305095569
+        },
+        "dht22": {
+          "temperature": 21.546573554117348,
+          "humidity": 56.56468500677251
+        },
+        "wind": {
+          "wind_speed": 4.27212982273224,
+          "wind_gust": 6.4883688709025655
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.789664202594749
+        },
+        "light": {
+          "light_level": 9585.582384703273
+        },
+        "sungrow": {
+          "dc_voltage": 296.44,
+          "dc_current": 2.13,
+          "dc_power": 632.77,
+          "ac_voltage_phase1": 233.07,
+          "ac_voltage_phase2": 228.38,
+          "ac_voltage_phase3": 227.52,
+          "ac_current_phase1": 2.71,
+          "ac_current_phase2": 2.77,
+          "ac_current_phase3": 2.78,
+          "ac_power": 601.13,
+          "efficiency": 94.85,
+          "today_energy": 16.21,
+          "total_energy": 45280.71,
+          "inverter_status": 1,
+          "inverter_temp": 36.37,
+          "solar_radiation": 758.35,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.9,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.7
+        },
+        "humidity": {
+          "current": 40.8,
+          "min": 40.8,
+          "max": 45.1,
+          "avg": 42.8
+        },
+        "wind_speed": {
+          "current": 4.27,
+          "avg": 4.54,
+          "max": 5.5
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:21:14.978202",
+      "datetime": "2025-12-10 11:21:14",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.050201068984826,
+          "humidity": 44.33730313968366,
+          "pressure": 1010.2090289179248
+        },
+        "dht22": {
+          "temperature": 23.15379534417772,
+          "humidity": 45.59115143733278
+        },
+        "wind": {
+          "wind_speed": 5.3495443257553426,
+          "wind_gust": 6.525315557840783
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.274995619840544
+        },
+        "light": {
+          "light_level": 9050.729287966815
+        },
+        "sungrow": {
+          "dc_voltage": 302.29,
+          "dc_current": 2.35,
+          "dc_power": 712.05,
+          "ac_voltage_phase1": 233.63,
+          "ac_voltage_phase2": 226.74,
+          "ac_voltage_phase3": 232.28,
+          "ac_current_phase1": 3.05,
+          "ac_current_phase2": 3.14,
+          "ac_current_phase3": 3.06,
+          "ac_power": 676.44,
+          "efficiency": 94.87,
+          "today_energy": 16.11,
+          "total_energy": 45280.75,
+          "inverter_status": 1,
+          "inverter_temp": 35.57,
+          "solar_radiation": 777.68,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.1,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 44.3,
+          "min": 40.8,
+          "max": 45.1,
+          "avg": 42.9
+        },
+        "wind_speed": {
+          "current": 5.35,
+          "avg": 4.63,
+          "max": 5.5
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:21:24.979082",
+      "datetime": "2025-12-10 11:21:24",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.36479836029494,
+          "humidity": 47.72851535091144,
+          "pressure": 1015.1943932729398
+        },
+        "dht22": {
+          "temperature": 20.87406972723023,
+          "humidity": 48.25442895267334
+        },
+        "wind": {
+          "wind_speed": 5.84610328534715,
+          "wind_gust": 7.3715262999136515
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.4225608323281
+        },
+        "light": {
+          "light_level": 9605.617962576813
+        },
+        "sungrow": {
+          "dc_voltage": 294.14,
+          "dc_current": 2.24,
+          "dc_power": 657.89,
+          "ac_voltage_phase1": 227.97,
+          "ac_voltage_phase2": 225.58,
+          "ac_voltage_phase3": 231.9,
+          "ac_current_phase1": 2.88,
+          "ac_current_phase2": 2.92,
+          "ac_current_phase3": 2.84,
+          "ac_power": 624.99,
+          "efficiency": 94.86,
+          "today_energy": 16.76,
+          "total_energy": 45280.39,
+          "inverter_status": 1,
+          "inverter_temp": 33.85,
+          "solar_radiation": 799.85,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.4,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 47.7,
+          "min": 40.8,
+          "max": 47.7,
+          "avg": 43.4
+        },
+        "wind_speed": {
+          "current": 5.85,
+          "avg": 4.76,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:21:34.979821",
+      "datetime": "2025-12-10 11:21:34",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.219145522560638,
+          "humidity": 49.96276072872744,
+          "pressure": 1015.8148908675724
+        },
+        "dht22": {
+          "temperature": 22.40245679605362,
+          "humidity": 53.810007594685956
+        },
+        "wind": {
+          "wind_speed": 5.739786692112577,
+          "wind_gust": 6.205662615004021
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.741152221491414
+        },
+        "light": {
+          "light_level": 10748.101558243447
+        },
+        "sungrow": {
+          "dc_voltage": 307.75,
+          "dc_current": 2.0,
+          "dc_power": 616.18,
+          "ac_voltage_phase1": 231.82,
+          "ac_voltage_phase2": 231.44,
+          "ac_voltage_phase3": 229.17,
+          "ac_current_phase1": 2.66,
+          "ac_current_phase2": 2.66,
+          "ac_current_phase3": 2.69,
+          "ac_power": 585.38,
+          "efficiency": 94.85,
+          "today_energy": 16.43,
+          "total_energy": 45280.7,
+          "inverter_status": 1,
+          "inverter_temp": 34.36,
+          "solar_radiation": 751.0,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.2,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 50.0,
+          "min": 40.8,
+          "max": 50.0,
+          "avg": 44.0
+        },
+        "wind_speed": {
+          "current": 5.74,
+          "avg": 4.84,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:21:44.980489",
+      "datetime": "2025-12-10 11:21:44",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.173502257908538,
+          "humidity": 46.30871241534447,
+          "pressure": 1012.3999219359782
+        },
+        "dht22": {
+          "temperature": 21.260082986393307,
+          "humidity": 49.701299629500184
+        },
+        "wind": {
+          "wind_speed": 5.1445465765716945,
+          "wind_gust": 6.876616828955654
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.66815499645425
+        },
+        "light": {
+          "light_level": 10568.964860189924
+        },
+        "sungrow": {
+          "dc_voltage": 306.83,
+          "dc_current": 2.37,
+          "dc_power": 727.86,
+          "ac_voltage_phase1": 228.32,
+          "ac_voltage_phase2": 229.19,
+          "ac_voltage_phase3": 234.24,
+          "ac_current_phase1": 3.19,
+          "ac_current_phase2": 3.17,
+          "ac_current_phase3": 3.11,
+          "ac_power": 691.46,
+          "efficiency": 94.87,
+          "today_energy": 16.85,
+          "total_energy": 45280.53,
+          "inverter_status": 1,
+          "inverter_temp": 35.65,
+          "solar_radiation": 814.53,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.2,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.8
+        },
+        "humidity": {
+          "current": 46.3,
+          "min": 40.8,
+          "max": 50.0,
+          "avg": 44.2
+        },
+        "wind_speed": {
+          "current": 5.14,
+          "avg": 4.87,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:21:54.981197",
+      "datetime": "2025-12-10 11:21:54",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.585719776882836,
+          "humidity": 45.85397644694542,
+          "pressure": 1013.3120267132415
+        },
+        "dht22": {
+          "temperature": 23.13752424375575,
+          "humidity": 53.909851876959046
+        },
+        "wind": {
+          "wind_speed": 4.960366456009375,
+          "wind_gust": 6.3114769730735505
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.406377961298793
+        },
+        "light": {
+          "light_level": 9488.917014964887
+        },
+        "sungrow": {
+          "dc_voltage": 296.15,
+          "dc_current": 2.35,
+          "dc_power": 696.82,
+          "ac_voltage_phase1": 227.99,
+          "ac_voltage_phase2": 231.04,
+          "ac_voltage_phase3": 234.35,
+          "ac_current_phase1": 3.05,
+          "ac_current_phase2": 3.01,
+          "ac_current_phase3": 2.97,
+          "ac_power": 661.98,
+          "efficiency": 94.86,
+          "today_energy": 16.19,
+          "total_energy": 45280.4,
+          "inverter_status": 1,
+          "inverter_temp": 35.33,
+          "solar_radiation": 753.72,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 45.9,
+          "min": 40.8,
+          "max": 50.0,
+          "avg": 44.3
+        },
+        "wind_speed": {
+          "current": 4.96,
+          "avg": 4.88,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:22:04.981785",
+      "datetime": "2025-12-10 11:22:04",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.55473120280684,
+          "humidity": 46.495146858986324,
+          "pressure": 1011.8904477061391
+        },
+        "dht22": {
+          "temperature": 20.769066977650063,
+          "humidity": 52.67086646441307
+        },
+        "wind": {
+          "wind_speed": 4.557627131689704,
+          "wind_gust": 7.268415542022764
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.714102929042124
+        },
+        "light": {
+          "light_level": 10373.314423011687
+        },
+        "sungrow": {
+          "dc_voltage": 306.23,
+          "dc_current": 2.05,
+          "dc_power": 628.42,
+          "ac_voltage_phase1": 230.68,
+          "ac_voltage_phase2": 230.75,
+          "ac_voltage_phase3": 234.42,
+          "ac_current_phase1": 2.72,
+          "ac_current_phase2": 2.72,
+          "ac_current_phase3": 2.68,
+          "ac_power": 597.0,
+          "efficiency": 94.85,
+          "today_energy": 15.52,
+          "total_energy": 45280.35,
+          "inverter_status": 1,
+          "inverter_temp": 36.73,
+          "solar_radiation": 775.23,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 46.5,
+          "min": 40.8,
+          "max": 50.0,
+          "avg": 44.5
+        },
+        "wind_speed": {
+          "current": 4.56,
+          "avg": 4.85,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:22:14.982414",
+      "datetime": "2025-12-10 11:22:14",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.89856116692836,
+          "humidity": 40.01216242842204,
+          "pressure": 1010.6186661569791
+        },
+        "dht22": {
+          "temperature": 22.14253167315751,
+          "humidity": 48.57064498878401
+        },
+        "wind": {
+          "wind_speed": 4.415206663959111,
+          "wind_gust": 7.150513118740243
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.394407341215333
+        },
+        "light": {
+          "light_level": 9553.383244200382
+        },
+        "sungrow": {
+          "dc_voltage": 302.35,
+          "dc_current": 1.98,
+          "dc_power": 598.53,
+          "ac_voltage_phase1": 229.78,
+          "ac_voltage_phase2": 234.14,
+          "ac_voltage_phase3": 230.69,
+          "ac_current_phase1": 2.6,
+          "ac_current_phase2": 2.56,
+          "ac_current_phase3": 2.59,
+          "ac_power": 568.6,
+          "efficiency": 94.84,
+          "today_energy": 16.43,
+          "total_energy": 45280.34,
+          "inverter_status": 1,
+          "inverter_temp": 33.61,
+          "solar_radiation": 754.51,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.9,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 40.0,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.2
+        },
+        "wind_speed": {
+          "current": 4.42,
+          "avg": 4.82,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:22:24.983119",
+      "datetime": "2025-12-10 11:22:24",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.984926477087452,
+          "humidity": 46.221467724919236,
+          "pressure": 1011.6416307013138
+        },
+        "dht22": {
+          "temperature": 21.874774182555328,
+          "humidity": 46.10538204150684
+        },
+        "wind": {
+          "wind_speed": 5.679728166813116,
+          "wind_gust": 7.171092383512981
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.758480268032094
+        },
+        "light": {
+          "light_level": 9899.630722003956
+        },
+        "sungrow": {
+          "dc_voltage": 301.28,
+          "dc_current": 2.03,
+          "dc_power": 611.91,
+          "ac_voltage_phase1": 228.97,
+          "ac_voltage_phase2": 227.44,
+          "ac_voltage_phase3": 228.86,
+          "ac_current_phase1": 2.67,
+          "ac_current_phase2": 2.69,
+          "ac_current_phase3": 2.67,
+          "ac_power": 581.31,
+          "efficiency": 94.85,
+          "today_energy": 15.61,
+          "total_energy": 45280.4,
+          "inverter_status": 1,
+          "inverter_temp": 35.4,
+          "solar_radiation": 727.73,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.0,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 46.2,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.3
+        },
+        "wind_speed": {
+          "current": 5.68,
+          "avg": 4.88,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:22:34.984129",
+      "datetime": "2025-12-10 11:22:34",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.654586618541966,
+          "humidity": 41.46633687981826,
+          "pressure": 1011.8626599493311
+        },
+        "dht22": {
+          "temperature": 20.615151386132947,
+          "humidity": 44.87314202263862
+        },
+        "wind": {
+          "wind_speed": 4.511168879640922,
+          "wind_gust": 6.519865780310663
+        },
+        "rain": {
+          "rain_rate": 6.438698989882344
+        },
+        "uv": {
+          "uv_index": 8.408989144704247
+        },
+        "light": {
+          "light_level": 10376.10329637366
+        },
+        "sungrow": {
+          "dc_voltage": 303.65,
+          "dc_current": 2.44,
+          "dc_power": 741.41,
+          "ac_voltage_phase1": 225.48,
+          "ac_voltage_phase2": 226.28,
+          "ac_voltage_phase3": 225.89,
+          "ac_current_phase1": 3.29,
+          "ac_current_phase2": 3.27,
+          "ac_current_phase3": 3.28,
+          "ac_power": 704.34,
+          "efficiency": 94.87,
+          "today_energy": 16.26,
+          "total_energy": 45280.37,
+          "inverter_status": 1,
+          "inverter_temp": 34.79,
+          "solar_radiation": 812.38,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.7,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.7
+        },
+        "humidity": {
+          "current": 41.5,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.1
+        },
+        "wind_speed": {
+          "current": 4.51,
+          "avg": 4.86,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:22:44.984468",
+      "datetime": "2025-12-10 11:22:44",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.84019747890419,
+          "humidity": 42.91286153969525,
+          "pressure": 1011.5763755805707
+        },
+        "dht22": {
+          "temperature": 21.161310888777134,
+          "humidity": 46.960952859865856
+        },
+        "wind": {
+          "wind_speed": 5.687715585936209,
+          "wind_gust": 7.050168546222192
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.903637136877163
+        },
+        "light": {
+          "light_level": 9076.01470671849
+        },
+        "sungrow": {
+          "dc_voltage": 301.35,
+          "dc_current": 2.14,
+          "dc_power": 644.16,
+          "ac_voltage_phase1": 230.51,
+          "ac_voltage_phase2": 234.94,
+          "ac_voltage_phase3": 233.27,
+          "ac_current_phase1": 2.79,
+          "ac_current_phase2": 2.74,
+          "ac_current_phase3": 2.76,
+          "ac_power": 611.95,
+          "efficiency": 94.85,
+          "today_energy": 16.82,
+          "total_energy": 45280.41,
+          "inverter_status": 1,
+          "inverter_temp": 34.22,
+          "solar_radiation": 745.9,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.8,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.7
+        },
+        "humidity": {
+          "current": 42.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.1
+        },
+        "wind_speed": {
+          "current": 5.69,
+          "avg": 4.9,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:22:54.985337",
+      "datetime": "2025-12-10 11:22:54",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.958064342205834,
+          "humidity": 47.88319672815378,
+          "pressure": 1012.5270418022536
+        },
+        "dht22": {
+          "temperature": 22.772396896666034,
+          "humidity": 46.798978417964086
+        },
+        "wind": {
+          "wind_speed": 5.480144110972436,
+          "wind_gust": 6.463899554253809
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.38526003316485
+        },
+        "light": {
+          "light_level": 9854.029996027575
+        },
+        "sungrow": {
+          "dc_voltage": 303.34,
+          "dc_current": 2.12,
+          "dc_power": 644.32,
+          "ac_voltage_phase1": 234.73,
+          "ac_voltage_phase2": 226.9,
+          "ac_voltage_phase3": 230.73,
+          "ac_current_phase1": 2.74,
+          "ac_current_phase2": 2.84,
+          "ac_current_phase3": 2.79,
+          "ac_power": 612.1,
+          "efficiency": 94.85,
+          "today_energy": 17.22,
+          "total_energy": 45280.35,
+          "inverter_status": 1,
+          "inverter_temp": 36.1,
+          "solar_radiation": 812.01,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.0,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.7
+        },
+        "humidity": {
+          "current": 47.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.3
+        },
+        "wind_speed": {
+          "current": 5.48,
+          "avg": 4.93,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:23:04.990964",
+      "datetime": "2025-12-10 11:23:04",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.63736479570289,
+          "humidity": 49.031051833421294,
+          "pressure": 1011.5278075153611
+        },
+        "dht22": {
+          "temperature": 20.5468723427587,
+          "humidity": 53.19639466005488
+        },
+        "wind": {
+          "wind_speed": 4.549625874532479,
+          "wind_gust": 6.5377815374692085
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.318119143751472
+        },
+        "light": {
+          "light_level": 10602.068795272557
+        },
+        "sungrow": {
+          "dc_voltage": 296.27,
+          "dc_current": 2.16,
+          "dc_power": 640.0,
+          "ac_voltage_phase1": 233.09,
+          "ac_voltage_phase2": 227.08,
+          "ac_voltage_phase3": 230.88,
+          "ac_current_phase1": 2.74,
+          "ac_current_phase2": 2.82,
+          "ac_current_phase3": 2.77,
+          "ac_power": 608.0,
+          "efficiency": 94.85,
+          "today_energy": 15.88,
+          "total_energy": 45280.59,
+          "inverter_status": 1,
+          "inverter_temp": 35.15,
+          "solar_radiation": 771.94,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.7
+        },
+        "humidity": {
+          "current": 49.0,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.5
+        },
+        "wind_speed": {
+          "current": 4.55,
+          "avg": 4.91,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:23:14.992535",
+      "datetime": "2025-12-10 11:23:14",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.609838460410455,
+          "humidity": 46.99735585940187,
+          "pressure": 1012.9557488407155
+        },
+        "dht22": {
+          "temperature": 20.70163189016231,
+          "humidity": 53.798725173337196
+        },
+        "wind": {
+          "wind_speed": 5.8084764895034215,
+          "wind_gust": 6.0423348070994
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.078814097983617
+        },
+        "light": {
+          "light_level": 8933.120403203407
+        },
+        "sungrow": {
+          "dc_voltage": 302.52,
+          "dc_current": 2.05,
+          "dc_power": 620.05,
+          "ac_voltage_phase1": 226.26,
+          "ac_voltage_phase2": 232.64,
+          "ac_voltage_phase3": 230.64,
+          "ac_current_phase1": 2.74,
+          "ac_current_phase2": 2.66,
+          "ac_current_phase3": 2.69,
+          "ac_power": 589.05,
+          "efficiency": 94.85,
+          "today_energy": 15.56,
+          "total_energy": 45280.31,
+          "inverter_status": 1,
+          "inverter_temp": 36.05,
+          "solar_radiation": 745.43,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.7
+        },
+        "humidity": {
+          "current": 47.0,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.6
+        },
+        "wind_speed": {
+          "current": 5.81,
+          "avg": 4.96,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:23:24.992990",
+      "datetime": "2025-12-10 11:23:24",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.39326099791022,
+          "humidity": 47.635809234553875,
+          "pressure": 1010.7641771775728
+        },
+        "dht22": {
+          "temperature": 21.588072519626714,
+          "humidity": 43.10524446113785
+        },
+        "wind": {
+          "wind_speed": 4.826929508292981,
+          "wind_gust": 6.125965629327105
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.503454697057342
+        },
+        "light": {
+          "light_level": 10823.667519428865
+        },
+        "sungrow": {
+          "dc_voltage": 298.55,
+          "dc_current": 2.24,
+          "dc_power": 668.51,
+          "ac_voltage_phase1": 234.66,
+          "ac_voltage_phase2": 225.18,
+          "ac_voltage_phase3": 230.03,
+          "ac_current_phase1": 2.85,
+          "ac_current_phase2": 2.97,
+          "ac_current_phase3": 2.9,
+          "ac_power": 635.09,
+          "efficiency": 94.86,
+          "today_energy": 16.05,
+          "total_energy": 45280.36,
+          "inverter_status": 1,
+          "inverter_temp": 33.88,
+          "solar_radiation": 728.17,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.4,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 47.6,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.83,
+          "avg": 4.95,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:23:34.993667",
+      "datetime": "2025-12-10 11:23:34",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.199884600467954,
+          "humidity": 40.4663977317887,
+          "pressure": 1013.1462845269443
+        },
+        "dht22": {
+          "temperature": 21.285902877528212,
+          "humidity": 47.09740517799514
+        },
+        "wind": {
+          "wind_speed": 5.4565039102553605,
+          "wind_gust": 6.229127585352427
+        },
+        "rain": {
+          "rain_rate": 7.791020457047616
+        },
+        "uv": {
+          "uv_index": 8.152546701135305
+        },
+        "light": {
+          "light_level": 9180.179359504453
+        },
+        "sungrow": {
+          "dc_voltage": 303.81,
+          "dc_current": 2.09,
+          "dc_power": 636.55,
+          "ac_voltage_phase1": 228.01,
+          "ac_voltage_phase2": 229.5,
+          "ac_voltage_phase3": 227.35,
+          "ac_current_phase1": 2.79,
+          "ac_current_phase2": 2.77,
+          "ac_current_phase3": 2.8,
+          "ac_power": 604.72,
+          "efficiency": 94.85,
+          "today_energy": 15.86,
+          "total_energy": 45280.61,
+          "inverter_status": 1,
+          "inverter_temp": 35.54,
+          "solar_radiation": 775.56,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.2,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 40.5,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.6
+        },
+        "wind_speed": {
+          "current": 5.46,
+          "avg": 4.97,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:23:44.995298",
+      "datetime": "2025-12-10 11:23:44",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.234328666558405,
+          "humidity": 48.85818751411501,
+          "pressure": 1011.816876387218
+        },
+        "dht22": {
+          "temperature": 20.773963311780154,
+          "humidity": 54.1443811953697
+        },
+        "wind": {
+          "wind_speed": 5.4913235120989645,
+          "wind_gust": 6.984524887741769
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.781301347407703
+        },
+        "light": {
+          "light_level": 9287.96442459356
+        },
+        "sungrow": {
+          "dc_voltage": 292.84,
+          "dc_current": 2.14,
+          "dc_power": 626.44,
+          "ac_voltage_phase1": 226.41,
+          "ac_voltage_phase2": 232.64,
+          "ac_voltage_phase3": 230.2,
+          "ac_current_phase1": 2.77,
+          "ac_current_phase2": 2.69,
+          "ac_current_phase3": 2.72,
+          "ac_power": 595.12,
+          "efficiency": 94.85,
+          "today_energy": 15.99,
+          "total_energy": 45280.72,
+          "inverter_status": 1,
+          "inverter_temp": 34.93,
+          "solar_radiation": 751.94,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.2,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 48.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 5.49,
+          "avg": 4.99,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:23:54.995842",
+      "datetime": "2025-12-10 11:23:54",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.802475378427904,
+          "humidity": 46.643480768460265,
+          "pressure": 1015.4303625223581
+        },
+        "dht22": {
+          "temperature": 21.850055431301715,
+          "humidity": 56.049230637510675
+        },
+        "wind": {
+          "wind_speed": 5.074999863032241,
+          "wind_gust": 7.20097085581587
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.095010729571664
+        },
+        "light": {
+          "light_level": 9728.203562971248
+        },
+        "sungrow": {
+          "dc_voltage": 302.02,
+          "dc_current": 2.23,
+          "dc_power": 675.14,
+          "ac_voltage_phase1": 228.59,
+          "ac_voltage_phase2": 230.06,
+          "ac_voltage_phase3": 225.08,
+          "ac_current_phase1": 2.95,
+          "ac_current_phase2": 2.93,
+          "ac_current_phase3": 3.0,
+          "ac_power": 641.38,
+          "efficiency": 94.86,
+          "today_energy": 15.62,
+          "total_energy": 45280.63,
+          "inverter_status": 1,
+          "inverter_temp": 33.84,
+          "solar_radiation": 768.29,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.8,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 46.6,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 5.07,
+          "avg": 5.0,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:24:04.996332",
+      "datetime": "2025-12-10 11:24:04",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.38332080377928,
+          "humidity": 46.57883081024821,
+          "pressure": 1012.4628250461557
+        },
+        "dht22": {
+          "temperature": 22.495683507881164,
+          "humidity": 42.75552603308607
+        },
+        "wind": {
+          "wind_speed": 5.394157358073613,
+          "wind_gust": 7.560996457835125
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.81926211577314
+        },
+        "light": {
+          "light_level": 9071.127895843698
+        },
+        "sungrow": {
+          "dc_voltage": 309.84,
+          "dc_current": 2.24,
+          "dc_power": 693.66,
+          "ac_voltage_phase1": 228.35,
+          "ac_voltage_phase2": 229.65,
+          "ac_voltage_phase3": 229.09,
+          "ac_current_phase1": 3.04,
+          "ac_current_phase2": 3.02,
+          "ac_current_phase3": 3.03,
+          "ac_power": 658.98,
+          "efficiency": 94.86,
+          "today_energy": 16.92,
+          "total_energy": 45280.64,
+          "inverter_status": 1,
+          "inverter_temp": 35.11,
+          "solar_radiation": 766.67,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.4,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 46.6,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.39,
+          "avg": 5.01,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:24:14.997169",
+      "datetime": "2025-12-10 11:24:14",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.628805030861624,
+          "humidity": 45.54582664807144,
+          "pressure": 1015.1159042508111
+        },
+        "dht22": {
+          "temperature": 20.368514939845316,
+          "humidity": 49.29954140053176
+        },
+        "wind": {
+          "wind_speed": 5.691379448339249,
+          "wind_gust": 7.58112620412016
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.485690448590807
+        },
+        "light": {
+          "light_level": 10727.074474430996
+        },
+        "sungrow": {
+          "dc_voltage": 308.06,
+          "dc_current": 2.34,
+          "dc_power": 722.1,
+          "ac_voltage_phase1": 226.36,
+          "ac_voltage_phase2": 232.24,
+          "ac_voltage_phase3": 226.23,
+          "ac_current_phase1": 3.19,
+          "ac_current_phase2": 3.11,
+          "ac_current_phase3": 3.19,
+          "ac_power": 686.0,
+          "efficiency": 94.87,
+          "today_energy": 17.42,
+          "total_energy": 45280.48,
+          "inverter_status": 1,
+          "inverter_temp": 34.9,
+          "solar_radiation": 772.89,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 45.5,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.69,
+          "avg": 5.04,
+          "max": 5.85
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:24:24.997736",
+      "datetime": "2025-12-10 11:24:24",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.86098923184258,
+          "humidity": 45.93524314067714,
+          "pressure": 1015.7476577611224
+        },
+        "dht22": {
+          "temperature": 22.817764917560083,
+          "humidity": 48.834987970880924
+        },
+        "wind": {
+          "wind_speed": 5.860105683014417,
+          "wind_gust": 6.611481570192328
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.816681587911894
+        },
+        "light": {
+          "light_level": 9926.539540363681
+        },
+        "sungrow": {
+          "dc_voltage": 295.23,
+          "dc_current": 2.27,
+          "dc_power": 669.6,
+          "ac_voltage_phase1": 230.45,
+          "ac_voltage_phase2": 226.35,
+          "ac_voltage_phase3": 229.43,
+          "ac_current_phase1": 2.9,
+          "ac_current_phase2": 2.96,
+          "ac_current_phase3": 2.92,
+          "ac_power": 636.12,
+          "efficiency": 94.86,
+          "today_energy": 17.07,
+          "total_energy": 45280.68,
+          "inverter_status": 1,
+          "inverter_temp": 36.45,
+          "solar_radiation": 776.05,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.9,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 45.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.0
+        },
+        "wind_speed": {
+          "current": 5.86,
+          "avg": 5.07,
+          "max": 5.86
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:24:34.998413",
+      "datetime": "2025-12-10 11:24:34",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.228976569237343,
+          "humidity": 41.206856553844915,
+          "pressure": 1015.8158790284622
+        },
+        "dht22": {
+          "temperature": 20.50380653538336,
+          "humidity": 57.41699199817242
+        },
+        "wind": {
+          "wind_speed": 4.877931386418778,
+          "wind_gust": 6.842328274917689
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.204295959278651
+        },
+        "light": {
+          "light_level": 10139.270126060637
+        },
+        "sungrow": {
+          "dc_voltage": 301.82,
+          "dc_current": 2.05,
+          "dc_power": 618.01,
+          "ac_voltage_phase1": 229.14,
+          "ac_voltage_phase2": 232.1,
+          "ac_voltage_phase3": 229.88,
+          "ac_current_phase1": 2.7,
+          "ac_current_phase2": 2.66,
+          "ac_current_phase3": 2.69,
+          "ac_power": 587.11,
+          "efficiency": 94.85,
+          "today_energy": 16.66,
+          "total_energy": 45280.78,
+          "inverter_status": 1,
+          "inverter_temp": 37.11,
+          "solar_radiation": 739.65,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.2,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 41.2,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.88,
+          "avg": 5.06,
+          "max": 5.86
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:24:44.999133",
+      "datetime": "2025-12-10 11:24:44",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.633849189651446,
+          "humidity": 46.01066621088543,
+          "pressure": 1014.0723252850468
+        },
+        "dht22": {
+          "temperature": 21.112448531481096,
+          "humidity": 54.82439847218869
+        },
+        "wind": {
+          "wind_speed": 5.950828371985807,
+          "wind_gust": 7.036503543198541
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.387770416595357
+        },
+        "light": {
+          "light_level": 10544.976172825249
+        },
+        "sungrow": {
+          "dc_voltage": 293.56,
+          "dc_current": 2.53,
+          "dc_power": 742.69,
+          "ac_voltage_phase1": 228.55,
+          "ac_voltage_phase2": 227.09,
+          "ac_voltage_phase3": 232.93,
+          "ac_current_phase1": 3.25,
+          "ac_current_phase2": 3.27,
+          "ac_current_phase3": 3.19,
+          "ac_power": 705.55,
+          "efficiency": 94.87,
+          "today_energy": 15.66,
+          "total_energy": 45280.32,
+          "inverter_status": 1,
+          "inverter_temp": 36.22,
+          "solar_radiation": 796.29,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.6,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 46.0,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.95,
+          "avg": 5.09,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:24:54.999810",
+      "datetime": "2025-12-10 11:24:54",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.166571840821216,
+          "humidity": 45.57996881216175,
+          "pressure": 1011.5322284107593
+        },
+        "dht22": {
+          "temperature": 21.09687209022336,
+          "humidity": 49.53989020274651
+        },
+        "wind": {
+          "wind_speed": 4.166456584214158,
+          "wind_gust": 7.7898262397827445
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.12173454275592
+        },
+        "light": {
+          "light_level": 10696.29482618114
+        },
+        "sungrow": {
+          "dc_voltage": 292.27,
+          "dc_current": 2.32,
+          "dc_power": 679.46,
+          "ac_voltage_phase1": 229.04,
+          "ac_voltage_phase2": 234.33,
+          "ac_voltage_phase3": 229.11,
+          "ac_current_phase1": 2.97,
+          "ac_current_phase2": 2.9,
+          "ac_current_phase3": 2.96,
+          "ac_power": 645.49,
+          "efficiency": 94.86,
+          "today_energy": 15.88,
+          "total_energy": 45280.71,
+          "inverter_status": 1,
+          "inverter_temp": 35.5,
+          "solar_radiation": 799.91,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.2,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 45.6,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 4.17,
+          "avg": 5.06,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:25:05.000153",
+      "datetime": "2025-12-10 11:25:05",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.32289509429959,
+          "humidity": 46.27073189059481,
+          "pressure": 1012.5380832131435
+        },
+        "dht22": {
+          "temperature": 22.704340453735888,
+          "humidity": 57.056584565993816
+        },
+        "wind": {
+          "wind_speed": 5.140724490911525,
+          "wind_gust": 7.033507064189012
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.064312035014444
+        },
+        "light": {
+          "light_level": 10520.39035737944
+        },
+        "sungrow": {
+          "dc_voltage": 302.79,
+          "dc_current": 1.99,
+          "dc_power": 601.82,
+          "ac_voltage_phase1": 228.39,
+          "ac_voltage_phase2": 233.21,
+          "ac_voltage_phase3": 233.42,
+          "ac_current_phase1": 2.63,
+          "ac_current_phase2": 2.58,
+          "ac_current_phase3": 2.58,
+          "ac_power": 571.73,
+          "efficiency": 94.84,
+          "today_energy": 16.66,
+          "total_energy": 45280.31,
+          "inverter_status": 1,
+          "inverter_temp": 35.31,
+          "solar_radiation": 763.09,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.3,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 46.3,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.14,
+          "avg": 5.06,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:25:15.000781",
+      "datetime": "2025-12-10 11:25:15",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.495717158599657,
+          "humidity": 48.060018368013125,
+          "pressure": 1015.0816347807778
+        },
+        "dht22": {
+          "temperature": 21.291996499912457,
+          "humidity": 53.152723748581444
+        },
+        "wind": {
+          "wind_speed": 5.685108519202834,
+          "wind_gust": 7.9374881386956355
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.481918971453789
+        },
+        "light": {
+          "light_level": 10035.973639050471
+        },
+        "sungrow": {
+          "dc_voltage": 291.83,
+          "dc_current": 2.24,
+          "dc_power": 652.93,
+          "ac_voltage_phase1": 233.83,
+          "ac_voltage_phase2": 228.14,
+          "ac_voltage_phase3": 227.58,
+          "ac_current_phase1": 2.79,
+          "ac_current_phase2": 2.86,
+          "ac_current_phase3": 2.87,
+          "ac_power": 620.28,
+          "efficiency": 94.85,
+          "today_energy": 17.12,
+          "total_energy": 45280.49,
+          "inverter_status": 1,
+          "inverter_temp": 34.8,
+          "solar_radiation": 731.38,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.5,
+          "min": 17.6,
+          "max": 21.4,
+          "avg": 19.3
+        },
+        "humidity": {
+          "current": 48.1,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.0
+        },
+        "wind_speed": {
+          "current": 5.69,
+          "avg": 5.08,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:25:25.001343",
+      "datetime": "2025-12-10 11:25:25",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.493410341157695,
+          "humidity": 40.30412997931381,
+          "pressure": 1011.3478989471618
+        },
+        "dht22": {
+          "temperature": 22.46405255209018,
+          "humidity": 49.37623331922532
+        },
+        "wind": {
+          "wind_speed": 4.889794150110827,
+          "wind_gust": 6.359075316122029
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.941210942398201
+        },
+        "light": {
+          "light_level": 9389.215052926636
+        },
+        "sungrow": {
+          "dc_voltage": 304.27,
+          "dc_current": 1.96,
+          "dc_power": 597.05,
+          "ac_voltage_phase1": 227.17,
+          "ac_voltage_phase2": 226.78,
+          "ac_voltage_phase3": 227.04,
+          "ac_current_phase1": 2.63,
+          "ac_current_phase2": 2.63,
+          "ac_current_phase3": 2.63,
+          "ac_power": 567.19,
+          "efficiency": 94.84,
+          "today_energy": 16.19,
+          "total_energy": 45280.65,
+          "inverter_status": 1,
+          "inverter_temp": 33.21,
+          "solar_radiation": 729.43,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.5,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 40.3,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 4.89,
+          "avg": 5.08,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:25:35.002094",
+      "datetime": "2025-12-10 11:25:35",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.62200095205322,
+          "humidity": 45.24136618781611,
+          "pressure": 1012.3660780254195
+        },
+        "dht22": {
+          "temperature": 21.112115623922413,
+          "humidity": 42.69342981585397
+        },
+        "wind": {
+          "wind_speed": 5.339835636753907,
+          "wind_gust": 7.223520784020751
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.282667332797352
+        },
+        "light": {
+          "light_level": 10614.624751613557
+        },
+        "sungrow": {
+          "dc_voltage": 309.62,
+          "dc_current": 2.08,
+          "dc_power": 643.24,
+          "ac_voltage_phase1": 229.04,
+          "ac_voltage_phase2": 231.02,
+          "ac_voltage_phase3": 227.37,
+          "ac_current_phase1": 2.81,
+          "ac_current_phase2": 2.78,
+          "ac_current_phase3": 2.83,
+          "ac_power": 611.08,
+          "efficiency": 94.85,
+          "today_energy": 16.97,
+          "total_energy": 45280.61,
+          "inverter_status": 1,
+          "inverter_temp": 35.85,
+          "solar_radiation": 749.26,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.6,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 45.2,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.34,
+          "avg": 5.08,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:25:45.003227",
+      "datetime": "2025-12-10 11:25:45",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.128020093408892,
+          "humidity": 44.12830813800123,
+          "pressure": 1015.8680690761518
+        },
+        "dht22": {
+          "temperature": 20.890287096592445,
+          "humidity": 53.40497905071551
+        },
+        "wind": {
+          "wind_speed": 4.527679649715851,
+          "wind_gust": 7.527918798845111
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.871672455492862
+        },
+        "light": {
+          "light_level": 10812.552261990042
+        },
+        "sungrow": {
+          "dc_voltage": 293.09,
+          "dc_current": 2.43,
+          "dc_power": 712.41,
+          "ac_voltage_phase1": 228.39,
+          "ac_voltage_phase2": 227.11,
+          "ac_voltage_phase3": 234.77,
+          "ac_current_phase1": 3.12,
+          "ac_current_phase2": 3.14,
+          "ac_current_phase3": 3.03,
+          "ac_power": 676.79,
+          "efficiency": 94.87,
+          "today_energy": 16.26,
+          "total_energy": 45280.59,
+          "inverter_status": 1,
+          "inverter_temp": 36.33,
+          "solar_radiation": 782.94,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.1,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 44.1,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 4.53,
+          "avg": 5.07,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:25:55.003749",
+      "datetime": "2025-12-10 11:25:55",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.105105167517525,
+          "humidity": 42.902989190201474,
+          "pressure": 1015.2649794754136
+        },
+        "dht22": {
+          "temperature": 22.261374633466215,
+          "humidity": 50.956868092621576
+        },
+        "wind": {
+          "wind_speed": 4.98082275975476,
+          "wind_gust": 7.962988271374185
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.469311335311268
+        },
+        "light": {
+          "light_level": 10682.312117196661
+        },
+        "sungrow": {
+          "dc_voltage": 297.8,
+          "dc_current": 2.18,
+          "dc_power": 650.83,
+          "ac_voltage_phase1": 227.55,
+          "ac_voltage_phase2": 225.54,
+          "ac_voltage_phase3": 230.74,
+          "ac_current_phase1": 2.86,
+          "ac_current_phase2": 2.88,
+          "ac_current_phase3": 2.82,
+          "ac_power": 618.29,
+          "efficiency": 94.85,
+          "today_energy": 16.0,
+          "total_energy": 45280.61,
+          "inverter_status": 1,
+          "inverter_temp": 33.27,
+          "solar_radiation": 797.15,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.1,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 42.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.98,
+          "avg": 5.07,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:26:05.004204",
+      "datetime": "2025-12-10 11:26:05",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.03347514520337,
+          "humidity": 42.74840456106903,
+          "pressure": 1013.1025349842497
+        },
+        "dht22": {
+          "temperature": 21.16543044129247,
+          "humidity": 45.974112460317926
+        },
+        "wind": {
+          "wind_speed": 5.256472505997646,
+          "wind_gust": 7.304557724791053
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.983764441019745
+        },
+        "light": {
+          "light_level": 9799.561937447037
+        },
+        "sungrow": {
+          "dc_voltage": 292.28,
+          "dc_current": 2.23,
+          "dc_power": 652.71,
+          "ac_voltage_phase1": 231.09,
+          "ac_voltage_phase2": 229.66,
+          "ac_voltage_phase3": 229.26,
+          "ac_current_phase1": 2.82,
+          "ac_current_phase2": 2.84,
+          "ac_current_phase3": 2.85,
+          "ac_power": 620.07,
+          "efficiency": 94.85,
+          "today_energy": 15.7,
+          "total_energy": 45280.37,
+          "inverter_status": 1,
+          "inverter_temp": 35.78,
+          "solar_radiation": 742.79,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.0,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 42.7,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 5.26,
+          "avg": 5.07,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:26:15.004952",
+      "datetime": "2025-12-10 11:26:15",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.61632978522624,
+          "humidity": 44.835416247235095,
+          "pressure": 1011.4942146794233
+        },
+        "dht22": {
+          "temperature": 21.931125109119762,
+          "humidity": 52.19151205072918
+        },
+        "wind": {
+          "wind_speed": 4.302120942840588,
+          "wind_gust": 6.140435101196653
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.9155378055227485
+        },
+        "light": {
+          "light_level": 10145.470307817432
+        },
+        "sungrow": {
+          "dc_voltage": 297.74,
+          "dc_current": 2.55,
+          "dc_power": 758.05,
+          "ac_voltage_phase1": 233.94,
+          "ac_voltage_phase2": 228.81,
+          "ac_voltage_phase3": 229.12,
+          "ac_current_phase1": 3.24,
+          "ac_current_phase2": 3.31,
+          "ac_current_phase3": 3.31,
+          "ac_power": 720.14,
+          "efficiency": 94.87,
+          "today_energy": 16.0,
+          "total_energy": 45280.72,
+          "inverter_status": 1,
+          "inverter_temp": 36.72,
+          "solar_radiation": 818.84,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.6,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 44.8,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.3,
+          "avg": 5.05,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:26:25.005564",
+      "datetime": "2025-12-10 11:26:25",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.578310677784202,
+          "humidity": 45.650831092304756,
+          "pressure": 1014.811341655133
+        },
+        "dht22": {
+          "temperature": 21.99269914561122,
+          "humidity": 46.027352406986246
+        },
+        "wind": {
+          "wind_speed": 5.711062609859467,
+          "wind_gust": 7.232982702081124
+        },
+        "rain": {
+          "rain_rate": 6.7500895956200795
+        },
+        "uv": {
+          "uv_index": 7.986739724347367
+        },
+        "light": {
+          "light_level": 8993.668803923372
+        },
+        "sungrow": {
+          "dc_voltage": 293.92,
+          "dc_current": 2.53,
+          "dc_power": 743.26,
+          "ac_voltage_phase1": 230.94,
+          "ac_voltage_phase2": 227.97,
+          "ac_voltage_phase3": 228.02,
+          "ac_current_phase1": 3.22,
+          "ac_current_phase2": 3.26,
+          "ac_current_phase3": 3.26,
+          "ac_power": 706.1,
+          "efficiency": 94.87,
+          "today_energy": 15.87,
+          "total_energy": 45280.59,
+          "inverter_status": 1,
+          "inverter_temp": 35.54,
+          "solar_radiation": 812.64,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.6,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 45.7,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 5.71,
+          "avg": 5.07,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:26:35.006284",
+      "datetime": "2025-12-10 11:26:35",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.985709295361985,
+          "humidity": 42.93015516279915,
+          "pressure": 1014.0569194209311
+        },
+        "dht22": {
+          "temperature": 21.889036752914883,
+          "humidity": 48.46185626022891
+        },
+        "wind": {
+          "wind_speed": 5.047622559673624,
+          "wind_gust": 6.495895915610381
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.669243280964174
+        },
+        "light": {
+          "light_level": 9077.036119869885
+        },
+        "sungrow": {
+          "dc_voltage": 296.32,
+          "dc_current": 2.37,
+          "dc_power": 703.99,
+          "ac_voltage_phase1": 232.42,
+          "ac_voltage_phase2": 227.57,
+          "ac_voltage_phase3": 225.89,
+          "ac_current_phase1": 3.03,
+          "ac_current_phase2": 3.09,
+          "ac_current_phase3": 3.12,
+          "ac_power": 668.79,
+          "efficiency": 94.87,
+          "today_energy": 16.87,
+          "total_energy": 45280.58,
+          "inverter_status": 1,
+          "inverter_temp": 36.33,
+          "solar_radiation": 787.0,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.0,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 42.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 5.05,
+          "avg": 5.07,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:26:45.007301",
+      "datetime": "2025-12-10 11:26:45",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.63383711299449,
+          "humidity": 40.366716737675794,
+          "pressure": 1011.7157858483858
+        },
+        "dht22": {
+          "temperature": 21.518287863699896,
+          "humidity": 46.60686136947181
+        },
+        "wind": {
+          "wind_speed": 5.921139234869266,
+          "wind_gust": 7.459400207609372
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.933944899790314
+        },
+        "light": {
+          "light_level": 10758.431966614826
+        },
+        "sungrow": {
+          "dc_voltage": 293.27,
+          "dc_current": 2.41,
+          "dc_power": 708.46,
+          "ac_voltage_phase1": 232.9,
+          "ac_voltage_phase2": 226.75,
+          "ac_voltage_phase3": 229.6,
+          "ac_current_phase1": 3.04,
+          "ac_current_phase2": 3.12,
+          "ac_current_phase3": 3.08,
+          "ac_power": 673.04,
+          "efficiency": 94.87,
+          "today_energy": 16.84,
+          "total_energy": 45280.36,
+          "inverter_status": 1,
+          "inverter_temp": 34.54,
+          "solar_radiation": 811.62,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.6,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 40.4,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.6
+        },
+        "wind_speed": {
+          "current": 5.92,
+          "avg": 5.09,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:26:55.008399",
+      "datetime": "2025-12-10 11:26:55",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.222624566410005,
+          "humidity": 47.130599279815556,
+          "pressure": 1015.6716908292193
+        },
+        "dht22": {
+          "temperature": 20.99964469928931,
+          "humidity": 54.045521202091734
+        },
+        "wind": {
+          "wind_speed": 5.734165496684703,
+          "wind_gust": 7.649939860681653
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.141693381667144
+        },
+        "light": {
+          "light_level": 9483.439806793307
+        },
+        "sungrow": {
+          "dc_voltage": 292.36,
+          "dc_current": 2.25,
+          "dc_power": 657.72,
+          "ac_voltage_phase1": 233.02,
+          "ac_voltage_phase2": 228.83,
+          "ac_voltage_phase3": 225.08,
+          "ac_current_phase1": 2.82,
+          "ac_current_phase2": 2.87,
+          "ac_current_phase3": 2.92,
+          "ac_power": 624.83,
+          "efficiency": 94.86,
+          "today_energy": 17.09,
+          "total_energy": 45280.57,
+          "inverter_status": 1,
+          "inverter_temp": 34.7,
+          "solar_radiation": 733.68,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.2,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 47.1,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.7
+        },
+        "wind_speed": {
+          "current": 5.73,
+          "avg": 5.1,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:27:05.009342",
+      "datetime": "2025-12-10 11:27:05",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.105302192057586,
+          "humidity": 48.34360924442267,
+          "pressure": 1012.006674787678
+        },
+        "dht22": {
+          "temperature": 21.125996343248904,
+          "humidity": 49.73018327272089
+        },
+        "wind": {
+          "wind_speed": 4.426967677098819,
+          "wind_gust": 6.034453812798837
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.120157873560355
+        },
+        "light": {
+          "light_level": 10431.621756603061
+        },
+        "sungrow": {
+          "dc_voltage": 302.06,
+          "dc_current": 2.17,
+          "dc_power": 655.82,
+          "ac_voltage_phase1": 230.6,
+          "ac_voltage_phase2": 230.35,
+          "ac_voltage_phase3": 233.68,
+          "ac_current_phase1": 2.84,
+          "ac_current_phase2": 2.85,
+          "ac_current_phase3": 2.81,
+          "ac_power": 623.03,
+          "efficiency": 94.86,
+          "today_energy": 16.62,
+          "total_energy": 45280.73,
+          "inverter_status": 1,
+          "inverter_temp": 33.85,
+          "solar_radiation": 783.71,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.1,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 48.3,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.43,
+          "avg": 5.09,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:27:15.009906",
+      "datetime": "2025-12-10 11:27:15",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.58355486564321,
+          "humidity": 43.35220735198374,
+          "pressure": 1015.8280047199778
+        },
+        "dht22": {
+          "temperature": 22.536612392437448,
+          "humidity": 54.41634091873469
+        },
+        "wind": {
+          "wind_speed": 4.931328577972841,
+          "wind_gust": 6.623621938404489
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.722099112310881
+        },
+        "light": {
+          "light_level": 9954.9087370679
+        },
+        "sungrow": {
+          "dc_voltage": 295.06,
+          "dc_current": 2.16,
+          "dc_power": 636.74,
+          "ac_voltage_phase1": 230.65,
+          "ac_voltage_phase2": 230.65,
+          "ac_voltage_phase3": 227.38,
+          "ac_current_phase1": 2.76,
+          "ac_current_phase2": 2.76,
+          "ac_current_phase3": 2.8,
+          "ac_power": 604.9,
+          "efficiency": 94.85,
+          "today_energy": 15.62,
+          "total_energy": 45280.61,
+          "inverter_status": 1,
+          "inverter_temp": 36.28,
+          "solar_radiation": 779.9,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.6,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 43.4,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.93,
+          "avg": 5.08,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:27:25.010816",
+      "datetime": "2025-12-10 11:27:25",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.230971812313644,
+          "humidity": 47.3398752929831,
+          "pressure": 1011.5940945925931
+        },
+        "dht22": {
+          "temperature": 22.159168052487132,
+          "humidity": 43.61181727299302
+        },
+        "wind": {
+          "wind_speed": 4.872450587450613,
+          "wind_gust": 7.547017008333157
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.6280452064384745
+        },
+        "light": {
+          "light_level": 9980.062449122654
+        },
+        "sungrow": {
+          "dc_voltage": 304.05,
+          "dc_current": 2.14,
+          "dc_power": 649.99,
+          "ac_voltage_phase1": 225.14,
+          "ac_voltage_phase2": 230.45,
+          "ac_voltage_phase3": 226.49,
+          "ac_current_phase1": 2.89,
+          "ac_current_phase2": 2.82,
+          "ac_current_phase3": 2.87,
+          "ac_power": 617.49,
+          "efficiency": 94.85,
+          "today_energy": 16.8,
+          "total_energy": 45280.53,
+          "inverter_status": 1,
+          "inverter_temp": 35.71,
+          "solar_radiation": 727.91,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.2,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 47.3,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.87,
+          "avg": 5.08,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:27:35.011478",
+      "datetime": "2025-12-10 11:27:35",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.669524095424805,
+          "humidity": 43.49511393373876,
+          "pressure": 1015.5490308341235
+        },
+        "dht22": {
+          "temperature": 21.515014475353805,
+          "humidity": 43.674357647005564
+        },
+        "wind": {
+          "wind_speed": 4.679348260170219,
+          "wind_gust": 7.393153780348854
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.754420285139445
+        },
+        "light": {
+          "light_level": 9337.96892157088
+        },
+        "sungrow": {
+          "dc_voltage": 295.1,
+          "dc_current": 2.29,
+          "dc_power": 676.61,
+          "ac_voltage_phase1": 227.06,
+          "ac_voltage_phase2": 226.14,
+          "ac_voltage_phase3": 230.24,
+          "ac_current_phase1": 2.98,
+          "ac_current_phase2": 2.99,
+          "ac_current_phase3": 2.94,
+          "ac_power": 642.78,
+          "efficiency": 94.86,
+          "today_energy": 17.02,
+          "total_energy": 45280.54,
+          "inverter_status": 1,
+          "inverter_temp": 33.28,
+          "solar_radiation": 789.82,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.7,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 43.5,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.68,
+          "avg": 5.07,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:27:45.012159",
+      "datetime": "2025-12-10 11:27:45",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.86815934597432,
+          "humidity": 41.97112011235772,
+          "pressure": 1012.8248638856078
+        },
+        "dht22": {
+          "temperature": 21.598121318429854,
+          "humidity": 48.53296686871566
+        },
+        "wind": {
+          "wind_speed": 4.101868749793453,
+          "wind_gust": 7.571684595939902
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.454902240234798
+        },
+        "light": {
+          "light_level": 10178.738026426267
+        },
+        "sungrow": {
+          "dc_voltage": 294.63,
+          "dc_current": 1.99,
+          "dc_power": 587.22,
+          "ac_voltage_phase1": 225.0,
+          "ac_voltage_phase2": 228.66,
+          "ac_voltage_phase3": 228.01,
+          "ac_current_phase1": 2.61,
+          "ac_current_phase2": 2.57,
+          "ac_current_phase3": 2.57,
+          "ac_power": 557.86,
+          "efficiency": 94.84,
+          "today_energy": 16.44,
+          "total_energy": 45280.63,
+          "inverter_status": 1,
+          "inverter_temp": 33.12,
+          "solar_radiation": 743.6,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.9,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 42.0,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.7
+        },
+        "wind_speed": {
+          "current": 4.1,
+          "avg": 5.05,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:27:55.012957",
+      "datetime": "2025-12-10 11:27:55",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.769391788192813,
+          "humidity": 43.26483855799421,
+          "pressure": 1010.3452007350062
+        },
+        "dht22": {
+          "temperature": 20.664946887268133,
+          "humidity": 54.177973269294355
+        },
+        "wind": {
+          "wind_speed": 5.425280549221948,
+          "wind_gust": 7.5365893845201715
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.33144402127086
+        },
+        "light": {
+          "light_level": 9303.555832180124
+        },
+        "sungrow": {
+          "dc_voltage": 292.96,
+          "dc_current": 2.34,
+          "dc_power": 686.85,
+          "ac_voltage_phase1": 228.68,
+          "ac_voltage_phase2": 233.4,
+          "ac_voltage_phase3": 234.73,
+          "ac_current_phase1": 3.0,
+          "ac_current_phase2": 2.94,
+          "ac_current_phase3": 2.92,
+          "ac_power": 652.51,
+          "efficiency": 94.86,
+          "today_energy": 16.09,
+          "total_energy": 45280.66,
+          "inverter_status": 1,
+          "inverter_temp": 37.11,
+          "solar_radiation": 753.34,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.8,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.4
+        },
+        "humidity": {
+          "current": 43.3,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.7
+        },
+        "wind_speed": {
+          "current": 5.43,
+          "avg": 5.06,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:28:05.014297",
+      "datetime": "2025-12-10 11:28:05",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.3801756532702,
+          "humidity": 49.976161741565576,
+          "pressure": 1012.7437060951019
+        },
+        "dht22": {
+          "temperature": 21.589313292818375,
+          "humidity": 49.87224851996207
+        },
+        "wind": {
+          "wind_speed": 4.899676103463888,
+          "wind_gust": 6.626498236457702
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.988409989423452
+        },
+        "light": {
+          "light_level": 9250.670365981223
+        },
+        "sungrow": {
+          "dc_voltage": 306.77,
+          "dc_current": 2.36,
+          "dc_power": 723.23,
+          "ac_voltage_phase1": 230.93,
+          "ac_voltage_phase2": 226.68,
+          "ac_voltage_phase3": 229.62,
+          "ac_current_phase1": 3.13,
+          "ac_current_phase2": 3.19,
+          "ac_current_phase3": 3.15,
+          "ac_power": 687.07,
+          "efficiency": 94.87,
+          "today_energy": 16.62,
+          "total_energy": 45280.67,
+          "inverter_status": 1,
+          "inverter_temp": 35.89,
+          "solar_radiation": 812.16,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.4,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 50.0,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.9,
+          "avg": 5.06,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:28:15.015077",
+      "datetime": "2025-12-10 11:28:15",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.866352324241596,
+          "humidity": 43.31437772009751,
+          "pressure": 1012.0642023120093
+        },
+        "dht22": {
+          "temperature": 20.555167066623426,
+          "humidity": 45.84445930838645
+        },
+        "wind": {
+          "wind_speed": 4.8755753463324405,
+          "wind_gust": 7.92973476289946
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.106768698236205
+        },
+        "light": {
+          "light_level": 9440.710633331251
+        },
+        "sungrow": {
+          "dc_voltage": 307.78,
+          "dc_current": 2.23,
+          "dc_power": 685.1,
+          "ac_voltage_phase1": 227.64,
+          "ac_voltage_phase2": 233.56,
+          "ac_voltage_phase3": 225.5,
+          "ac_current_phase1": 3.01,
+          "ac_current_phase2": 2.93,
+          "ac_current_phase3": 3.04,
+          "ac_power": 650.84,
+          "efficiency": 94.86,
+          "today_energy": 16.45,
+          "total_energy": 45280.41,
+          "inverter_status": 1,
+          "inverter_temp": 35.76,
+          "solar_radiation": 800.57,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.9,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 43.3,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.88,
+          "avg": 5.05,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:28:25.015718",
+      "datetime": "2025-12-10 11:28:25",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.477767102242957,
+          "humidity": 48.5869544526746,
+          "pressure": 1014.227860467595
+        },
+        "dht22": {
+          "temperature": 22.594612654035956,
+          "humidity": 45.39564155196844
+        },
+        "wind": {
+          "wind_speed": 5.132628770829426,
+          "wind_gust": 7.403807468530811
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.298817784229636
+        },
+        "light": {
+          "light_level": 8984.56984151516
+        },
+        "sungrow": {
+          "dc_voltage": 300.32,
+          "dc_current": 2.27,
+          "dc_power": 681.12,
+          "ac_voltage_phase1": 225.85,
+          "ac_voltage_phase2": 230.53,
+          "ac_voltage_phase3": 227.44,
+          "ac_current_phase1": 3.01,
+          "ac_current_phase2": 2.95,
+          "ac_current_phase3": 2.99,
+          "ac_power": 647.07,
+          "efficiency": 94.86,
+          "today_energy": 17.3,
+          "total_energy": 45280.39,
+          "inverter_status": 1,
+          "inverter_temp": 33.25,
+          "solar_radiation": 820.86,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.5,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 48.6,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 5.13,
+          "avg": 5.05,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:28:35.016430",
+      "datetime": "2025-12-10 11:28:35",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.684290240036262,
+          "humidity": 46.10162170216334,
+          "pressure": 1015.2174582017041
+        },
+        "dht22": {
+          "temperature": 20.51756668819074,
+          "humidity": 50.6933662039014
+        },
+        "wind": {
+          "wind_speed": 4.256972254988461,
+          "wind_gust": 6.695880133871784
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.463031851827889
+        },
+        "light": {
+          "light_level": 9659.372294029192
+        },
+        "sungrow": {
+          "dc_voltage": 305.85,
+          "dc_current": 2.29,
+          "dc_power": 700.47,
+          "ac_voltage_phase1": 226.3,
+          "ac_voltage_phase2": 231.61,
+          "ac_voltage_phase3": 229.52,
+          "ac_current_phase1": 3.09,
+          "ac_current_phase2": 3.02,
+          "ac_current_phase3": 3.05,
+          "ac_power": 665.45,
+          "efficiency": 94.86,
+          "today_energy": 17.01,
+          "total_energy": 45280.66,
+          "inverter_status": 1,
+          "inverter_temp": 36.65,
+          "solar_radiation": 793.29,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.7,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 46.1,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 4.26,
+          "avg": 5.04,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:28:45.017179",
+      "datetime": "2025-12-10 11:28:45",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.302756728877235,
+          "humidity": 44.11056031625271,
+          "pressure": 1013.9095093644117
+        },
+        "dht22": {
+          "temperature": 20.184733683324648,
+          "humidity": 49.56499407573996
+        },
+        "wind": {
+          "wind_speed": 4.335189776433193,
+          "wind_gust": 6.827564720174864
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.65640314744732
+        },
+        "light": {
+          "light_level": 9584.864409530952
+        },
+        "sungrow": {
+          "dc_voltage": 302.68,
+          "dc_current": 2.3,
+          "dc_power": 696.9,
+          "ac_voltage_phase1": 225.45,
+          "ac_voltage_phase2": 232.61,
+          "ac_voltage_phase3": 230.02,
+          "ac_current_phase1": 3.09,
+          "ac_current_phase2": 2.99,
+          "ac_current_phase3": 3.03,
+          "ac_power": 662.06,
+          "efficiency": 94.86,
+          "today_energy": 16.38,
+          "total_energy": 45280.74,
+          "inverter_status": 1,
+          "inverter_temp": 36.27,
+          "solar_radiation": 808.49,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.3,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 44.1,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 4.34,
+          "avg": 5.03,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:28:55.018024",
+      "datetime": "2025-12-10 11:28:55",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.22716622158874,
+          "humidity": 42.71949009255625,
+          "pressure": 1011.4194207321793
+        },
+        "dht22": {
+          "temperature": 21.117917183915587,
+          "humidity": 42.242294756231715
+        },
+        "wind": {
+          "wind_speed": 3.9955175614704013,
+          "wind_gust": 7.045251464428145
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.883057434938404
+        },
+        "light": {
+          "light_level": 9348.136809981046
+        },
+        "sungrow": {
+          "dc_voltage": 306.5,
+          "dc_current": 2.3,
+          "dc_power": 703.81,
+          "ac_voltage_phase1": 233.84,
+          "ac_voltage_phase2": 234.93,
+          "ac_voltage_phase3": 229.42,
+          "ac_current_phase1": 3.01,
+          "ac_current_phase2": 2.99,
+          "ac_current_phase3": 3.07,
+          "ac_power": 668.62,
+          "efficiency": 94.87,
+          "today_energy": 15.81,
+          "total_energy": 45280.69,
+          "inverter_status": 1,
+          "inverter_temp": 36.11,
+          "solar_radiation": 807.9,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.2,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 42.7,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.8
+        },
+        "wind_speed": {
+          "current": 4.0,
+          "avg": 5.01,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:29:05.018931",
+      "datetime": "2025-12-10 11:29:05",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.034403133864593,
+          "humidity": 48.34252731393801,
+          "pressure": 1013.4834455758711
+        },
+        "dht22": {
+          "temperature": 21.356563003371413,
+          "humidity": 43.318601909846564
+        },
+        "wind": {
+          "wind_speed": 5.432099130190623,
+          "wind_gust": 6.375564385866128
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.190533342981828
+        },
+        "light": {
+          "light_level": 9739.914927585143
+        },
+        "sungrow": {
+          "dc_voltage": 305.95,
+          "dc_current": 2.31,
+          "dc_power": 706.8,
+          "ac_voltage_phase1": 234.55,
+          "ac_voltage_phase2": 232.3,
+          "ac_voltage_phase3": 231.9,
+          "ac_current_phase1": 3.01,
+          "ac_current_phase2": 3.04,
+          "ac_current_phase3": 3.05,
+          "ac_power": 671.46,
+          "efficiency": 94.87,
+          "today_energy": 15.74,
+          "total_energy": 45280.78,
+          "inverter_status": 1,
+          "inverter_temp": 37.01,
+          "solar_radiation": 818.9,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.0,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 48.3,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.43,
+          "avg": 5.01,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:29:15.019890",
+      "datetime": "2025-12-10 11:29:15",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.281298690489038,
+          "humidity": 43.6838015404679,
+          "pressure": 1011.2904539844441
+        },
+        "dht22": {
+          "temperature": 22.901288220706967,
+          "humidity": 47.394011939244194
+        },
+        "wind": {
+          "wind_speed": 5.606884615166623,
+          "wind_gust": 7.467291416230291
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.290303826333837
+        },
+        "light": {
+          "light_level": 10401.155013064621
+        },
+        "sungrow": {
+          "dc_voltage": 302.34,
+          "dc_current": 2.36,
+          "dc_power": 714.08,
+          "ac_voltage_phase1": 231.4,
+          "ac_voltage_phase2": 231.36,
+          "ac_voltage_phase3": 232.11,
+          "ac_current_phase1": 3.08,
+          "ac_current_phase2": 3.08,
+          "ac_current_phase3": 3.08,
+          "ac_power": 678.38,
+          "efficiency": 94.87,
+          "today_energy": 16.59,
+          "total_energy": 45280.56,
+          "inverter_status": 1,
+          "inverter_temp": 36.01,
+          "solar_radiation": 800.64,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.3,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 43.7,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.61,
+          "avg": 5.02,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:29:25.020783",
+      "datetime": "2025-12-10 11:29:25",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.158634469383603,
+          "humidity": 48.04128126564224,
+          "pressure": 1011.4341934410643
+        },
+        "dht22": {
+          "temperature": 22.85059902334276,
+          "humidity": 47.934595106706695
+        },
+        "wind": {
+          "wind_speed": 5.421398348838062,
+          "wind_gust": 6.404179228490182
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.000883707795586
+        },
+        "light": {
+          "light_level": 10088.636179978386
+        },
+        "sungrow": {
+          "dc_voltage": 299.23,
+          "dc_current": 2.17,
+          "dc_power": 649.76,
+          "ac_voltage_phase1": 233.57,
+          "ac_voltage_phase2": 231.33,
+          "ac_voltage_phase3": 232.88,
+          "ac_current_phase1": 2.78,
+          "ac_current_phase2": 2.81,
+          "ac_current_phase3": 2.79,
+          "ac_power": 617.27,
+          "efficiency": 94.85,
+          "today_energy": 16.06,
+          "total_energy": 45280.35,
+          "inverter_status": 1,
+          "inverter_temp": 36.65,
+          "solar_radiation": 752.4,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.2,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 48.0,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 44.9
+        },
+        "wind_speed": {
+          "current": 5.42,
+          "avg": 5.03,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:29:35.021523",
+      "datetime": "2025-12-10 11:29:35",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.957512009487747,
+          "humidity": 48.717077183942024,
+          "pressure": 1010.9552806782847
+        },
+        "dht22": {
+          "temperature": 20.72721259134349,
+          "humidity": 55.19963375707865
+        },
+        "wind": {
+          "wind_speed": 4.363649901406755,
+          "wind_gust": 7.337117394483376
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.8837151312676275
+        },
+        "light": {
+          "light_level": 9620.618084743475
+        },
+        "sungrow": {
+          "dc_voltage": 300.89,
+          "dc_current": 2.09,
+          "dc_power": 630.24,
+          "ac_voltage_phase1": 225.76,
+          "ac_voltage_phase2": 232.58,
+          "ac_voltage_phase3": 229.99,
+          "ac_current_phase1": 2.79,
+          "ac_current_phase2": 2.71,
+          "ac_current_phase3": 2.74,
+          "ac_power": 598.73,
+          "efficiency": 94.85,
+          "today_energy": 16.0,
+          "total_energy": 45280.35,
+          "inverter_status": 1,
+          "inverter_temp": 34.78,
+          "solar_radiation": 809.83,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.0,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 48.7,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.0
+        },
+        "wind_speed": {
+          "current": 4.36,
+          "avg": 5.02,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:29:45.022230",
+      "datetime": "2025-12-10 11:29:45",
+      "sensors": {
+        "bme280": {
+          "temperature": 17.739740851761145,
+          "humidity": 45.75016491728552,
+          "pressure": 1015.9732872230427
+        },
+        "dht22": {
+          "temperature": 22.665667274625203,
+          "humidity": 54.18867929828372
+        },
+        "wind": {
+          "wind_speed": 5.3514792070184445,
+          "wind_gust": 6.384164682373916
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.470769030483746
+        },
+        "light": {
+          "light_level": 8968.092687586233
+        },
+        "sungrow": {
+          "dc_voltage": 299.15,
+          "dc_current": 2.33,
+          "dc_power": 698.71,
+          "ac_voltage_phase1": 230.99,
+          "ac_voltage_phase2": 230.68,
+          "ac_voltage_phase3": 225.53,
+          "ac_current_phase1": 3.02,
+          "ac_current_phase2": 3.03,
+          "ac_current_phase3": 3.1,
+          "ac_power": 663.77,
+          "efficiency": 94.86,
+          "today_energy": 16.09,
+          "total_energy": 45280.41,
+          "inverter_status": 1,
+          "inverter_temp": 33.47,
+          "solar_radiation": 813.05,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 17.7,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 45.8,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.0
+        },
+        "wind_speed": {
+          "current": 5.35,
+          "avg": 5.03,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:29:55.023084",
+      "datetime": "2025-12-10 11:29:55",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.333594414808974,
+          "humidity": 47.54943143704585,
+          "pressure": 1011.0479968938726
+        },
+        "dht22": {
+          "temperature": 22.909777196285027,
+          "humidity": 45.327315028095775
+        },
+        "wind": {
+          "wind_speed": 5.3935184313435,
+          "wind_gust": 6.2055955321974015
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.528341210325419
+        },
+        "light": {
+          "light_level": 10209.337073619257
+        },
+        "sungrow": {
+          "dc_voltage": 300.8,
+          "dc_current": 2.13,
+          "dc_power": 641.18,
+          "ac_voltage_phase1": 231.85,
+          "ac_voltage_phase2": 230.12,
+          "ac_voltage_phase3": 233.84,
+          "ac_current_phase1": 2.76,
+          "ac_current_phase2": 2.79,
+          "ac_current_phase3": 2.74,
+          "ac_power": 609.12,
+          "efficiency": 94.85,
+          "today_energy": 16.56,
+          "total_energy": 45280.78,
+          "inverter_status": 1,
+          "inverter_temp": 34.78,
+          "solar_radiation": 774.14,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.3,
+          "min": 17.6,
+          "max": 21.5,
+          "avg": 19.5
+        },
+        "humidity": {
+          "current": 47.5,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.0
+        },
+        "wind_speed": {
+          "current": 5.39,
+          "avg": 5.03,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:30:05.023573",
+      "datetime": "2025-12-10 11:30:05",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.571067340307952,
+          "humidity": 46.76567198733001,
+          "pressure": 1013.425916078921
+        },
+        "dht22": {
+          "temperature": 21.54676611536324,
+          "humidity": 53.52626348580305
+        },
+        "wind": {
+          "wind_speed": 4.301632833686645,
+          "wind_gust": 6.698702381716378
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.167479316115033
+        },
+        "light": {
+          "light_level": 9741.745061374653
+        },
+        "sungrow": {
+          "dc_voltage": 299.88,
+          "dc_current": 2.0,
+          "dc_power": 600.01,
+          "ac_voltage_phase1": 229.83,
+          "ac_voltage_phase2": 234.53,
+          "ac_voltage_phase3": 227.96,
+          "ac_current_phase1": 2.61,
+          "ac_current_phase2": 2.56,
+          "ac_current_phase3": 2.63,
+          "ac_power": 570.01,
+          "efficiency": 94.84,
+          "today_energy": 16.26,
+          "total_energy": 45280.5,
+          "inverter_status": 1,
+          "inverter_temp": 35.67,
+          "solar_radiation": 739.39,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.6,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 46.8,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 4.3,
+          "avg": 5.02,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:30:15.023950",
+      "datetime": "2025-12-10 11:30:15",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.173750710798263,
+          "humidity": 47.48414197985372,
+          "pressure": 1013.0144892159502
+        },
+        "dht22": {
+          "temperature": 22.718105785253076,
+          "humidity": 53.21180479082989
+        },
+        "wind": {
+          "wind_speed": 5.389681573850444,
+          "wind_gust": 6.916794393600149
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.572275525817341
+        },
+        "light": {
+          "light_level": 9717.635093023711
+        },
+        "sungrow": {
+          "dc_voltage": 303.48,
+          "dc_current": 1.95,
+          "dc_power": 591.24,
+          "ac_voltage_phase1": 228.71,
+          "ac_voltage_phase2": 233.0,
+          "ac_voltage_phase3": 226.58,
+          "ac_current_phase1": 2.58,
+          "ac_current_phase2": 2.54,
+          "ac_current_phase3": 2.61,
+          "ac_power": 561.68,
+          "efficiency": 94.84,
+          "today_energy": 16.76,
+          "total_energy": 45280.73,
+          "inverter_status": 1,
+          "inverter_temp": 35.38,
+          "solar_radiation": 724.48,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.2,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 47.5,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 5.39,
+          "avg": 5.03,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:30:25.024570",
+      "datetime": "2025-12-10 11:30:25",
+      "sensors": {
+        "bme280": {
+          "temperature": 21.332408272980228,
+          "humidity": 46.54198174088816,
+          "pressure": 1013.8665565102541
+        },
+        "dht22": {
+          "temperature": 21.297549347929856,
+          "humidity": 43.1156520476242
+        },
+        "wind": {
+          "wind_speed": 4.311938252148396,
+          "wind_gust": 6.8487775501892285
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.037300377097031
+        },
+        "light": {
+          "light_level": 10277.624908303671
+        },
+        "sungrow": {
+          "dc_voltage": 307.88,
+          "dc_current": 2.21,
+          "dc_power": 679.35,
+          "ac_voltage_phase1": 227.26,
+          "ac_voltage_phase2": 234.83,
+          "ac_voltage_phase3": 229.38,
+          "ac_current_phase1": 2.99,
+          "ac_current_phase2": 2.89,
+          "ac_current_phase3": 2.96,
+          "ac_power": 645.38,
+          "efficiency": 94.86,
+          "today_energy": 17.36,
+          "total_energy": 45280.78,
+          "inverter_status": 1,
+          "inverter_temp": 34.07,
+          "solar_radiation": 789.46,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 21.3,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 46.5,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 4.31,
+          "avg": 5.01,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:30:35.025123",
+      "datetime": "2025-12-10 11:30:35",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.223725573768878,
+          "humidity": 46.225327139156015,
+          "pressure": 1010.4298178718716
+        },
+        "dht22": {
+          "temperature": 20.69128237711878,
+          "humidity": 49.09862862307367
+        },
+        "wind": {
+          "wind_speed": 5.681912375617388,
+          "wind_gust": 7.733906866973461
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.778697622003957
+        },
+        "light": {
+          "light_level": 10673.892841804884
+        },
+        "sungrow": {
+          "dc_voltage": 304.82,
+          "dc_current": 1.92,
+          "dc_power": 586.27,
+          "ac_voltage_phase1": 225.88,
+          "ac_voltage_phase2": 225.89,
+          "ac_voltage_phase3": 230.53,
+          "ac_current_phase1": 2.59,
+          "ac_current_phase2": 2.59,
+          "ac_current_phase3": 2.54,
+          "ac_power": 556.96,
+          "efficiency": 94.84,
+          "today_energy": 16.78,
+          "total_energy": 45280.32,
+          "inverter_status": 1,
+          "inverter_temp": 33.28,
+          "solar_radiation": 746.94,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.2,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 46.2,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 5.68,
+          "avg": 5.02,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:30:45.025873",
+      "datetime": "2025-12-10 11:30:45",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.92923976075295,
+          "humidity": 43.72313969051931,
+          "pressure": 1014.1183696941769
+        },
+        "dht22": {
+          "temperature": 21.838115234725183,
+          "humidity": 51.48633939318604
+        },
+        "wind": {
+          "wind_speed": 5.590480192591422,
+          "wind_gust": 7.884077358999816
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.818917074260208
+        },
+        "light": {
+          "light_level": 9164.278000965645
+        },
+        "sungrow": {
+          "dc_voltage": 290.79,
+          "dc_current": 2.37,
+          "dc_power": 690.47,
+          "ac_voltage_phase1": 227.3,
+          "ac_voltage_phase2": 233.5,
+          "ac_voltage_phase3": 232.52,
+          "ac_current_phase1": 3.04,
+          "ac_current_phase2": 2.96,
+          "ac_current_phase3": 2.97,
+          "ac_power": 655.95,
+          "efficiency": 94.86,
+          "today_energy": 16.23,
+          "total_energy": 45280.73,
+          "inverter_status": 1,
+          "inverter_temp": 33.73,
+          "solar_radiation": 774.23,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.9,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 43.7,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 5.59,
+          "avg": 5.03,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:30:55.026436",
+      "datetime": "2025-12-10 11:30:55",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.788061083576224,
+          "humidity": 41.864419729759895,
+          "pressure": 1010.3321782078692
+        },
+        "dht22": {
+          "temperature": 21.547171970582163,
+          "humidity": 57.87949690856838
+        },
+        "wind": {
+          "wind_speed": 4.6558574479841015,
+          "wind_gust": 7.7407211131931515
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.083480190917294
+        },
+        "light": {
+          "light_level": 10365.332500659071
+        },
+        "sungrow": {
+          "dc_voltage": 301.5,
+          "dc_current": 1.95,
+          "dc_power": 589.36,
+          "ac_voltage_phase1": 233.35,
+          "ac_voltage_phase2": 225.83,
+          "ac_voltage_phase3": 230.01,
+          "ac_current_phase1": 2.52,
+          "ac_current_phase2": 2.61,
+          "ac_current_phase3": 2.56,
+          "ac_power": 559.89,
+          "efficiency": 94.84,
+          "today_energy": 16.55,
+          "total_energy": 45280.57,
+          "inverter_status": 1,
+          "inverter_temp": 36.8,
+          "solar_radiation": 735.06,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.8,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 41.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 4.66,
+          "avg": 5.03,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:31:05.027294",
+      "datetime": "2025-12-10 11:31:05",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.88441854062731,
+          "humidity": 49.79448622129478,
+          "pressure": 1015.3845943900592
+        },
+        "dht22": {
+          "temperature": 20.300640552664472,
+          "humidity": 46.55077759557991
+        },
+        "wind": {
+          "wind_speed": 4.155100024552448,
+          "wind_gust": 7.379702606839917
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.663159280316579
+        },
+        "light": {
+          "light_level": 10068.058432730757
+        },
+        "sungrow": {
+          "dc_voltage": 296.04,
+          "dc_current": 2.44,
+          "dc_power": 724.04,
+          "ac_voltage_phase1": 230.19,
+          "ac_voltage_phase2": 231.5,
+          "ac_voltage_phase3": 226.79,
+          "ac_current_phase1": 3.14,
+          "ac_current_phase2": 3.13,
+          "ac_current_phase3": 3.19,
+          "ac_power": 687.83,
+          "efficiency": 94.87,
+          "today_energy": 17.49,
+          "total_energy": 45280.7,
+          "inverter_status": 1,
+          "inverter_temp": 35.26,
+          "solar_radiation": 797.12,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.9,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 49.8,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 4.16,
+          "avg": 5.01,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:31:15.028741",
+      "datetime": "2025-12-10 11:31:15",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.476687218988125,
+          "humidity": 45.36472862593446,
+          "pressure": 1014.0830000199431
+        },
+        "dht22": {
+          "temperature": 21.79302696480587,
+          "humidity": 56.17617499189104
+        },
+        "wind": {
+          "wind_speed": 4.709852604645315,
+          "wind_gust": 7.4516051712466185
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.20106247631524
+        },
+        "light": {
+          "light_level": 10828.204788200357
+        },
+        "sungrow": {
+          "dc_voltage": 294.9,
+          "dc_current": 2.18,
+          "dc_power": 643.71,
+          "ac_voltage_phase1": 232.98,
+          "ac_voltage_phase2": 226.01,
+          "ac_voltage_phase3": 227.67,
+          "ac_current_phase1": 2.76,
+          "ac_current_phase2": 2.85,
+          "ac_current_phase3": 2.83,
+          "ac_power": 611.52,
+          "efficiency": 94.85,
+          "today_energy": 15.75,
+          "total_energy": 45280.48,
+          "inverter_status": 1,
+          "inverter_temp": 37.05,
+          "solar_radiation": 750.11,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.5,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 45.4,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.1
+        },
+        "wind_speed": {
+          "current": 4.71,
+          "avg": 5.01,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:31:25.029455",
+      "datetime": "2025-12-10 11:31:25",
+      "sensors": {
+        "bme280": {
+          "temperature": 20.384490317113787,
+          "humidity": 47.89606991550951,
+          "pressure": 1015.4236956789042
+        },
+        "dht22": {
+          "temperature": 21.901302300832793,
+          "humidity": 44.179758325092266
+        },
+        "wind": {
+          "wind_speed": 4.083596511483877,
+          "wind_gust": 6.0877496265886855
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.51926736873075
+        },
+        "light": {
+          "light_level": 10805.91977885812
+        },
+        "sungrow": {
+          "dc_voltage": 294.55,
+          "dc_current": 1.99,
+          "dc_power": 585.64,
+          "ac_voltage_phase1": 232.64,
+          "ac_voltage_phase2": 228.79,
+          "ac_voltage_phase3": 229.68,
+          "ac_current_phase1": 2.52,
+          "ac_current_phase2": 2.56,
+          "ac_current_phase3": 2.55,
+          "ac_power": 556.36,
+          "efficiency": 94.84,
+          "today_energy": 15.81,
+          "total_energy": 45280.36,
+          "inverter_status": 1,
+          "inverter_temp": 35.77,
+          "solar_radiation": 746.93,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 20.4,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 47.9,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.2
+        },
+        "wind_speed": {
+          "current": 4.08,
+          "avg": 5.0,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:31:35.030027",
+      "datetime": "2025-12-10 11:31:35",
+      "sensors": {
+        "bme280": {
+          "temperature": 19.26289093669059,
+          "humidity": 49.18285793109732,
+          "pressure": 1015.8617245777291
+        },
+        "dht22": {
+          "temperature": 20.860066389941768,
+          "humidity": 54.858748231151814
+        },
+        "wind": {
+          "wind_speed": 4.468569102129014,
+          "wind_gust": 6.286493765665581
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 7.719114628041897
+        },
+        "light": {
+          "light_level": 10564.638683170911
+        },
+        "sungrow": {
+          "dc_voltage": 303.17,
+          "dc_current": 2.24,
+          "dc_power": 678.96,
+          "ac_voltage_phase1": 231.68,
+          "ac_voltage_phase2": 233.35,
+          "ac_voltage_phase3": 226.84,
+          "ac_current_phase1": 2.93,
+          "ac_current_phase2": 2.91,
+          "ac_current_phase3": 2.99,
+          "ac_power": 645.01,
+          "efficiency": 94.86,
+          "today_energy": 17.42,
+          "total_energy": 45280.63,
+          "inverter_status": 1,
+          "inverter_temp": 35.04,
+          "solar_radiation": 761.17,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 19.3,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 49.2,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.2
+        },
+        "wind_speed": {
+          "current": 4.47,
+          "avg": 4.99,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:31:45.030621",
+      "datetime": "2025-12-10 11:31:45",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.076660586109952,
+          "humidity": 44.41131963771215,
+          "pressure": 1013.6846070637571
+        },
+        "dht22": {
+          "temperature": 20.723889889736505,
+          "humidity": 52.28952744643943
+        },
+        "wind": {
+          "wind_speed": 5.1090786520945,
+          "wind_gust": 5.984853849800398
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.15078872664275
+        },
+        "light": {
+          "light_level": 10400.705403076388
+        },
+        "sungrow": {
+          "dc_voltage": 306.06,
+          "dc_current": 2.22,
+          "dc_power": 678.33,
+          "ac_voltage_phase1": 229.75,
+          "ac_voltage_phase2": 231.94,
+          "ac_voltage_phase3": 230.8,
+          "ac_current_phase1": 2.95,
+          "ac_current_phase2": 2.92,
+          "ac_current_phase3": 2.94,
+          "ac_power": 644.41,
+          "efficiency": 94.86,
+          "today_energy": 17.39,
+          "total_energy": 45280.36,
+          "inverter_status": 1,
+          "inverter_temp": 36.62,
+          "solar_radiation": 745.7,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.1,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 44.4,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.2
+        },
+        "wind_speed": {
+          "current": 5.11,
+          "avg": 4.99,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    },
+    {
+      "timestamp": "2025-12-10T11:31:55.034976",
+      "datetime": "2025-12-10 11:31:55",
+      "sensors": {
+        "bme280": {
+          "temperature": 18.26023133463006,
+          "humidity": 40.78476362649392,
+          "pressure": 1011.3387121568335
+        },
+        "dht22": {
+          "temperature": 20.52276545907883,
+          "humidity": 47.72841235964481
+        },
+        "wind": {
+          "wind_speed": 5.286394718984262,
+          "wind_gust": 7.722665119551646
+        },
+        "rain": {
+          "rain_rate": 0
+        },
+        "uv": {
+          "uv_index": 8.137451306034523
+        },
+        "light": {
+          "light_level": 9750.702706773198
+        },
+        "sungrow": {
+          "dc_voltage": 307.83,
+          "dc_current": 2.11,
+          "dc_power": 651.16,
+          "ac_voltage_phase1": 233.16,
+          "ac_voltage_phase2": 234.52,
+          "ac_voltage_phase3": 231.49,
+          "ac_current_phase1": 2.79,
+          "ac_current_phase2": 2.78,
+          "ac_current_phase3": 2.81,
+          "ac_power": 618.6,
+          "efficiency": 94.85,
+          "today_energy": 16.0,
+          "total_energy": 45280.62,
+          "inverter_status": 1,
+          "inverter_temp": 34.21,
+          "solar_radiation": 729.98,
+          "unit_id": 1
+        }
+      },
+      "statistics": {
+        "temperature": {
+          "current": 18.3,
+          "min": 17.6,
+          "max": 21.6,
+          "avg": 19.6
+        },
+        "humidity": {
+          "current": 40.8,
+          "min": 40.0,
+          "max": 50.0,
+          "avg": 45.2
+        },
+        "wind_speed": {
+          "current": 5.29,
+          "avg": 5.0,
+          "max": 5.95
+        }
+      },
+      "alerts": []
+    }
+  ]
+}

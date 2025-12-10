@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "generated": "2025-12-10T11:01:23.369611",
+    "total_unique_addresses": 10,
+    "unit_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      247
+    ],
+    "function_codes": {
+      "3": 1173
+    }
+  },
+  "addresses": {
+    "0x0000": {
+      "decimal": 0,
+      "access_count": 156,
+      "quantities_read": [
+        10
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x000A": {
+      "decimal": 10,
+      "access_count": 149,
+      "quantities_read": [
+        8
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x0012": {
+      "decimal": 18,
+      "access_count": 151,
+      "quantities_read": [
+        6
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x0018": {
+      "decimal": 24,
+      "access_count": 95,
+      "quantities_read": [
+        2
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x001A": {
+      "decimal": 26,
+      "access_count": 89,
+      "quantities_read": [
+        4
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x001E": {
+      "decimal": 30,
+      "access_count": 12,
+      "quantities_read": [
+        1
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x001F": {
+      "decimal": 31,
+      "access_count": 12,
+      "quantities_read": [
+        1
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x0020": {
+      "decimal": 32,
+      "access_count": 147,
+      "quantities_read": [
+        8
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x0028": {
+      "decimal": 40,
+      "access_count": 150,
+      "quantities_read": [
+        6
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    },
+    "0x002E": {
+      "decimal": 46,
+      "access_count": 12,
+      "quantities_read": [
+        1
+      ],
+      "is_read": true,
+      "is_write": false,
+      "function_codes": [
+        3
+      ],
+      "devices": [
+        1,
+        2,
+        3
+      ],
+      "timestamp_first": null,
+      "timestamp_last": null
+    }
+  }
+}

@@ -1,0 +1,66 @@
+================================================================================
+MODBUS ADDRESS ANALYSIS REPORT
+Generated: 2025-12-10T11:01:23.369611
+================================================================================
+
+1. SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total unique starting addresses: 10
+Total unit IDs found: [1, 2, 3, 4, 5, 6, 247]
+Function codes used: {3: 1173}
+Address range: 0 - 46
+
+2. FUNCTION CODE BREAKDOWN
+--------------------------------------------------------------------------------
+  FC 3 (Read Holding Registers        ):   1173 times
+
+3. TOP 20 MOST FREQUENTLY ACCESSED ADDRESSES
+--------------------------------------------------------------------------------
+  Address 0x0000 (    0):  156 accesses, Qty: [10], Units: [1, 2, 3]
+  Address 0x0012 (   18):  151 accesses, Qty: [6], Units: [1, 2, 3]
+  Address 0x0028 (   40):  150 accesses, Qty: [6], Units: [1, 2, 3]
+  Address 0x000A (   10):  149 accesses, Qty: [8], Units: [1, 2, 3]
+  Address 0x0020 (   32):  147 accesses, Qty: [8], Units: [1, 2, 3]
+  Address 0x0018 (   24):   95 accesses, Qty: [2], Units: [1, 2, 3]
+  Address 0x001A (   26):   89 accesses, Qty: [4], Units: [1, 2, 3]
+  Address 0x001E (   30):   12 accesses, Qty: [1], Units: [1, 2, 3]
+  Address 0x001F (   31):   12 accesses, Qty: [1], Units: [1, 2, 3]
+  Address 0x002E (   46):   12 accesses, Qty: [1], Units: [1, 2, 3]
+
+4. ADDRESS RANGE ANALYSIS
+--------------------------------------------------------------------------------
+  Range 0x0000-0x0063:  10 addresses,   973 total accesses
+
+5. READ/WRITE PATTERNS
+--------------------------------------------------------------------------------
+  Read-only addresses: 10
+  Write-only addresses: 0
+  Read+Write addresses: 0
+
+6. QUANTITY (LENGTH) DISTRIBUTION
+--------------------------------------------------------------------------------
+  Quantity   1:    3 addresses ( 30.0%)
+  Quantity   2:    1 addresses ( 10.0%)
+  Quantity   4:    1 addresses ( 10.0%)
+  Quantity   6:    2 addresses ( 20.0%)
+  Quantity   8:    2 addresses ( 20.0%)
+  Quantity  10:    1 addresses ( 10.0%)
+
+7. DATA ACCESS PATTERNS
+--------------------------------------------------------------------------------
+  High-frequency addresses (>=50 accesses): 7
+    0x0000: 156 accesses, avg qty 10.0
+    0x000A: 149 accesses, avg qty 8.0
+    0x0012: 151 accesses, avg qty 6.0
+    0x0018: 95 accesses, avg qty 2.0
+    0x001A: 89 accesses, avg qty 4.0
+
+  Single-register reads: 3
+  Bulk reads (qty>=10): 1
+  Mixed-quantity addresses: 0
+
+8. DEVICE-SPECIFIC ACCESS PATTERNS
+--------------------------------------------------------------------------------
+  Unit 1: 10 addresses, 973 total accesses
+  Unit 2: 10 addresses, 973 total accesses
+  Unit 3: 10 addresses, 973 total accesses

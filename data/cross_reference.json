@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "generated": "2025-12-10T11:01:28.663469",
+    "total_addresses": 10,
+    "documented_count": 2,
+    "undocumented_count": 8
+  },
+  "documented": {
+    "0x0000": {
+      "address": "0x0000",
+      "name": "Status Code",
+      "type": "uint16",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 156,
+      "captured_quantities": [
+        10
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x000A": {
+      "address": "0x000A",
+      "name": "Grid Voltage",
+      "type": "uint16",
+      "unit": "V",
+      "access": "R",
+      "scale": 0.1,
+      "captured_access_count": 149,
+      "captured_quantities": [
+        8
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "undocumented": {
+    "0x0012": {
+      "address": "0x0012",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 151,
+      "captured_quantities": [
+        6
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x0018": {
+      "address": "0x0018",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 95,
+      "captured_quantities": [
+        2
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x001A": {
+      "address": "0x001A",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 89,
+      "captured_quantities": [
+        4
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x001E": {
+      "address": "0x001E",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 12,
+      "captured_quantities": [
+        1
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x001F": {
+      "address": "0x001F",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 12,
+      "captured_quantities": [
+        1
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x0020": {
+      "address": "0x0020",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 147,
+      "captured_quantities": [
+        8
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x0028": {
+      "address": "0x0028",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 150,
+      "captured_quantities": [
+        6
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    },
+    "0x002E": {
+      "address": "0x002E",
+      "name": "Undocumented (OEM Extension)",
+      "type": "unknown",
+      "unit": "",
+      "access": "R",
+      "scale": 1,
+      "captured_access_count": 12,
+      "captured_quantities": [
+        1
+      ],
+      "captured_devices": [
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}
