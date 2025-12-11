@@ -1,0 +1,3 @@
+read 3S-RH&AT&PS (Seven Sensor) data over 192.168.1.5:505
+and display
+create its code files and any other required new files within 3S-RH&AT&PS_WeatherStation folder only

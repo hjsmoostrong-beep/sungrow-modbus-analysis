@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Weather Station Web Server
-Real-time weather data display with WebSocket live updates.
+Real-time weather data display with REST API.
 """
 
 import json
@@ -11,12 +11,11 @@ from datetime import datetime
 from pathlib import Path
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
-import socket
 
 class WeatherWebHandler(BaseHTTPRequestHandler):
     """HTTP request handler for weather station."""
     
-    # Class variable to share weather station instance
+    # Class variables to share instances
     weather_station = None
     
     def do_GET(self):
@@ -598,51 +597,6 @@ class WeatherWebHandler(BaseHTTPRequestHandler):
                         <div class="reading">
                             <span class="reading-label">Luminance</span>
                             <span class="reading-value">${formatNumber(data.sensors.light.light_level, 0)}lux</span>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            // Sungrow Inverter Card
-            if (data.sensors.sungrow) {
-                const inv = data.sensors.sungrow;
-                html += `
-                    <div class="card">
-                        <div class="card-title">
-                            <span class="card-icon">☀️</span>
-                            Solar Inverter (Sungrow)
-                        </div>
-                        <div class="reading">
-                            <span class="reading-label">AC Power</span>
-                            <span class="reading-value" style="color: #4CAF50;">${formatNumber(inv.ac_power, 0)}W</span>
-                        </div>
-                        <div class="stats-grid" style="font-size: 0.9em;">
-                            <div class="stat-box">
-                                <div class="stat-label">DC Voltage</div>
-                                <div class="stat-value">${formatNumber(inv.dc_voltage)}V</div>
-                            </div>
-                            <div class="stat-box">
-                                <div class="stat-label">Efficiency</div>
-                                <div class="stat-value">${formatNumber(inv.efficiency)}%</div>
-                            </div>
-                            <div class="stat-box">
-                                <div class="stat-label">Temp</div>
-                                <div class="stat-value">${formatNumber(inv.inverter_temp)}°C</div>
-                            </div>
-                        </div>
-                        <div class="stats-grid" style="font-size: 0.85em;">
-                            <div class="stat-box">
-                                <div class="stat-label">Today</div>
-                                <div class="stat-value">${formatNumber(inv.today_energy, 2)}kWh</div>
-                            </div>
-                            <div class="stat-box">
-                                <div class="stat-label">Total</div>
-                                <div class="stat-value">${formatNumber(inv.total_energy, 1)}kWh</div>
-                            </div>
-                            <div class="stat-box">
-                                <div class="stat-label">Solar</div>
-                                <div class="stat-value">${formatNumber(inv.solar_radiation)}W/m²</div>
-                            </div>
                         </div>
                     </div>
                 `;

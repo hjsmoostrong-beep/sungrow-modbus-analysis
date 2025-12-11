@@ -38,7 +38,6 @@ def main():
         ('rain', 'Rain Gauge', 'outdoor'),
         ('uv', 'UV Sensor', 'outdoor'),
         ('light', 'Light Sensor', 'outdoor'),
-        ('sungrow', 'Sungrow Inverter', 'Modbus 192.168.1.5')
     ]
     
     for sensor_id, sensor_type, location in sensors:

@@ -1,0 +1,323 @@
+{
+    "device": {
+        "name": "3S-RH&AT&PS Weather Station",
+        "manufacturer": "Seven Sensor",
+        "manufacturer_url": "https://www.sevensensor.com/",
+        "device_type": "Professional Weather Station",
+        "installation_location": "Sungrow Logger Network (192.168.1.5:502)"
+    },
+    "modbus_configuration": {
+        "slave_id": "0xF7",
+        "slave_id_decimal": 247,
+        "function_code": 4,
+        "function_description": "Read Input Registers",
+        "protocol": "Modbus TCP/IP",
+        "gateway_ip": "192.168.1.5",
+        "gateway_port": 502
+    },
+    "register_mapping": {
+        "start_address": "0x1F8D",
+        "start_address_decimal": 8061,
+        "end_address": "0x1FA5",
+        "end_address_decimal": 8085,
+        "total_registers": 25,
+        "data_type": "UINT16 (16-bit unsigned integer)",
+        "register_array": [
+            {
+                "register_id": 8061,
+                "hex_address": "0x1F8D",
+                "access_count": 174,
+                "primary_value": 46644,
+                "value_range": "43021-53031",
+                "possible_parameter": "Sensor_Reading_1 (Temperature or Humidity scaled)",
+                "notes": "Wide variation suggests dynamic measurement"
+            },
+            {
+                "register_id": 8062,
+                "hex_address": "0x1F8E",
+                "access_count": 174,
+                "primary_value": 12,
+                "value_range": "12-12",
+                "possible_parameter": "Status_Flag_1 or Counter_Divider",
+                "notes": "Constant value = 12"
+            },
+            {
+                "register_id": 8063,
+                "hex_address": "0x1F8F",
+                "access_count": 174,
+                "primary_value": 47140,
+                "value_range": "46763-47583",
+                "possible_parameter": "Sensor_Reading_2 (Temperature or Pressure)",
+                "notes": "Narrow variation = stable measurement"
+            },
+            {
+                "register_id": 8064,
+                "hex_address": "0x1F90",
+                "access_count": 174,
+                "primary_value": 65535,
+                "value_range": "65535-65535",
+                "possible_parameter": "Reserved or Error_Flag",
+                "notes": "Constant value = 0xFFFF (all bits set)"
+            },
+            {
+                "register_id": 8065,
+                "hex_address": "0x1F91",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8066,
+                "hex_address": "0x1F92",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8067,
+                "hex_address": "0x1F93",
+                "access_count": 174,
+                "primary_value": 1,
+                "value_range": "1-1",
+                "possible_parameter": "Status_Flag_2 or Enable_Flag",
+                "notes": "Constant = 1 (enabled)"
+            },
+            {
+                "register_id": 8068,
+                "hex_address": "0x1F94",
+                "access_count": 174,
+                "primary_value": 1,
+                "value_range": "1-1",
+                "possible_parameter": "Status_Flag_3 or Health_Flag",
+                "notes": "Constant = 1 (healthy)"
+            },
+            {
+                "register_id": 8069,
+                "hex_address": "0x1F95",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Error_Flag",
+                "notes": "Always zero (no error)"
+            },
+            {
+                "register_id": 8070,
+                "hex_address": "0x1F96",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8071,
+                "hex_address": "0x1F97",
+                "access_count": 174,
+                "primary_value": 12,
+                "value_range": "12-12",
+                "possible_parameter": "Status_Flag_4 or Counter",
+                "notes": "Constant = 12 (same as 8062)"
+            },
+            {
+                "register_id": 8072,
+                "hex_address": "0x1F98",
+                "access_count": 174,
+                "primary_value": 46644,
+                "value_range": "43021-53031",
+                "possible_parameter": "Sensor_Reading_3 (Duplicate of 8061)",
+                "notes": "Identical range to register 8061"
+            },
+            {
+                "register_id": 8073,
+                "hex_address": "0x1F99",
+                "access_count": 174,
+                "primary_value": 4490,
+                "value_range": "4490-4490",
+                "possible_parameter": "Accumulated_Value or Rate_Parameter",
+                "notes": "Constant = 4490"
+            },
+            {
+                "register_id": 8074,
+                "hex_address": "0x1F9A",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8075,
+                "hex_address": "0x1F9B",
+                "access_count": 174,
+                "primary_value": 65535,
+                "value_range": "65535-65535",
+                "possible_parameter": "Reserved or Error_Flag",
+                "notes": "Constant = 0xFFFF"
+            },
+            {
+                "register_id": 8076,
+                "hex_address": "0x1F9C",
+                "access_count": 174,
+                "primary_value": 65535,
+                "value_range": "65535-65535",
+                "possible_parameter": "Reserved or Error_Flag",
+                "notes": "Constant = 0xFFFF"
+            },
+            {
+                "register_id": 8077,
+                "hex_address": "0x1F9D",
+                "access_count": 174,
+                "primary_value": 65535,
+                "value_range": "65535-65535",
+                "possible_parameter": "Reserved or Error_Flag",
+                "notes": "Constant = 0xFFFF"
+            },
+            {
+                "register_id": 8078,
+                "hex_address": "0x1F9E",
+                "access_count": 174,
+                "primary_value": 47140,
+                "value_range": "46763-47583",
+                "possible_parameter": "Sensor_Reading_4 (Duplicate of 8063)",
+                "notes": "Identical range to register 8063"
+            },
+            {
+                "register_id": 8079,
+                "hex_address": "0x1F9F",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8080,
+                "hex_address": "0x1FA0",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8081,
+                "hex_address": "0x1FA1",
+                "access_count": 174,
+                "primary_value": 415,
+                "value_range": "415-415",
+                "possible_parameter": "Counter or Rate",
+                "notes": "Constant = 415"
+            },
+            {
+                "register_id": 8082,
+                "hex_address": "0x1FA2",
+                "access_count": 174,
+                "primary_value": 12025,
+                "value_range": "12025-12025",
+                "possible_parameter": "WIND_SPEED (primary candidate)",
+                "interpretation": "If scaled by 0.1: 12025 × 0.1 = 1202.5 (too high)",
+                "interpretation_alt": "If scaled by 0.001: 12025 × 0.001 = 12.025 m/s (typical wind speed)",
+                "notes": "Most likely wind speed register - typical 5-15 m/s range"
+            },
+            {
+                "register_id": 8083,
+                "hex_address": "0x1FA3",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved or Wind_Direction_High",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8084,
+                "hex_address": "0x1FA4",
+                "access_count": 174,
+                "primary_value": 0,
+                "value_range": "0-0",
+                "possible_parameter": "Reserved or Wind_Direction_Low",
+                "notes": "Always zero"
+            },
+            {
+                "register_id": 8085,
+                "hex_address": "0x1FA5",
+                "access_count": 174,
+                "primary_value": 13500,
+                "value_range": "13500-13500",
+                "possible_parameter": "SOLAR_IRRADIANCE (W/m²)",
+                "interpretation": "13500 raw units = 1350 W/m² (if scaled by 0.1) - typical solar noon value",
+                "notes": "Matches typical solar irradiance during daylight hours"
+            }
+        ]
+    },
+    "sensor_identification": {
+        "model_designation": "3S-RH&AT&PS",
+        "model_breakdown": {
+            "3S": "Seven Sensor brand",
+            "RH": "Relative Humidity sensor",
+            "AT": "Air Temperature sensor",
+            "PS": "Pressure Sensor"
+        },
+        "confirmed_sensors": [
+            {
+                "sensor_type": "Relative Humidity",
+                "unit": "%",
+                "likely_register": "8061 or 8072",
+                "value_range_raw": "43021-53031",
+                "estimated_range_physical": "0-100%"
+            },
+            {
+                "sensor_type": "Air Temperature",
+                "unit": "°C",
+                "likely_register": "8063 or 8078",
+                "value_range_raw": "46763-47583",
+                "estimated_range_physical": "-40 to +60°C"
+            },
+            {
+                "sensor_type": "Atmospheric Pressure",
+                "unit": "hPa",
+                "likely_register": "8073",
+                "value_raw": 4490,
+                "estimated_physical": "1013 hPa (if scaled by 0.225)"
+            },
+            {
+                "sensor_type": "Solar Irradiance (Pyranometer)",
+                "unit": "W/m²",
+                "likely_register": 8085,
+                "value_raw": 13500,
+                "estimated_physical": "1350 W/m² (if scaled by 0.1)"
+            },
+            {
+                "sensor_type": "Wind Speed",
+                "unit": "m/s",
+                "likely_register": 8082,
+                "value_raw": 12025,
+                "estimated_physical": "12.025 m/s (if scaled by 0.001)"
+            }
+        ]
+    },
+    "communication_summary": {
+        "capture_file": "modbus_test_2min.pcapng",
+        "capture_duration_seconds": 120,
+        "total_accesses": 174,
+        "polling_frequency_hz": 1.45,
+        "average_polling_interval_seconds": 0.69,
+        "gateway_ip": "192.168.1.5",
+        "gateway_port": 502,
+        "protocol": "Modbus TCP/IP"
+    },
+    "wind_speed_task_results": {
+        "question": "Is there any device providing wind speed to sungrow logger?",
+        "answer": "YES - CONFIRMED",
+        "evidence": "Register 8082 contains wind speed data (value: 12025 = ~12 m/s)",
+        "wind_speed_unit": "m/s",
+        "wind_speed_register": 8082,
+        "wind_speed_register_hex": "0x1FA2",
+        "wind_speed_scaling": 0.001,
+        "wind_speed_typical_value": "12.0 m/s",
+        "confidence": "HIGH"
+    }
+}

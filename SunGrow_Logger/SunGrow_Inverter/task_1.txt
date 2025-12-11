@@ -1,0 +1,4 @@
+read captured data and identify total devices connected to logger
+0x01 to 0x06 are inverters
+identify remaining devices
+create any files within SunGrow_Inverter folder

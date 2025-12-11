@@ -202,14 +202,6 @@ class WeatherStation:
             except Exception as e:
                 self.sensors['light']['status'] = f'error: {e}'
         
-        # Sungrow inverter (Modbus unit 1)
-        if 'sungrow' in self.sensors:
-            try:
-                readings['sungrow'] = self.read_sungrow_inverter()
-                self.sensors['sungrow']['status'] = 'online'
-            except Exception as e:
-                self.sensors['sungrow']['status'] = f'error: {e}'
-        
         data_point['sensors'] = readings
         
         # Store and update
@@ -315,58 +307,6 @@ class WeatherStation:
                 })
         
         return alerts
-    
-    def read_sungrow_inverter(self, unit_id=1):
-        """Simulate reading Sungrow solar inverter data from Modbus registers."""
-        import random
-        import math
-        
-        # Simulate solar radiation (W/m²) - correlates with time of day
-        hour = time.localtime().tm_hour
-        base_radiation = max(0, 800 * math.sin((hour - 6) * math.pi / 12)) if 6 <= hour <= 18 else 0
-        radiation = base_radiation + random.uniform(-50, 50)
-        
-        # Simulate inverter output (W) - correlates with solar radiation
-        dc_power = radiation * 0.85 * random.uniform(0.9, 1.1)
-        
-        # DC side (PV array)
-        dc_voltage = 300 + random.uniform(-10, 10)
-        dc_current = dc_power / (dc_voltage + 0.1) if dc_voltage > 0 else 0
-        
-        # AC voltage (grid, typically 230V single phase or 380V 3-phase)
-        ac_voltage_phase = [230 + random.uniform(-5, 5) for _ in range(3)]
-        ac_power = dc_power * 0.95  # Account for inverter losses
-        ac_current_phase = [ac_power / (voltage * 0.95 + 0.1) for voltage in ac_voltage_phase]
-        
-        # Energy counters
-        today_energy = 15.5 + random.uniform(0, 2)  # kWh
-        total_energy = 45280.3 + random.uniform(0, 0.5)  # kWh cumulative
-        
-        # Inverter status (0=standby, 1=normal, 2=fault)
-        status = 1 if ac_power > 100 else 0
-        
-        # Temperature inside inverter
-        inverter_temp = 35 + (ac_power / 5000) + random.uniform(-2, 2)
-        
-        return {
-            'dc_voltage': round(dc_voltage, 2),
-            'dc_current': round(dc_current, 2),
-            'dc_power': round(dc_power, 2),
-            'ac_voltage_phase1': round(ac_voltage_phase[0], 2),
-            'ac_voltage_phase2': round(ac_voltage_phase[1], 2),
-            'ac_voltage_phase3': round(ac_voltage_phase[2], 2),
-            'ac_current_phase1': round(ac_current_phase[0], 2),
-            'ac_current_phase2': round(ac_current_phase[1], 2),
-            'ac_current_phase3': round(ac_current_phase[2], 2),
-            'ac_power': round(ac_power, 2),
-            'efficiency': round((ac_power / (dc_power + 1) * 100) if dc_power > 0 else 0, 2),
-            'today_energy': round(today_energy, 2),
-            'total_energy': round(total_energy, 2),
-            'inverter_status': status,
-            'inverter_temp': round(inverter_temp, 2),
-            'solar_radiation': round(radiation, 2),
-            'unit_id': unit_id
-        }
     
     def start_monitoring(self, interval=60):
         """Start continuous monitoring thread."""

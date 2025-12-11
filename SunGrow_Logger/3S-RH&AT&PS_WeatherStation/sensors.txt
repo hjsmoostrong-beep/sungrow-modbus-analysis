@@ -1,0 +1,8 @@
+Following sensors are connected with weather station and weather station is connected to SunGrow logger
+- Wind Speed Sensor: 3S-WS-PLS
+- Irradiance Sensor: 3S-IS-3
+- Module Temperature Sensor: 3S-MT-PT1000
+
+Task: Read pdf files in Manual folder and update files in 3S-RH&AT&PS_WeatherStation folder
+
+

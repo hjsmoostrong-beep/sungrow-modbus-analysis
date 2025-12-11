@@ -1,0 +1,19 @@
+Sungrow Logger IP: 192.168.1.5
+Logger Open Ports: 502-506
+Windows Machine IP: 192.168.1.100
+SCADA on Windows: pcvue
+pcvue connected to logger using 192.168.1.5:502
+sungrow inverters connected quantity:6
+inverter slave addresses: 0x01, 0x02, 0x03, 0x04, 0x05, 0x06
+weather station from seven sensor
+- company URL: https://www.sevensensor.com/
+- installed weather station: 3S-RH&AT&PS
+weather station is connected to logger
+
+Required Activity:
+1)  capture modbus data for 5min 192.168.1.5:502
+    insert it in to file modbus_test5min.pcapng into the captures folder
+    this communication is between running pcvue and logger
+2)  identify weather station from captured data
+    go to folder 3S-RH&AT&PS_WeatherStation and use this folder only for providing details and its related code files
+    provide weather station device id and communication details 

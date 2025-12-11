@@ -1,0 +1,4 @@
+1) check if there is any device providing wind speed to sungrow logger
+   catpured data file is modbus_test_2min.pcapng in captures folder
+   can also query logger at 192.168.1.5:502
+   allowed folder for creating new files is 3S-RH&AT&PS_WeatherStation
